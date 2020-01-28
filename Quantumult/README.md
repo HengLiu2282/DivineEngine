@@ -24,8 +24,8 @@ Quantumult X 是一款功能强大的网络工具，适用于 Web 开发人员�
 2. [可选] Advertising.list - 广告
 3. [可选] Privacy.list - 隐私（行为分析、隐私追踪）
 4. [可选] Hijacking.list - 劫持（运营商、恶意网址）
-5. [必须] MediaGlobal.list - 国际流媒体
-6. [可选] MediaChina.list - 国际流媒体
+5. [必须] Streaming.list - 流媒体服务
+6. [可选] StreamingSE.list - 流媒体服务限定版(大陆面向港澳台)
 7. [必须] Global.list - 国际网络分流
 8. [必须] China.list - 国内网络分流
 
@@ -33,10 +33,10 @@ Quantumult X 是一款功能强大的网络工具，适用于 Web 开发人员�
 
 1. 除非你知道你在干什么否则不要乱加 list，**规则不是越多越好**。
 
-2. 所有单独流媒体 list 除少数（TikTok、Himalaya 等）外均已内置于 MediaGlobal.list 内，日常推荐用法为如在使用不同地区要求的服务如英国的 My5 或日本的 Hulu 时手动选择 MediaGlobal 策略组下的服务器即可。
+2. 所有单独流媒体 list 除少数（TikTok、Himalaya 等）外均已内置于 Streaming.list 内，日常推荐用法为如在使用不同地区要求的服务如英国的 My5 或日本的 Hulu 时手动选择 Streaming 策略组下的服务器即可。
    如果你觉得手动切换麻烦且服务器不多可以引入单独 list **直接**指定服务器策略，所以如果你的服务器很多，**才需要**专门新增一个策略组如 Netflix 专门放置用于观看 Netflix 的服务器、引入 Netflix.list 并指定策略组策略。
 
-   ⚠️ 注意：单独流媒体 list 需至少放置于 Media.list 前面。
+   ⚠️ 注意：单独流媒体 list 需至少放置于 Streaming.list 前面。
 综上所述，不需要把每一个流媒体 list 全部引入。
    
 3. Apple 服务的 list 需至少放置于 Global.list 前面。
