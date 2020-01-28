@@ -119,7 +119,6 @@ DOMAIN,ads.weilitoutiao.net
 DOMAIN,adsapi.manhuaren.com
 DOMAIN,adsdk.dmzj.com
 DOMAIN,adserver.pandora.com
-DOMAIN,adshow.58.com
 DOMAIN,adui.tg.meitu.com
 DOMAIN,adv.bandi.so
 DOMAIN,app-ad.variflight.com
@@ -132,9 +131,12 @@ DOMAIN,mads.suning.com
 DOMAIN,mobileads.msn.com
 DOMAIN,mopnativeadv.037201.com
 DOMAIN,nativeadv.dftoutiao.com
+DOMAIN,sugar.zhihu.com
 
 # (0~9)
 # > 58 同城
+DOMAIN,adshow.58.com
+DOMAIN,adm3.autoimg.cn
 # (A)
 # > Apple
 DOMAIN-SUFFIX,iadsdk.apple.com

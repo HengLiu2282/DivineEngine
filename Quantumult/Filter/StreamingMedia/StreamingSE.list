@@ -1,0 +1,7 @@
+# > bilibili
+DOMAIN,api.bilibili.com,StreamingSE
+DOMAIN,upos-hz-mirrorakam.akamaized.net,StreamingSE
+# > 愛奇藝台灣站
+DOMAIN,cache.video.iqiyi.com,StreamingSE
+# > 芒果TV国际
+DOMAIN-SUFFIX,api.mgtv.com,StreamingSE

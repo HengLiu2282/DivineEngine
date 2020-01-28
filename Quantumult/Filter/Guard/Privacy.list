@@ -17,7 +17,6 @@ DOMAIN-SUFFIX,voicefive.com,REJECT
 DOMAIN,applog.mobike.com,REJECT
 DOMAIN,gs.getui.com,REJECT
 DOMAIN,log.b612kaji.com,REJECT
-DOMAIN,sugar.zhihu.com,REJECT
 DOMAIN,toots-a.akamaihd.net,REJECT
 DOMAIN,track.tiara.daum.net,REJECT
 DOMAIN,track.tiara.kakao.com,REJECT
