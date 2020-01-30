@@ -5,3 +5,6 @@ DOMAIN,upos-hz-mirrorakam.akamaized.net
 DOMAIN,cache.video.iqiyi.com
 # > 芒果TV国际
 DOMAIN-SUFFIX,api.mgtv.com
+# > WeTV
+DOMAIN-SUFFIX,wetv.vip
+DOMAIN-SUFFIX,wetvinfo.com
