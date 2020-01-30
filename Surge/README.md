@@ -36,19 +36,44 @@ Surge 是一个面向高级用户的网络工具箱，也是一个高性能的 H
 7. [必须] Global.list - 国际网络分流
 8. [必须] China.list - 国内网络分流
 
-除上述默认内置 list 外还有更多位于 [Ruleset](https://github.com/DivineEngine/Profiles/tree/master/Surge/Ruleset) 文件夹内，使用时需注意：
+除上述默认内置 list 外还有更多位于 [Ruleset](https://github.com/DivineEngine/Profiles/tree/master/Surge/Ruleset) 文件夹内，除非你知道你在干什么否则不要乱加 list，**规则不是越多越好**。
 
-1. 除非你知道你在干什么否则不要乱加 list，**规则不是越多越好**。
+**Unbreak.list**：
 
-2. 所有单独流媒体 list 除少数（TikTok、Himalaya 等）外均已内置于 Streaming.list 内，日常推荐用法为如在使用不同地区要求的服务如英国的 My5 或日本的 Hulu 时手动选择 Streaming 策略组下的服务器即可。
-   如果你觉得手动切换麻烦且服务器不多可以引入单独 list **直接**指定服务器策略，所以如果你的服务器很多，**才需要**专门新增一个策略组如 Netflix 专门放置用于观看 Netflix 的服务器、引入 Netflix.list 并指定策略组策略。
+不要单纯的理解为「广告白名单」，特别是如果你要引入其他「Ad.list」也一定要放在其之前！
 
-   ⚠️ 注意：单独流媒体 list 需至少放置于 Streaming.list 前面。
-综上所述，不需要把每一个流媒体 list 全部引入。
-   
-3. Apple 服务的 list 需至少放置于 Global.list 前面。
+**Advertising.list**：
 
-最后**强调**：Advertising.list 和 Rewrite 中的 reject 是专门针对 iOS 应用而写，虽然其中规则也能对移动网页甚至桌面网页起到效果，但并不建议在 macOS 及网关模式中使用。
+Advertising.list 和 Rewrite 中的 reject 是专门针对 iOS 应用而写，虽然其中规则也能对移动网页甚至桌面网页起到效果，但并不建议在 macOS 及网关模式中使用。
+
+**Streaming.list**:
+
+国际流媒体服务，所有单独流媒体 list 除少数（TikTok、Himalaya 等）外均已内置于 Streaming.list 内，日常用法推荐为如在使用不同地区要求的服务如英国的 My5 或日本的 Hulu 时手动选择 Streaming 策略组下的服务器即可。
+
+如果你觉得手动切换麻烦且拥有的服务器不少可以引入单独 list **直接**指定服务器策略，所以如果你的服务器很多**才需要**专门新增一个策略组如 Netflix 专门放置用于观看 Netflix 的服务器、引入 Netflix.list 并指定策略组策略。
+
+⚠️ 注意：综上所述，**不需要**把单独流媒体 list 手动全部引入，基本全都内置于 Streaming.list 之中！另外，如果引入单独流媒体 list 需至少放置于 Streaming.list 前面。
+
+**StreamingSE.list**：
+
+流媒体服务特别版，主要支持为：
+
+- 哔哩哔哩港澳台限定
+- 爱奇艺台湾站
+- 芒果TV国际版
+- WeTV
+
+以上的特殊性在于同一个域名/应用下同时支持限定区域（所以不能直接代理，影响大陆内容观看），所以使用方法为日常使用直连（DIRECT）当需要时手动切换到港澳台节点。
+
+另外，考虑到其除了哔哩哔哩外视频内容传输均拥有大陆 CDN 节点，所以只有哔哩哔哩港澳台限定的部分商品内容才会走代理，所以较为节省代理流量。
+
+**[Apple](https://github.com/DivineEngine/Profiles/tree/master/Surge/Ruleset/Apple)**：
+
+Apple 服务的 list 需至少放置于 Global.list 前面。
+
+**Global.list 及 China.list**：
+
+前者主要解决 DNS 污染问题，后者主要解决 DNS 解析及 CDN 误判及节约（部分强迫症患者） GeoIP 规则的时间问题。
 
 #### 不需要去广告规则怎么办？
 
