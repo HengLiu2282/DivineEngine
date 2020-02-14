@@ -155,6 +155,7 @@ DOMAIN-SUFFIX,ebookservice.tw
 DOMAIN-SUFFIX,economist.com
 DOMAIN-SUFFIX,edgecastcdn.net
 DOMAIN-SUFFIX,edu
+DOMAIN-SUFFIX,edx-cdn.org
 DOMAIN-SUFFIX,elpais.com
 DOMAIN-SUFFIX,enanyang.my
 DOMAIN-SUFFIX,encyclopedia.com
@@ -236,6 +237,7 @@ DOMAIN-SUFFIX,matters.news
 DOMAIN-SUFFIX,maying.co
 DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,mega.nz
+DOMAIN-SUFFIX,mergersandinquisitions.com
 DOMAIN-SUFFIX,mil
 DOMAIN-SUFFIX,mingpao.com
 DOMAIN-SUFFIX,mobile01.com
@@ -384,9 +386,7 @@ DOMAIN-SUFFIX,zb.com
 DOMAIN-SUFFIX,zello.com
 DOMAIN-SUFFIX,zeronet.io
 DOMAIN-SUFFIX,zoom.us
-
 DOMAIN,payments-jp.amazon.com
-
 DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,jav
 DOMAIN-KEYWORD,pinterest

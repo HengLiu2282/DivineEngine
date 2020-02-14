@@ -35,14 +35,13 @@ DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,appstore.com
 DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,itunes-apple.com.akadns.net
-DOMAIN,push-apple.com.akadns.net
-DOMAIN,www-cdn.icloud.com.akadns.net
+DOMAIN-KEYWORD,apple.com.akadns.net
+DOMAIN-KEYWORD,icloud.com.akadns.net
 # > Baidu
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,baidubcr.com
@@ -81,6 +80,7 @@ DOMAIN-SUFFIX,czybjz.com
 DOMAIN-SUFFIX,dandanzan.com
 DOMAIN-SUFFIX,fjhps.com
 DOMAIN-SUFFIX,kuyunbo.club
+DOMAIN-SUFFIX,youkutv.cc
 # > ChinaTelecom
 DOMAIN-SUFFIX,21cn.com
 # > HunanTV
@@ -119,11 +119,12 @@ DOMAIN-SUFFIX,s-microsoft.com
 DOMAIN-SUFFIX,visualstudio.com
 DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,windowsupdate.com
-DOMAIN,officecdn-microsoft-com.akamaized.net
+DOMAIN-KEYWORD,-microsoft-com.akamaized.net
 # > NetEase
 USER-AGENT,NeteaseMusic*
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
 DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,126.com
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,127.net
 DOMAIN-SUFFIX,163yun.com
@@ -161,8 +162,10 @@ DOMAIN-SUFFIX,igamecj.com
 DOMAIN-SUFFIX,myapp.com
 DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tencent-cloud.net
+DOMAIN,file-igamecj.akamaized.net
 # > YYeTs
 USER-AGENT,YYeTs*
 DOMAIN-SUFFIX,jstucdn.com
@@ -200,8 +203,10 @@ DOMAIN-SUFFIX,empornium.me
 DOMAIN-SUFFIX,gazellegames.net
 DOMAIN-SUFFIX,hdchina.org
 DOMAIN-SUFFIX,hdsky.me
+DOMAIN-SUFFIX,icetorrent.org
 DOMAIN-SUFFIX,jpopsuki.eu
 DOMAIN-SUFFIX,keepfrds.com
+DOMAIN-SUFFIX,madsrevolution.net
 DOMAIN-SUFFIX,m-team.cc
 DOMAIN-SUFFIX,nanyangpt.com
 DOMAIN-SUFFIX,ncore.cc
@@ -213,6 +218,63 @@ DOMAIN-SUFFIX,redacted.ch
 DOMAIN-SUFFIX,springsunday.net
 DOMAIN-SUFFIX,tjupt.org
 DOMAIN-SUFFIX,totheglory.im
+# > Scholar
+DOMAIN-SUFFIX,acm.org
+DOMAIN-SUFFIX,acs.org
+DOMAIN-SUFFIX,aip.org
+DOMAIN-SUFFIX,ams.org
+DOMAIN-SUFFIX,annualreviews.org
+DOMAIN-SUFFIX,aps.org
+DOMAIN-SUFFIX,ascelibrary.org
+DOMAIN-SUFFIX,asm.org
+DOMAIN-SUFFIX,asme.org
+DOMAIN-SUFFIX,astm.org
+DOMAIN-SUFFIX,bmj.com
+DOMAIN-SUFFIX,cambridge.org
+DOMAIN-SUFFIX,cas.org
+DOMAIN-SUFFIX,clarivate.com
+DOMAIN-SUFFIX,ebscohost.com
+DOMAIN-SUFFIX,emerald.com
+DOMAIN-SUFFIX,engineeringvillage.com
+DOMAIN-SUFFIX,icevirtuallibrary.com
+DOMAIN-SUFFIX,ieee.org
+DOMAIN-SUFFIX,imf.org
+DOMAIN-SUFFIX,iop.org
+DOMAIN-SUFFIX,jamanetwork.com
+DOMAIN-SUFFIX,jhu.edu
+DOMAIN-SUFFIX,jstor.org
+DOMAIN-SUFFIX,karger.com
+DOMAIN-SUFFIX,libguides.com
+DOMAIN-SUFFIX,madsrevolution.net
+DOMAIN-SUFFIX,mpg.de
+DOMAIN-SUFFIX,myilibrary.com
+DOMAIN-SUFFIX,nature.com
+DOMAIN-SUFFIX,oecd-ilibrary.org
+DOMAIN-SUFFIX,osapublishing.org
+DOMAIN-SUFFIX,oup.com
+DOMAIN-SUFFIX,ovid.com
+DOMAIN-SUFFIX,oxfordartonline.com
+DOMAIN-SUFFIX,oxfordbibliographies.com
+DOMAIN-SUFFIX,oxfordmusiconline.com
+DOMAIN-SUFFIX,pnas.org
+DOMAIN-SUFFIX,proquest.com
+DOMAIN-SUFFIX,rsc.org
+DOMAIN-SUFFIX,sagepub.com
+DOMAIN-SUFFIX,sciencedirect.com
+DOMAIN-SUFFIX,sciencemag.org
+DOMAIN-SUFFIX,scopus.com
+DOMAIN-SUFFIX,siam.org
+DOMAIN-SUFFIX,spiedigitallibrary.org
+DOMAIN-SUFFIX,springer.com
+DOMAIN-SUFFIX,springerlink.com
+DOMAIN-SUFFIX,tandfonline.com
+DOMAIN-SUFFIX,un.org
+DOMAIN-SUFFIX,uni-bielefeld.de
+DOMAIN-SUFFIX,webofknowledge.com
+DOMAIN-SUFFIX,westlaw.com
+DOMAIN-SUFFIX,wiley.com
+DOMAIN-SUFFIX,worldbank.org
+DOMAIN-SUFFIX,worldscientific.com
 # > Other
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,360in.com
@@ -234,7 +296,6 @@ DOMAIN-SUFFIX,bstatic.com
 DOMAIN-SUFFIX,cailianpress.com
 DOMAIN-SUFFIX,camera360.com
 DOMAIN-SUFFIX,chinaso.com
-DOMAIN-SUFFIX,chua.pro
 DOMAIN-SUFFIX,chuimg.com
 DOMAIN-SUFFIX,chunyu.mobi
 DOMAIN-SUFFIX,chushou.tv
@@ -269,6 +330,7 @@ DOMAIN-SUFFIX,infinitynewtab.com
 DOMAIN-SUFFIX,ithome.com
 DOMAIN-SUFFIX,java.com
 DOMAIN-SUFFIX,jianguoyun.com
+DOMAIN-SUFFIX,jianshu.io
 DOMAIN-SUFFIX,jidian.im
 DOMAIN-SUFFIX,kaiyanapp.com
 DOMAIN-SUFFIX,kaspersky-labs.com
@@ -278,11 +340,11 @@ DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,loli.net
 DOMAIN-SUFFIX,luojilab.com
-DOMAIN-SUFFIX,mls-cdn.com
 DOMAIN-SUFFIX,maoyan.com
 DOMAIN-SUFFIX,maoyun.tv
 DOMAIN-SUFFIX,meituan.com
 DOMAIN-SUFFIX,meituan.net
+DOMAIN-SUFFIX,mls-cdn.com
 DOMAIN-SUFFIX,mobike.com
 DOMAIN-SUFFIX,moke.com
 DOMAIN-SUFFIX,mubu.com
@@ -299,7 +361,6 @@ DOMAIN-SUFFIX,qyerstatic.com
 DOMAIN-SUFFIX,raychase.net
 DOMAIN-SUFFIX,ronghub.com
 DOMAIN-SUFFIX,ruguoapp.com
-DOMAIN-SUFFIX,s-reader.com
 DOMAIN-SUFFIX,sankuai.com
 DOMAIN-SUFFIX,scomper.me
 DOMAIN-SUFFIX,seafile.com
@@ -307,6 +368,7 @@ DOMAIN-SUFFIX,sm.ms
 DOMAIN-SUFFIX,smzdm.com
 DOMAIN-SUFFIX,snapdrop.net
 DOMAIN-SUFFIX,snwx.com
+DOMAIN-SUFFIX,s-reader.com
 DOMAIN-SUFFIX,sspai.com
 DOMAIN-SUFFIX,takungpao.com
 DOMAIN-SUFFIX,teamviewer.com
