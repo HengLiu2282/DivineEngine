@@ -12,7 +12,7 @@
 # A
 # --- (阿里巴巴) ---
 # > 淘宝 - gw.alicdn.com,heic.alicdn.com
-^(http|https):\/\/(gw|heic)\.alicdn\.com\/.+\d{4}\.jpg_(9\d{2}|\d{4}) - reject
+^(http|https):\/\/(gw|heic)\.alicdn\.com\/.+-\d{4}\.jpg_(9\d{2}|\d{4}) - reject
 # > 闲鱼 - acs.m.taobao.com
 ^(http|https):\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/ - reject
 # > 飞猪 - acs.m.taobao.com
@@ -318,8 +318,8 @@
 # > 腾讯视频
 ^(http|https):\/\/vv\.video\.qq\.com\/getvmind\? - reject
 # ^(http|https):\/\/.+\.mp4.+&sdtfrom=v3004 - reject
-^(http|https):\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/.+\.tc\.qq\.com\/.+p201\.1\.mp4\? - reject
-^(http|https):\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/.+\.tc\.qq\.com\/.+_p201_ - reject
+^(http|https):\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/.+\.tc\.qq\.com\/.+p20\d\.1\.mp4\? - reject
+^(http|https):\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/.+\.tc\.qq\.com\/.+_p20\d_ - reject
 # > 腾讯新闻 - r.inews.qq.com
 ^(http|https):\/\/r\.inews\.qq\.com\/(adsBlacklist|getFullScreenPic|getQQNewsRemoteConfig) - reject
 # > 腾讯体育 - news.ssp.qq.com
@@ -379,6 +379,8 @@
 ^(http|https):\/\/thor\.weidian\.com\/ares\/home\.splash\/ - reject
 # > 威锋 - api.feng.com
 ^(http|https):\/\/api\.feng\.com\/v\d\/advertisement\/.*Claunch - reject
+# > 唯品会 - mapi.appvipshop.com
+^(http|https):\/\/mapi\.appvipshop\.com\/vips-mobile\/router\.do\?.+platform\.adver\.get - reject
 
 # X
 # ---(新浪)---
