@@ -463,8 +463,14 @@
 # > 中国联通 - m.client.10010.com
 ^(http|https):\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm - reject
 ^(http|https):\/\/m\.client\.10010\.com\/uniAdmsInterface\/getWelcomeAd - reject
-# > 中国电信 - cloud.189.cn
+# ---(中国移动)---
+# > 电信营业厅
+^(http|https):\/\/image1\.chinatelecom-ec\.com\/images\/.+client\w+\.jpg$ - reject
+# > 天翼云盘 - cloud.189.cn
 ^(http|https):\/\/cloud\.189\.cn\/include\/splash\/ - reject
+# > 小翼管家
+^(http|https):\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d/xygj-config-api\/queryData - reject
+# ---
 # > 掌阅 - ih2.ireader.com
 ^(http|https):\/\/ih2\.ireader\.com\/zyapi\/bookstore\/ad\/ - reject
 ^(http|https):\/\/ih2\.ireader\.com\/zyapi\/self\/screen\/ad - reject

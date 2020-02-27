@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,adnxs.com,REJECT
 DOMAIN-SUFFIX,adnyg.com,REJECT
 DOMAIN-SUFFIX,adsensor.org,REJECT
 DOMAIN-SUFFIX,adsymptotic.com,REJECT
+DOMAIN-SUFFIX,ads-twitter.com,REJECT
 DOMAIN-SUFFIX,adthor.com,REJECT
 DOMAIN-SUFFIX,adwhirl.com,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
@@ -136,7 +137,6 @@ DOMAIN,sugar.zhihu.com,REJECT
 # (0~9)
 # > 58 同城
 DOMAIN,adshow.58.com,REJECT
-DOMAIN,adm3.autoimg.cn,REJECT
 # (A)
 # > Apple
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
@@ -152,6 +152,10 @@ DOMAIN,adproxy.autohome.com.cn,REJECT
 DOMAIN,rd.autohome.com.cn,REJECT
 DOMAIN,al.autohome.com.cn,REJECT
 DOMAIN,applogapi.autohome.com.cn,REJECT
+DOMAIN,adm0.autoimg.cn,REJECT
+DOMAIN,adm1.autoimg.cn,REJECT
+DOMAIN,adm2.autoimg.cn,REJECT
+DOMAIN,adm3.autoimg.cn,REJECT
 # (B)
 # > Baidu
 DOMAIN-SUFFIX,cpro.baidu.com,REJECT

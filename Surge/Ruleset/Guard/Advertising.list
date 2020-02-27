@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,adnxs.com
 DOMAIN-SUFFIX,adnyg.com
 DOMAIN-SUFFIX,adsensor.org
 DOMAIN-SUFFIX,adsymptotic.com
+DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,adthor.com
 DOMAIN-SUFFIX,adwhirl.com
 DOMAIN-SUFFIX,amazon-adsystem.com
@@ -136,7 +137,6 @@ DOMAIN,sugar.zhihu.com
 # (0~9)
 # > 58 同城
 DOMAIN,adshow.58.com
-DOMAIN,adm3.autoimg.cn
 # (A)
 # > Apple
 DOMAIN-SUFFIX,iadsdk.apple.com
@@ -152,6 +152,10 @@ DOMAIN,adproxy.autohome.com.cn
 DOMAIN,rd.autohome.com.cn
 DOMAIN,al.autohome.com.cn
 DOMAIN,applogapi.autohome.com.cn
+DOMAIN,adm0.autoimg.cn
+DOMAIN,adm1.autoimg.cn
+DOMAIN,adm2.autoimg.cn
+DOMAIN,adm3.autoimg.cn
 # (B)
 # > Baidu
 DOMAIN-SUFFIX,cpro.baidu.com

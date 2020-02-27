@@ -54,10 +54,6 @@ DOMAIN-SUFFIX,biliapi.net
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,bilibili.tv
 DOMAIN-SUFFIX,hdslb.com
-# > Blizzard
-DOMAIN-SUFFIX,blizzard.com
-DOMAIN-SUFFIX,battle.net
-DOMAIN,blzddist1-a.akamaihd.net
 # > ByteDance
 DOMAIN-SUFFIX,feiliao.com
 DOMAIN-SUFFIX,pstatp.com
@@ -89,7 +85,7 @@ DOMAIN-SUFFIX,mgtv.com
 # > iQiyi
 DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,iqiyipic.com
-DOMAIN-SUFFIX,71.am.com
+DOMAIN-SUFFIX,71.am
 # > JD
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,jd.hk
@@ -144,18 +140,10 @@ DOMAIN-SUFFIX,v-56.com
 DOMAIN-SUFFIX,sogo.com
 DOMAIN-SUFFIX,sogou.com
 DOMAIN-SUFFIX,sogoucdn.com
-# > Steam
-DOMAIN-SUFFIX,steampowered.com
-DOMAIN-SUFFIX,steam-chat.com
-DOMAIN-SUFFIX,steamgames.com
-DOMAIN-SUFFIX,steamusercontent.com
-DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,steamstatic.com
-DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
-DOMAIN-SUFFIX,steamstat.us
 # > Tencent
 USER-AGENT,MicroMessenger%20Client
 USER-AGENT,WeChat*
+USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,idqqimg.com
 DOMAIN-SUFFIX,igamecj.com
@@ -354,6 +342,7 @@ DOMAIN-SUFFIX,nvidia.com
 DOMAIN-SUFFIX,oracle.com
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,qdaily.com
 DOMAIN-SUFFIX,qidian.com
 DOMAIN-SUFFIX,qyer.com
