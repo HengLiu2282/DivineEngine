@@ -409,9 +409,9 @@
 ^(http|https):\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/ting\/preload\/ - reject
 # > 小站 - tiku.zhan.com
 ^(http|https):\/\/tiku\.zhan\.com\/Common\/newAd\/ - reject
-# > 雪球 - api.xueqiu.com,182.92.251.113
-^(http|https):\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/promotion\/(display|search)_(ad|cache) - reject
-^(http|https):\/\/api\.xueqiu\.com\/promotion\/(display|search)_(ad|cache) - reject
+# > 雪球 - api.xueqiu.com,promo.xueqiu.com,182.92.251.113
+^(http|https):\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/promotion\/(display_cache|display_ad|feed_display|search_ad) url reject
+^(http|https):\/\/(api|promo)\.xueqiu\.com\/promotion\/(display_cache|display_ad|feed_display|search_ad) url reject
 
 # Y
 # > Yahoo! - m.yap.yahoo.com
