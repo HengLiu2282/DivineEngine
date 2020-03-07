@@ -77,4 +77,4 @@ Apple 服务的 list 需至少放置于 Global.list 前面。
 
 #### 不需要去广告规则怎么办？
 
-直接删除相关 Rulteset （及其策略组）和 Rewrite 即可。
+直接删除相关 Ruleset （及其策略组）和 Rewrite 即可。
