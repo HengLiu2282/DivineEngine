@@ -351,8 +351,9 @@
 ^(http|https):\/\/c\.m\.163\.com\/nc\/gl\/ - reject
 # > 网易有钱 - client.mail.163.com
 ^(http|https):\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiAds - reject
-# > 网易云音乐 - interface.music.163.com
-^(http|https):\/\/(interface.music.163.com|((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d))\/eapi\/ad\/ - reject
+# > 网易云音乐 - interface*.music.163.com
+^(http|https):\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/eapi\/ad\/ - reject
+^(http|https):\/\/interface(\d)?.music.163.com\/eapi\/ad\/ - reject
 # > 网易考拉 - sp.kaola.com
 ^(http|https):\/\/sp\.kaola\.com\/api\/openad - reject
 # > 网易严选 - support.you.163.com
@@ -469,7 +470,7 @@
 # > 天翼云盘 - cloud.189.cn
 ^(http|https):\/\/cloud\.189\.cn\/include\/splash\/ - reject
 # > 小翼管家
-^(http|https):\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d/xygj-config-api\/queryData - reject
+^(http|https):\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+/xygj-config-api\/queryData - reject
 # ---
 # > 掌阅 - ih2.ireader.com
 ^(http|https):\/\/ih2\.ireader\.com\/zyapi\/bookstore\/ad\/ - reject
