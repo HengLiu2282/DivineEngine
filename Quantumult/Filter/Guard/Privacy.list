@@ -1,10 +1,6 @@
 # Privacy 隐私
-DOMAIN-KEYWORD,analytics,REJECT
-DOMAIN-KEYWORD,analysis,REJECT
-
 DOMAIN-SUFFIX,42trck.com,REJECT
 DOMAIN-SUFFIX,51.la,REJECT
-DOMAIN-SUFFIX,ads-twitter.com,REJECT
 DOMAIN-SUFFIX,adinfuse.com,REJECT
 DOMAIN-SUFFIX,adjust.com,REJECT
 DOMAIN-SUFFIX,adjust.io,REJECT
@@ -50,17 +46,15 @@ DOMAIN,xlog-va.byteoversea.com,REJECT
 # > Google
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,googletagservices.com,REJECT
+DOMAIN,ssl.google-analytics.com,REJECT
 # > HunanTV
 DOMAIN-SUFFIX,log.hunantv.com,REJECT
-DOMAIN,log.v2.hunantv.com,REJECT
-DOMAIN,v2.log.hunantv.com,REJECT
+DOMAIN-SUFFIX,v2.hunantv.com,REJECT
 # > MI
 DOMAIN-SUFFIX,tracking.miui.com,REJECT
 DOMAIN,data.mistat.xiaomi.com,REJECT
 DOMAIN,tracking.intl.miui.com,REJECT
 # > Tencent
-DOMAIN-SUFFIX,bugly.qq.com,REJECT
-DOMAIN-SUFFIX,rqd.qq.com,REJECT
 DOMAIN-SUFFIX,beacon.qq.com,REJECT
 DOMAIN,pingma.qq.com,REJECT
 DOMAIN,pingtcss.qq.com,REJECT

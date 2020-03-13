@@ -1,10 +1,6 @@
 # Privacy 隐私
-DOMAIN-KEYWORD,analytics
-DOMAIN-KEYWORD,analysis
-
 DOMAIN-SUFFIX,42trck.com
 DOMAIN-SUFFIX,51.la
-DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,adinfuse.com
 DOMAIN-SUFFIX,adjust.com
 DOMAIN-SUFFIX,adjust.io
@@ -50,17 +46,15 @@ DOMAIN,xlog-va.byteoversea.com
 # > Google
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,googletagservices.com
+DOMAIN,ssl.google-analytics.com
 # > HunanTV
 DOMAIN-SUFFIX,log.hunantv.com
-DOMAIN,log.v2.hunantv.com
-DOMAIN,v2.log.hunantv.com
+DOMAIN-SUFFIX,v2.hunantv.com
 # > MI
 DOMAIN-SUFFIX,tracking.miui.com
 DOMAIN,data.mistat.xiaomi.com
 DOMAIN,tracking.intl.miui.com
 # > Tencent
-DOMAIN-SUFFIX,bugly.qq.com
-DOMAIN-SUFFIX,rqd.qq.com
 DOMAIN-SUFFIX,beacon.qq.com
 DOMAIN,pingma.qq.com
 DOMAIN,pingtcss.qq.com
