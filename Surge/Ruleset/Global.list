@@ -145,6 +145,7 @@ DOMAIN-SUFFIX,dmhy.org
 DOMAIN-SUFFIX,dns2go.com
 DOMAIN-SUFFIX,dowjones.com
 DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxusercontent.com
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,duyaoss.com
@@ -394,76 +395,32 @@ DOMAIN-KEYWORD,porn
 DOMAIN-KEYWORD,wikileaks
 
 # (Region-Restricted Access Denied)
-DOMAIN-SUFFIX,apartmentratings.com
-DOMAIN-SUFFIX,apartments.com
-DOMAIN-SUFFIX,bankmobilevibe.com
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,booktopia.com.au
-DOMAIN-SUFFIX,cccat.io
-DOMAIN-SUFFIX,centauro.com.br
-DOMAIN-SUFFIX,clearsurance.com
-DOMAIN-SUFFIX,costco.com
-DOMAIN-SUFFIX,crackle.com
-DOMAIN-SUFFIX,depositphotos.cn
-DOMAIN-SUFFIX,dish.com
-DOMAIN-SUFFIX,dmm.co.jp
-DOMAIN-SUFFIX,dmm.com
-DOMAIN-SUFFIX,dnvod.tv
-DOMAIN-SUFFIX,esurance.com
-DOMAIN-SUFFIX,extmatrix.com
-DOMAIN-SUFFIX,fastpic.ru
-DOMAIN-SUFFIX,flipboard.com
-DOMAIN-SUFFIX,fnac.be
-DOMAIN-SUFFIX,fnac.com
-DOMAIN-SUFFIX,funkyimg.com
-DOMAIN-SUFFIX,fxnetworks.com
-DOMAIN-SUFFIX,gettyimages.com
-DOMAIN-SUFFIX,go.com
-DOMAIN-SUFFIX,here.com
-DOMAIN-SUFFIX,jcpenney.com
-DOMAIN-SUFFIX,jiehua.tv
-DOMAIN-SUFFIX,mailfence.com
-DOMAIN-SUFFIX,nationwide.com
-DOMAIN-SUFFIX,nbc.com
-DOMAIN-SUFFIX,nexon.com
-DOMAIN-SUFFIX,nordstrom.com
-DOMAIN-SUFFIX,nordstromimage.com
-DOMAIN-SUFFIX,nordstromrack.com
-DOMAIN-SUFFIX,superpages.com
-DOMAIN-SUFFIX,target.com
-DOMAIN-SUFFIX,thinkgeek.com
-DOMAIN-SUFFIX,tracfone.com
-DOMAIN-SUFFIX,unity3d.com
-DOMAIN-SUFFIX,uploader.jp
-DOMAIN-SUFFIX,vevo.com
-DOMAIN-SUFFIX,viu.tv
-DOMAIN-SUFFIX,vk.com
-DOMAIN-SUFFIX,vsco.co
-DOMAIN-SUFFIX,xfinity.com
-DOMAIN-SUFFIX,zaobao.com.sg
-DOMAIN-SUFFIX,zattoo.com
-USER-AGENT,Roam*
-
-# (Top Sites)
-# > Apple
-# >> Apple URL Shortener
+# ---(Apple)---
+# > Apple URL Shortener
 DOMAIN-SUFFIX,appsto.re
-# >> iBooks Store download
+# > iBooks Store download
 DOMAIN,books.itunes.apple.com
-# >> Apple TV
+# > Apple TV
 DOMAIN-SUFFIX,tv.apple.com
 DOMAIN,hls.itunes.apple.com
 DOMAIN,play-edge.itunes.apple.com
-# >> App Store Preview
+# > App Store Preview
 DOMAIN,apps.apple.com
 DOMAIN,itunes.apple.com
-# >> Spotlight
+# > Spotlight
 DOMAIN,api-glb-sea.smoot.apple.com
-# >> Dictionary
+# > Dictionary
 DOMAIN,lookup-api.apple.com
 PROCESS-NAME,LookupViewService
-# >> Apple Music Web
+# > Apple Music Web
 DOMAIN,beta.music.apple.com
+# ------
+# > Others
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,cccat.io
+USER-AGENT,Roam*
+
+# (Internet Protocol Black hole)
 # > Google
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,ampproject.org
@@ -512,61 +469,11 @@ DOMAIN-SUFFIX,x.company
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
-# > Other
-DOMAIN-SUFFIX,0rz.tw
-DOMAIN-SUFFIX,4bluestones.biz
-DOMAIN-SUFFIX,9bis.net
-DOMAIN-SUFFIX,allconnected.co
-DOMAIN-SUFFIX,aol.com
-DOMAIN-SUFFIX,bcc.com.tw
-DOMAIN-SUFFIX,bit.ly
-DOMAIN-SUFFIX,bitshare.com
-DOMAIN-SUFFIX,blog.jp
-DOMAIN-SUFFIX,blogimg.jp
-DOMAIN-SUFFIX,blogtd.org
-DOMAIN-SUFFIX,broadcast.co.nz
-DOMAIN-SUFFIX,camfrog.com
-DOMAIN-SUFFIX,cfos.de
-DOMAIN-SUFFIX,citypopulation.de
-DOMAIN-SUFFIX,ctitv.com.tw
-DOMAIN-SUFFIX,cuhk.edu.hk
-DOMAIN-SUFFIX,cusu.hk
-DOMAIN-SUFFIX,discord.gg
-DOMAIN-SUFFIX,discuss.com.hk
-DOMAIN-SUFFIX,dropboxapi.com
-DOMAIN-SUFFIX,duolingo.cn
-DOMAIN-SUFFIX,edditstatic.com
-DOMAIN-SUFFIX,feedburner.com
-DOMAIN-SUFFIX,flickriver.com
-DOMAIN-SUFFIX,focustaiwan.tw
-DOMAIN-SUFFIX,free.fr
-DOMAIN-SUFFIX,gigacircle.com
-DOMAIN-SUFFIX,hk-pub.com
-DOMAIN-SUFFIX,hosting.co.uk
-DOMAIN-SUFFIX,hwcdn.net
-DOMAIN-SUFFIX,ifixit.com
-DOMAIN-SUFFIX,iphone4hongkong.com
-DOMAIN-SUFFIX,iphonetaiwan.org
-DOMAIN-SUFFIX,iptvbin.com
-DOMAIN-SUFFIX,linksalpha.com
-DOMAIN-SUFFIX,manyvids.com
-DOMAIN-SUFFIX,myactimes.com
-DOMAIN-SUFFIX,newsblur.com
-DOMAIN-SUFFIX,now.im
-DOMAIN-SUFFIX,redditlist.com
-DOMAIN-SUFFIX,s3.amazonaws.com
-DOMAIN-SUFFIX,signal.org
+# > Others
+DOMAIN-SUFFIX,evernote.com
 DOMAIN-SUFFIX,smartmailcloud.com
-DOMAIN-SUFFIX,sparknotes.com
-DOMAIN-SUFFIX,streetvoice.com
-DOMAIN-SUFFIX,supertop.co
-DOMAIN-SUFFIX,tv.com
-DOMAIN-SUFFIX,typepad.com
-DOMAIN-SUFFIX,udnbkk.com
-DOMAIN-SUFFIX,urbanairship.com
-DOMAIN-SUFFIX,whispersystems.org
-DOMAIN-SUFFIX,wikia.com
-DOMAIN-SUFFIX,wn.com
-DOMAIN-SUFFIX,wolframalpha.com
-DOMAIN-SUFFIX,x-art.com
-DOMAIN-SUFFIX,yimg.com
+DOMAIN-SUFFIX,wikimedia.org
+
+# (Network Jitter)
+DOMAIN-SUFFIX,ifixit.com
+DOMAIN-SUFFIX,s3.amazonaws.com
