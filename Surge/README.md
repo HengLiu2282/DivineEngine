@@ -69,7 +69,7 @@ Advertising.list 和 Rewrite 中的 reject 是专门针对 iOS 应用而写，�
 
 **[Apple](https://github.com/DivineEngine/Profiles/tree/master/Surge/Ruleset/Apple)**：
 
-Apple 服务的 list 需至少放置于 Global.list 前面。
+Apple 服务的 list 除了 Apple.list 均需至少放置于 Global.list 前面，而 Apple.list 需放在 Global.list 和 China.list 之间。
 
 **Global.list 及 China.list**：
 
