@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,admob.com,REJECT
 DOMAIN-SUFFIX,adnxs.com,REJECT
 DOMAIN-SUFFIX,adnyg.com,REJECT
 DOMAIN-SUFFIX,adsensor.org,REJECT
+DOMAIN-SUFFIX,adsmediabox.com,REJECT
 DOMAIN-SUFFIX,ads-twitter.com,REJECT
 DOMAIN-SUFFIX,adsymptotic.com,REJECT
 DOMAIN-SUFFIX,adthor.com,REJECT
@@ -28,6 +29,7 @@ DOMAIN-SUFFIX,apsalar.com,REJECT
 DOMAIN-SUFFIX,apxadtracking.net,REJECT
 DOMAIN-SUFFIX,atomhike.com,REJECT
 DOMAIN-SUFFIX,axonix.com,REJECT
+DOMAIN-SUFFIX,b2pk.com,REJECT
 DOMAIN-SUFFIX,bayimob.com,REJECT
 DOMAIN-SUFFIX,bjvvqu.cn,REJECT
 DOMAIN-SUFFIX,bulldogcpi.com,REJECT
@@ -36,6 +38,8 @@ DOMAIN-SUFFIX,clotfun.online,REJECT
 DOMAIN-SUFFIX,cloudmobi.net,REJECT
 DOMAIN-SUFFIX,crwdcntrl.net,REJECT
 DOMAIN-SUFFIX,ctrmi.com,REJECT
+DOMAIN-SUFFIX,eroadvertising.com,REJECT
+DOMAIN-SUFFIX,ero-advertising.com,REJECT
 DOMAIN-SUFFIX,exosrv.com,REJECT
 DOMAIN-SUFFIX,go2cloud.org,REJECT
 DOMAIN-SUFFIX,growingio.com,REJECT
@@ -52,6 +56,7 @@ DOMAIN-SUFFIX,insurads.com,REJECT
 DOMAIN-SUFFIX,ironsrc.com,REJECT
 DOMAIN-SUFFIX,irs01.com,REJECT
 DOMAIN-SUFFIX,iskyworker.com,REJECT
+DOMAIN-SUFFIX,iyoowi.com,REJECT
 DOMAIN-SUFFIX,juicyads.com,REJECT
 DOMAIN-SUFFIX,kochava.com,REJECT
 DOMAIN-SUFFIX,leadboltmobile.net,REJECT
@@ -115,7 +120,6 @@ DOMAIN,ad.qingting.fm,REJECT
 DOMAIN,ad.wappalyzer.com,REJECT
 DOMAIN,ad-cn.jovcloud.com,REJECT
 DOMAIN,adextra.51wnl-cq.com,REJECT
-DOMAIN,api.adnet.mob.com,REJECT
 DOMAIN,ads.adadapted.com,REJECT
 DOMAIN,ads.chinadaily.com.cn,REJECT
 DOMAIN,ads.daydaycook.com.cn,REJECT
@@ -125,9 +129,11 @@ DOMAIN,adsdk.dmzj.com,REJECT
 DOMAIN,adserver.pandora.com,REJECT
 DOMAIN,adui.tg.meitu.com,REJECT
 DOMAIN,adv.bandi.so,REJECT
+DOMAIN,api.adnet.mob.com,REJECT
 DOMAIN,app-ad.variflight.com,REJECT
 DOMAIN,appnext.hs.llnwd.net,REJECT
 DOMAIN,appnext-a.akamaihd.net,REJECT
+DOMAIN,g.ousns.net,REJECT
 DOMAIN,ggs.myzaker.com,REJECT
 DOMAIN,itad.linetv.tw,REJECT
 DOMAIN,ja.chushou.tv,REJECT
@@ -136,6 +142,7 @@ DOMAIN,mobileads.msn.com,REJECT
 DOMAIN,mopnativeadv.037201.com,REJECT
 DOMAIN,nativeadv.dftoutiao.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
+DOMAIN,toots-a.akamaihd.net,REJECT
 
 # (0~9)
 # > 58 同城
@@ -201,6 +208,8 @@ DOMAIN-SUFFIX,googlesyndication.com,REJECT
 # > HunanTV
 DOMAIN-SUFFIX,da.mgtv.com,REJECT
 DOMAIN-SUFFIX,da.hunantv.com,REJECT
+DOMAIN-SUFFIX,log.hunantv.com,REJECT
+DOMAIN-SUFFIX,v2.hunantv.com,REJECT
 # > Hupu
 DOMAIN,adx.hupu.com,REJECT
 DOMAIN,adx-api.hupu.com,REJECT
@@ -245,6 +254,7 @@ DOMAIN,g3.letv.com,REJECT
 DOMAIN,n.mark.letv.com,REJECT
 # > 乐播投屏
 DOMAIN,ad.hpplay.cn,REJECT
+DOMAIN,adc.hpplay.cn,REJECT
 DOMAIN,adcdn.hpplay.cn,REJECT
 DOMAIN,adeng.hpplay.cn,REJECT
 DOMAIN,rp.hpplay.cn,REJECT

@@ -13,7 +13,6 @@ DOMAIN-SUFFIX,voicefive.com
 DOMAIN,applog.mobike.com
 DOMAIN,gs.getui.com
 DOMAIN,log.b612kaji.com
-DOMAIN,toots-a.akamaihd.net
 DOMAIN,track.tiara.daum.net
 DOMAIN,track.tiara.kakao.com
 DOMAIN,trackapp.guahao.cn
@@ -40,6 +39,7 @@ DOMAIN,hm.baidu.com
 DOMAIN,hmma.baidu.com
 # > ByteDance
 DOMAIN,applog.musical.ly
+DOMAIN,log-lq.snssdk.com
 DOMAIN,track.toutiao.com
 DOMAIN,xlog.snssdk.com
 DOMAIN,xlog-va.byteoversea.com
@@ -47,9 +47,7 @@ DOMAIN,xlog-va.byteoversea.com
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,googletagservices.com
 DOMAIN,ssl.google-analytics.com
-# > HunanTV
-DOMAIN-SUFFIX,log.hunantv.com
-DOMAIN-SUFFIX,v2.hunantv.com
+DOMAIN,www.google-analytics.com
 # > MI
 DOMAIN-SUFFIX,tracking.miui.com
 DOMAIN,data.mistat.xiaomi.com

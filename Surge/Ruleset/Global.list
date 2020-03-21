@@ -394,32 +394,6 @@ DOMAIN-KEYWORD,pinterest
 DOMAIN-KEYWORD,porn
 DOMAIN-KEYWORD,wikileaks
 
-# (Region-Restricted Access Denied)
-# ---(Apple)---
-# > Apple URL Shortener
-DOMAIN-SUFFIX,appsto.re
-# > iBooks Store download
-DOMAIN,books.itunes.apple.com
-# > Apple TV
-DOMAIN-SUFFIX,tv.apple.com
-DOMAIN,hls.itunes.apple.com
-DOMAIN,play-edge.itunes.apple.com
-# > App Store Preview
-DOMAIN,apps.apple.com
-DOMAIN,itunes.apple.com
-# > Spotlight
-DOMAIN,api-glb-sea.smoot.apple.com
-# > Dictionary
-DOMAIN,lookup-api.apple.com
-PROCESS-NAME,LookupViewService
-# > Apple Music Web
-DOMAIN,beta.music.apple.com
-# ------
-# > Others
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,cccat.io
-USER-AGENT,Roam*
-
 # (Internet Protocol Black hole)
 # > Google
 DOMAIN-SUFFIX,abc.xyz
@@ -471,6 +445,32 @@ DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 # > Others
 DOMAIN-SUFFIX,evernote.com
+DOMAIN-SUFFIX,wikimedia.org
+
+# (Region-Restricted Access Denied)
+# ---(Apple)---
+# > Apple URL Shortener
+DOMAIN-SUFFIX,appsto.re
+# > iBooks Store download
+DOMAIN,books.itunes.apple.com
+# > Apple TV
+DOMAIN-SUFFIX,tv.apple.com
+DOMAIN,hls.itunes.apple.com
+DOMAIN,play-edge.itunes.apple.com
+# > App Store Preview
+DOMAIN,apps.apple.com
+DOMAIN,itunes.apple.com
+# > Spotlight
+DOMAIN,api-glb-sea.smoot.apple.com
+# > Dictionary
+DOMAIN,lookup-api.apple.com
+PROCESS-NAME,LookupViewService
+# > Apple Music Web
+DOMAIN,beta.music.apple.com
+# ------
+# > Others
+# DOMAIN-SUFFIX,evernote.com
+DOMAIN-SUFFIX,mangakakalot.com
 DOMAIN-SUFFIX,smartmailcloud.com
 DOMAIN-SUFFIX,wikimedia.org
 

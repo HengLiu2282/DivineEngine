@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,admob.com
 DOMAIN-SUFFIX,adnxs.com
 DOMAIN-SUFFIX,adnyg.com
 DOMAIN-SUFFIX,adsensor.org
+DOMAIN-SUFFIX,adsmediabox.com
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,adsymptotic.com
 DOMAIN-SUFFIX,adthor.com
@@ -28,6 +29,7 @@ DOMAIN-SUFFIX,apsalar.com
 DOMAIN-SUFFIX,apxadtracking.net
 DOMAIN-SUFFIX,atomhike.com
 DOMAIN-SUFFIX,axonix.com
+DOMAIN-SUFFIX,b2pk.com
 DOMAIN-SUFFIX,bayimob.com
 DOMAIN-SUFFIX,bjvvqu.cn
 DOMAIN-SUFFIX,bulldogcpi.com
@@ -36,6 +38,8 @@ DOMAIN-SUFFIX,clotfun.online
 DOMAIN-SUFFIX,cloudmobi.net
 DOMAIN-SUFFIX,crwdcntrl.net
 DOMAIN-SUFFIX,ctrmi.com
+DOMAIN-SUFFIX,eroadvertising.com
+DOMAIN-SUFFIX,ero-advertising.com
 DOMAIN-SUFFIX,exosrv.com
 DOMAIN-SUFFIX,go2cloud.org
 DOMAIN-SUFFIX,growingio.com
@@ -52,6 +56,7 @@ DOMAIN-SUFFIX,insurads.com
 DOMAIN-SUFFIX,ironsrc.com
 DOMAIN-SUFFIX,irs01.com
 DOMAIN-SUFFIX,iskyworker.com
+DOMAIN-SUFFIX,iyoowi.com
 DOMAIN-SUFFIX,juicyads.com
 DOMAIN-SUFFIX,kochava.com
 DOMAIN-SUFFIX,leadboltmobile.net
@@ -115,7 +120,6 @@ DOMAIN,ad.qingting.fm
 DOMAIN,ad.wappalyzer.com
 DOMAIN,ad-cn.jovcloud.com
 DOMAIN,adextra.51wnl-cq.com
-DOMAIN,api.adnet.mob.com
 DOMAIN,ads.adadapted.com
 DOMAIN,ads.chinadaily.com.cn
 DOMAIN,ads.daydaycook.com.cn
@@ -125,9 +129,11 @@ DOMAIN,adsdk.dmzj.com
 DOMAIN,adserver.pandora.com
 DOMAIN,adui.tg.meitu.com
 DOMAIN,adv.bandi.so
+DOMAIN,api.adnet.mob.com
 DOMAIN,app-ad.variflight.com
 DOMAIN,appnext.hs.llnwd.net
 DOMAIN,appnext-a.akamaihd.net
+DOMAIN,g.ousns.net
 DOMAIN,ggs.myzaker.com
 DOMAIN,itad.linetv.tw
 DOMAIN,ja.chushou.tv
@@ -136,6 +142,7 @@ DOMAIN,mobileads.msn.com
 DOMAIN,mopnativeadv.037201.com
 DOMAIN,nativeadv.dftoutiao.com
 DOMAIN,sugar.zhihu.com
+DOMAIN,toots-a.akamaihd.net
 
 # (0~9)
 # > 58 同城
@@ -201,6 +208,8 @@ DOMAIN-SUFFIX,googlesyndication.com
 # > HunanTV
 DOMAIN-SUFFIX,da.mgtv.com
 DOMAIN-SUFFIX,da.hunantv.com
+DOMAIN-SUFFIX,log.hunantv.com
+DOMAIN-SUFFIX,v2.hunantv.com
 # > Hupu
 DOMAIN,adx.hupu.com
 DOMAIN,adx-api.hupu.com
@@ -245,6 +254,7 @@ DOMAIN,g3.letv.com
 DOMAIN,n.mark.letv.com
 # > 乐播投屏
 DOMAIN,ad.hpplay.cn
+DOMAIN,adc.hpplay.cn
 DOMAIN,adcdn.hpplay.cn
 DOMAIN,adeng.hpplay.cn
 DOMAIN,rp.hpplay.cn
