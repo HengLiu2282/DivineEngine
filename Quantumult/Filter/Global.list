@@ -444,7 +444,8 @@ DOMAIN-SUFFIX,youtu.be,PROXY
 DOMAIN-SUFFIX,yt.be,PROXY
 DOMAIN-SUFFIX,ytimg.com,PROXY
 # > Others
-DOMAIN-SUFFIX,evernote.com,PROXY
+DOMAIN-SUFFIX,smartmailcloud.com,PROXY
+DOMAIN-SUFFIX,weebly.com,PROXY
 DOMAIN-SUFFIX,wikimedia.org,PROXY
 
 # (Region-Restricted Access Denied)
@@ -464,15 +465,16 @@ DOMAIN,itunes.apple.com,PROXY
 DOMAIN,api-glb-sea.smoot.apple.com,PROXY
 # > Dictionary
 DOMAIN,lookup-api.apple.com,PROXY
+PROCESS-NAME,LookupViewService,PROXY
 # > Apple Music Web
 DOMAIN,beta.music.apple.com,PROXY
 # ------
 # > Others
-# DOMAIN-SUFFIX,evernote.com,PROXY
+DOMAIN-SUFFIX,bing.com,PROXY
+DOMAIN-SUFFIX,cccat.io,PROXY
+DOMAIN-SUFFIX,ifixit.com,PROXY
 DOMAIN-SUFFIX,mangakakalot.com,PROXY
-DOMAIN-SUFFIX,smartmailcloud.com,PROXY
-DOMAIN-SUFFIX,wikimedia.org,PROXY
 
 # (Network Jitter)
-DOMAIN-SUFFIX,ifixit.com,PROXY
+# DOMAIN-SUFFIX,evernote.com,PROXY
 DOMAIN-SUFFIX,s3.amazonaws.com,PROXY

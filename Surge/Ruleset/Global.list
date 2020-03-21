@@ -444,7 +444,8 @@ DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 # > Others
-DOMAIN-SUFFIX,evernote.com
+DOMAIN-SUFFIX,smartmailcloud.com
+DOMAIN-SUFFIX,weebly.com
 DOMAIN-SUFFIX,wikimedia.org
 
 # (Region-Restricted Access Denied)
@@ -469,11 +470,11 @@ PROCESS-NAME,LookupViewService
 DOMAIN,beta.music.apple.com
 # ------
 # > Others
-# DOMAIN-SUFFIX,evernote.com
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,cccat.io
+DOMAIN-SUFFIX,ifixit.com
 DOMAIN-SUFFIX,mangakakalot.com
-DOMAIN-SUFFIX,smartmailcloud.com
-DOMAIN-SUFFIX,wikimedia.org
 
 # (Network Jitter)
-DOMAIN-SUFFIX,ifixit.com
+# DOMAIN-SUFFIX,evernote.com
 DOMAIN-SUFFIX,s3.amazonaws.com
