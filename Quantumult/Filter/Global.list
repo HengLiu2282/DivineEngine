@@ -457,6 +457,7 @@ DOMAIN,books.itunes.apple.com,PROXY
 # > Apple TV
 DOMAIN-SUFFIX,tv.apple.com,PROXY
 DOMAIN,hls.itunes.apple.com,PROXY
+DOMAIN,hls-amt.itunes.apple.com,PROXY
 DOMAIN,play-edge.itunes.apple.com,PROXY
 # > App Store Preview
 DOMAIN,apps.apple.com,PROXY
