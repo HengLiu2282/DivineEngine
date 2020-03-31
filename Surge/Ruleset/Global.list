@@ -1,4 +1,4 @@
-# (DNS Cache Pollution Protection)
+# (DNS Cache Pollution)
 # > Google
 DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,blogger.com
@@ -11,7 +11,6 @@ DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,blogspot
 # > Microsoft
 DOMAIN-SUFFIX,onedrive.live.com
-DOMAIN-SUFFIX,xboxlive.com
 # > Facebook
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,fb.com
@@ -39,10 +38,7 @@ DOMAIN-SUFFIX,twitpic.com
 DOMAIN-SUFFIX,vine.co
 DOMAIN-KEYWORD,twitter
 # > Telegram
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
 IP-CIDR,91.108.4.0/22,no-resolve
 IP-CIDR,91.108.8.0/22,no-resolve
@@ -81,6 +77,7 @@ DOMAIN-SUFFIX,apkpure.com
 DOMAIN-SUFFIX,aptoide.com
 DOMAIN-SUFFIX,archive.is
 DOMAIN-SUFFIX,archive.org
+DOMAIN-SUFFIX,archiveofourown.org
 DOMAIN-SUFFIX,arte.tv
 DOMAIN-SUFFIX,artstation.com
 DOMAIN-SUFFIX,arukas.io
@@ -89,6 +86,7 @@ DOMAIN-SUFFIX,avg.com
 DOMAIN-SUFFIX,avgle.com
 DOMAIN-SUFFIX,badoo.com
 DOMAIN-SUFFIX,bandwagonhost.com
+DOMAIN-SUFFIX,bangkokpost.com
 DOMAIN-SUFFIX,bbc.com
 DOMAIN-SUFFIX,behance.net
 DOMAIN-SUFFIX,bibox.com
@@ -115,6 +113,7 @@ DOMAIN-SUFFIX,castbox.fm
 DOMAIN-SUFFIX,cbc.ca
 DOMAIN-SUFFIX,cdw.com
 DOMAIN-SUFFIX,change.org
+DOMAIN-SUFFIX,channelnewsasia.com
 DOMAIN-SUFFIX,channelnewsasia.com
 DOMAIN-SUFFIX,ck101.com
 DOMAIN-SUFFIX,clarionproject.org
@@ -217,6 +216,7 @@ DOMAIN-SUFFIX,jkforum.net
 DOMAIN-SUFFIX,joinmastodon.org
 DOMAIN-SUFFIX,justmysocks.net
 DOMAIN-SUFFIX,justpaste.it
+DOMAIN-SUFFIX,kadokawa.co.jp
 DOMAIN-SUFFIX,kakao.com
 DOMAIN-SUFFIX,kakaocorp.com
 DOMAIN-SUFFIX,kik.com
@@ -245,6 +245,7 @@ DOMAIN-SUFFIX,mobile01.com
 DOMAIN-SUFFIX,myspace.com
 DOMAIN-SUFFIX,myspacecdn.com
 DOMAIN-SUFFIX,nanyang.com
+DOMAIN-SUFFIX,nationalinterest.org
 DOMAIN-SUFFIX,naver.com
 DOMAIN-SUFFIX,neowin.net
 DOMAIN-SUFFIX,newstapa.org
@@ -309,6 +310,7 @@ DOMAIN-SUFFIX,reutersmedia.net
 DOMAIN-SUFFIX,rfi.fr
 DOMAIN-SUFFIX,rixcloud.com
 DOMAIN-SUFFIX,roadshow.hk
+DOMAIN-SUFFIX,rsshub.app
 DOMAIN-SUFFIX,scmp.com
 DOMAIN-SUFFIX,scribd.com
 DOMAIN-SUFFIX,seatguru.com
@@ -322,6 +324,7 @@ DOMAIN-SUFFIX,startpage.com
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steemit.com
 DOMAIN-SUFFIX,steemitwallet.com
+DOMAIN-SUFFIX,straitstimes.com
 DOMAIN-SUFFIX,streema.com
 DOMAIN-SUFFIX,t66y.com
 DOMAIN-SUFFIX,tapatalk.com
@@ -331,6 +334,8 @@ DOMAIN-SUFFIX,teddysun.com
 DOMAIN-SUFFIX,textnow.me
 DOMAIN-SUFFIX,theguardian.com
 DOMAIN-SUFFIX,theinitium.com
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,thetvdb.com
 DOMAIN-SUFFIX,thetvdb.com
 DOMAIN-SUFFIX,tineye.com
 DOMAIN-SUFFIX,tiny.cc
@@ -387,6 +392,7 @@ DOMAIN-SUFFIX,zb.com
 DOMAIN-SUFFIX,zello.com
 DOMAIN-SUFFIX,zeronet.io
 DOMAIN-SUFFIX,zoom.us
+
 DOMAIN,payments-jp.amazon.com
 DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,jav
@@ -397,6 +403,7 @@ DOMAIN-KEYWORD,wikileaks
 # (Internet Protocol Black hole)
 # > Google
 DOMAIN-SUFFIX,abc.xyz
+DOMAIN-SUFFIX,advertisercommunity.com
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,android.com
 DOMAIN-SUFFIX,androidify.com
@@ -443,7 +450,13 @@ DOMAIN-SUFFIX,x.company
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
+# > Telegram
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telesco.pe
 # > Others
+DOMAIN-SUFFIX,noxinfluencer.com
 DOMAIN-SUFFIX,smartmailcloud.com
 DOMAIN-SUFFIX,weebly.com
 DOMAIN-SUFFIX,wikimedia.org

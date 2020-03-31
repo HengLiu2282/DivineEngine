@@ -1,4 +1,4 @@
-# (DNS Cache Pollution Protection)
+# (DNS Cache Pollution)
 # > Google
 DOMAIN-SUFFIX,appspot.com,PROXY
 DOMAIN-SUFFIX,blogger.com,PROXY
@@ -11,7 +11,6 @@ DOMAIN-KEYWORD,google,PROXY
 DOMAIN-KEYWORD,blogspot,PROXY
 # > Microsoft
 DOMAIN-SUFFIX,onedrive.live.com,PROXY
-DOMAIN-SUFFIX,xboxlive.com,PROXY
 # > Facebook
 DOMAIN-SUFFIX,cdninstagram.com,PROXY
 DOMAIN-SUFFIX,fb.com,PROXY
@@ -39,10 +38,7 @@ DOMAIN-SUFFIX,twitpic.com,PROXY
 DOMAIN-SUFFIX,vine.co,PROXY
 DOMAIN-KEYWORD,twitter,PROXY
 # > Telegram
-DOMAIN-SUFFIX,t.me,PROXY
-DOMAIN-SUFFIX,tdesktop.com,PROXY
 DOMAIN-SUFFIX,telegra.ph,PROXY
-DOMAIN-SUFFIX,telegram.me,PROXY
 DOMAIN-SUFFIX,telegram.org,PROXY
 IP-CIDR,91.108.4.0/22,PROXY
 IP-CIDR,91.108.8.0/22,PROXY
@@ -81,6 +77,7 @@ DOMAIN-SUFFIX,apkpure.com,PROXY
 DOMAIN-SUFFIX,aptoide.com,PROXY
 DOMAIN-SUFFIX,archive.is,PROXY
 DOMAIN-SUFFIX,archive.org,PROXY
+DOMAIN-SUFFIX,archiveofourown.org,PROXY
 DOMAIN-SUFFIX,arte.tv,PROXY
 DOMAIN-SUFFIX,artstation.com,PROXY
 DOMAIN-SUFFIX,arukas.io,PROXY
@@ -89,6 +86,7 @@ DOMAIN-SUFFIX,avg.com,PROXY
 DOMAIN-SUFFIX,avgle.com,PROXY
 DOMAIN-SUFFIX,badoo.com,PROXY
 DOMAIN-SUFFIX,bandwagonhost.com,PROXY
+DOMAIN-SUFFIX,bangkokpost.com,PROXY
 DOMAIN-SUFFIX,bbc.com,PROXY
 DOMAIN-SUFFIX,behance.net,PROXY
 DOMAIN-SUFFIX,bibox.com,PROXY
@@ -115,6 +113,7 @@ DOMAIN-SUFFIX,castbox.fm,PROXY
 DOMAIN-SUFFIX,cbc.ca,PROXY
 DOMAIN-SUFFIX,cdw.com,PROXY
 DOMAIN-SUFFIX,change.org,PROXY
+DOMAIN-SUFFIX,channelnewsasia.com,PROXY
 DOMAIN-SUFFIX,channelnewsasia.com,PROXY
 DOMAIN-SUFFIX,ck101.com,PROXY
 DOMAIN-SUFFIX,clarionproject.org,PROXY
@@ -217,6 +216,7 @@ DOMAIN-SUFFIX,jkforum.net,PROXY
 DOMAIN-SUFFIX,joinmastodon.org,PROXY
 DOMAIN-SUFFIX,justmysocks.net,PROXY
 DOMAIN-SUFFIX,justpaste.it,PROXY
+DOMAIN-SUFFIX,kadokawa.co.jp,PROXY
 DOMAIN-SUFFIX,kakao.com,PROXY
 DOMAIN-SUFFIX,kakaocorp.com,PROXY
 DOMAIN-SUFFIX,kik.com,PROXY
@@ -245,6 +245,7 @@ DOMAIN-SUFFIX,mobile01.com,PROXY
 DOMAIN-SUFFIX,myspace.com,PROXY
 DOMAIN-SUFFIX,myspacecdn.com,PROXY
 DOMAIN-SUFFIX,nanyang.com,PROXY
+DOMAIN-SUFFIX,nationalinterest.org,PROXY
 DOMAIN-SUFFIX,naver.com,PROXY
 DOMAIN-SUFFIX,neowin.net,PROXY
 DOMAIN-SUFFIX,newstapa.org,PROXY
@@ -309,6 +310,7 @@ DOMAIN-SUFFIX,reutersmedia.net,PROXY
 DOMAIN-SUFFIX,rfi.fr,PROXY
 DOMAIN-SUFFIX,rixcloud.com,PROXY
 DOMAIN-SUFFIX,roadshow.hk,PROXY
+DOMAIN-SUFFIX,rsshub.app,PROXY
 DOMAIN-SUFFIX,scmp.com,PROXY
 DOMAIN-SUFFIX,scribd.com,PROXY
 DOMAIN-SUFFIX,seatguru.com,PROXY
@@ -322,6 +324,7 @@ DOMAIN-SUFFIX,startpage.com,PROXY
 DOMAIN-SUFFIX,steamcommunity.com,PROXY
 DOMAIN-SUFFIX,steemit.com,PROXY
 DOMAIN-SUFFIX,steemitwallet.com,PROXY
+DOMAIN-SUFFIX,straitstimes.com,PROXY
 DOMAIN-SUFFIX,streema.com,PROXY
 DOMAIN-SUFFIX,t66y.com,PROXY
 DOMAIN-SUFFIX,tapatalk.com,PROXY
@@ -331,6 +334,8 @@ DOMAIN-SUFFIX,teddysun.com,PROXY
 DOMAIN-SUFFIX,textnow.me,PROXY
 DOMAIN-SUFFIX,theguardian.com,PROXY
 DOMAIN-SUFFIX,theinitium.com,PROXY
+DOMAIN-SUFFIX,themoviedb.org,PROXY
+DOMAIN-SUFFIX,thetvdb.com,PROXY
 DOMAIN-SUFFIX,thetvdb.com,PROXY
 DOMAIN-SUFFIX,tineye.com,PROXY
 DOMAIN-SUFFIX,tiny.cc,PROXY
@@ -387,6 +392,7 @@ DOMAIN-SUFFIX,zb.com,PROXY
 DOMAIN-SUFFIX,zello.com,PROXY
 DOMAIN-SUFFIX,zeronet.io,PROXY
 DOMAIN-SUFFIX,zoom.us,PROXY
+
 DOMAIN,payments-jp.amazon.com,PROXY
 DOMAIN-KEYWORD,github,PROXY
 DOMAIN-KEYWORD,jav,PROXY
@@ -397,6 +403,7 @@ DOMAIN-KEYWORD,wikileaks,PROXY
 # (Internet Protocol Black hole)
 # > Google
 DOMAIN-SUFFIX,abc.xyz,PROXY
+DOMAIN-SUFFIX,advertisercommunity.com,PROXY
 DOMAIN-SUFFIX,ampproject.org,PROXY
 DOMAIN-SUFFIX,android.com,PROXY
 DOMAIN-SUFFIX,androidify.com,PROXY
@@ -443,7 +450,13 @@ DOMAIN-SUFFIX,x.company,PROXY
 DOMAIN-SUFFIX,youtu.be,PROXY
 DOMAIN-SUFFIX,yt.be,PROXY
 DOMAIN-SUFFIX,ytimg.com,PROXY
+# > Telegram
+DOMAIN-SUFFIX,t.me,PROXY
+DOMAIN-SUFFIX,tdesktop.com,PROXY
+DOMAIN-SUFFIX,telegram.me,PROXY
+DOMAIN-SUFFIX,telesco.pe,PROXY
 # > Others
+DOMAIN-SUFFIX,noxinfluencer.com,PROXY
 DOMAIN-SUFFIX,smartmailcloud.com,PROXY
 DOMAIN-SUFFIX,weebly.com,PROXY
 DOMAIN-SUFFIX,wikimedia.org,PROXY
