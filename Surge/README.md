@@ -40,7 +40,7 @@ Surge 是一个面向高级用户的网络工具箱，也是一个高性能的 H
 
 **Unbreak.list**：
 
-不要单纯的理解为「广告白名单」，特别是如果你要引入其他「Ad.list」也一定要放在其之前！
+不要单纯的理解为「广告白名单」，如果你引入其他的「Ad.list」也要将「Unbreak.list」放最前！
 
 **Advertising.list**：
 
@@ -69,7 +69,7 @@ Advertising.list 和 Rewrite 中的 reject 是专门针对 iOS 应用而写，�
 
 **[Apple](https://github.com/DivineEngine/Profiles/tree/master/Surge/Ruleset/Apple)**：
 
-Apple 服务的 list 除了 Apple.list 均需至少放置于 Global.list 前面，而 Apple.list 需放在 Global.list 和 China.list 之间。
+（如果要使用）Apple 服务的 list 除了 Apple.list 均需至少放置于 Global.list 前面，而 Apple.list 需放在 Global.list 和 China.list 之间。
 
 **Global.list 及 China.list**：
 
