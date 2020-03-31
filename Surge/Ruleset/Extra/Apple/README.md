@@ -8,12 +8,12 @@ DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,appstore.com
 DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
-DOMAIN,www-cdn.icloud.com.akadns.net
+DOMAIN-KEYWORD,apple.com.akadns.net
+DOMAIN-KEYWORD,icloud.com.akadns.net
 ```
 
 对于一些 Apple 被「墙」或者主动「墙」的服务如 App Store Preview、Moveis Trailers、查询外汇、国际航线的 Spotlight、维基百科查询的 Dictionary 均已收录于 Global.list 进行代理。
