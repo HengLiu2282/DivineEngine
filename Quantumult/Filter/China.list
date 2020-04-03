@@ -159,15 +159,6 @@ DOMAIN-SUFFIX,tencent.com,DIRECT
 DOMAIN-SUFFIX,tencent-cloud.net,DIRECT
 DOMAIN-SUFFIX,tenpay.com,DIRECT
 DOMAIN,file-igamecj.akamaized.net,DIRECT
-# > YYeTs
-USER-AGENT,YYeTs*,DIRECT
-DOMAIN-SUFFIX,jstucdn.com,DIRECT
-DOMAIN-SUFFIX,zimuzu.io,DIRECT
-DOMAIN-SUFFIX,zimuzu.tv,DIRECT
-DOMAIN-SUFFIX,zmz2019.com,DIRECT
-DOMAIN-SUFFIX,zmzapi.com,DIRECT
-DOMAIN-SUFFIX,zmzapi.net,DIRECT
-DOMAIN-SUFFIX,zmzfile.com,DIRECT
 # > Content Delivery Network
 DOMAIN-SUFFIX,ccgslb.com,DIRECT
 DOMAIN-SUFFIX,ccgslb.net,DIRECT

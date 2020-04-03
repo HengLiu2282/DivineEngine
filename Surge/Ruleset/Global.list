@@ -57,9 +57,6 @@ IP-CIDR,147.92.128.0/17,no-resolve
 IP-CIDR,203.104.144.0/21,no-resolve
 # > Others
 DOMAIN-SUFFIX,4shared.com
-DOMAIN-SUFFIX,6park.com
-DOMAIN-SUFFIX,6parker.com
-DOMAIN-SUFFIX,6parknews.com
 DOMAIN-SUFFIX,9cache.com
 DOMAIN-SUFFIX,9gag.com
 DOMAIN-SUFFIX,abc.com
@@ -71,7 +68,6 @@ DOMAIN-SUFFIX,apkcombo.com
 DOMAIN-SUFFIX,apk-dl.com
 DOMAIN-SUFFIX,apkfind.com
 DOMAIN-SUFFIX,apkmirror.com
-DOMAIN-SUFFIX,apkmonk.com
 DOMAIN-SUFFIX,apkmonk.com
 DOMAIN-SUFFIX,apkpure.com
 DOMAIN-SUFFIX,aptoide.com
@@ -113,7 +109,6 @@ DOMAIN-SUFFIX,castbox.fm
 DOMAIN-SUFFIX,cbc.ca
 DOMAIN-SUFFIX,cdw.com
 DOMAIN-SUFFIX,change.org
-DOMAIN-SUFFIX,channelnewsasia.com
 DOMAIN-SUFFIX,channelnewsasia.com
 DOMAIN-SUFFIX,ck101.com
 DOMAIN-SUFFIX,clarionproject.org
@@ -163,6 +158,7 @@ DOMAIN-SUFFIX,esoir.be
 DOMAIN-SUFFIX,etherscan.io
 DOMAIN-SUFFIX,euronews.com
 DOMAIN-SUFFIX,evozi.com
+DOMAIN-SUFFIX,feeder.co
 DOMAIN-SUFFIX,feedly.com
 DOMAIN-SUFFIX,feedx.net
 DOMAIN-SUFFIX,firech.at
@@ -195,7 +191,6 @@ DOMAIN-SUFFIX,hkbf.org
 DOMAIN-SUFFIX,hkbookcity.com
 DOMAIN-SUFFIX,hkej.com
 DOMAIN-SUFFIX,hket.com
-DOMAIN-SUFFIX,hkgolden.com
 DOMAIN-SUFFIX,hootsuite.com
 DOMAIN-SUFFIX,hudson.org
 DOMAIN-SUFFIX,hyread.com.tw
@@ -205,6 +200,7 @@ DOMAIN-SUFFIX,icij.org
 DOMAIN-SUFFIX,icoco.com
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,initiummall.com
+DOMAIN-SUFFIX,inoreader.com
 DOMAIN-SUFFIX,insecam.org
 DOMAIN-SUFFIX,ipfs.io
 DOMAIN-SUFFIX,issuu.com
@@ -336,7 +332,6 @@ DOMAIN-SUFFIX,theguardian.com
 DOMAIN-SUFFIX,theinitium.com
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,thetvdb.com
-DOMAIN-SUFFIX,thetvdb.com
 DOMAIN-SUFFIX,tineye.com
 DOMAIN-SUFFIX,tiny.cc
 DOMAIN-SUFFIX,tinyurl.com
@@ -364,6 +359,7 @@ DOMAIN-SUFFIX,w3schools.com
 DOMAIN-SUFFIX,washingtonpost.com
 DOMAIN-SUFFIX,wattpad.com
 DOMAIN-SUFFIX,whoer.net
+DOMAIN-SUFFIX,wikileaks.org
 DOMAIN-SUFFIX,wikimapia.org
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikiquote.org
@@ -387,7 +383,6 @@ DOMAIN-SUFFIX,yesasia.com
 DOMAIN-SUFFIX,yes-news.com
 DOMAIN-SUFFIX,yomiuri.co.jp
 DOMAIN-SUFFIX,you-get.org
-DOMAIN-SUFFIX,zaobao.com
 DOMAIN-SUFFIX,zb.com
 DOMAIN-SUFFIX,zello.com
 DOMAIN-SUFFIX,zeronet.io
@@ -398,7 +393,6 @@ DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,jav
 DOMAIN-KEYWORD,pinterest
 DOMAIN-KEYWORD,porn
-DOMAIN-KEYWORD,wikileaks
 
 # (Internet Protocol Black hole)
 # > Google
@@ -492,3 +486,5 @@ DOMAIN-SUFFIX,mangakakalot.com
 # (Network Jitter)
 # DOMAIN-SUFFIX,evernote.com
 DOMAIN-SUFFIX,s3.amazonaws.com
+DOMAIN-SUFFIX,zaobao.com
+DOMAIN-SUFFIX,zaobao.com.sg
