@@ -4,9 +4,9 @@ Quantumult X 是一款功能强大的网络工具，适用于 Web 开发人员�
 
 ## 规则
 
-| 版本 | 下载                                                         | 描述 |
-| ---- | ------------------------------------------------------------ | ---- |
-| Pro  | https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Pro.conf |      |
+| 版本   | 下载                                                         | 描述 |
+| ------ | ------------------------------------------------------------ | ---- |
+| Global | https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Global.conf |      |
 
 ## 帮助
 
