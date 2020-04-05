@@ -170,10 +170,12 @@ DOMAIN-SUFFIX,wangsu.com,DIRECT
 # > IP Query
 DOMAIN-SUFFIX,ipip.net,DIRECT
 DOMAIN-SUFFIX,ip.la,DIRECT
+DOMAIN-SUFFIX,ip.sb,DIRECT
 DOMAIN-SUFFIX,ip-cdn.com,DIRECT
 DOMAIN-SUFFIX,ipv6-test.com,DIRECT
 DOMAIN-SUFFIX,test-ipv6.com,DIRECT
 DOMAIN-SUFFIX,whatismyip.com,DIRECT
+DOMAIN,ip.istatmenus.app,DIRECT
 # > Speed Test
 # DOMAIN-SUFFIX,speedtest.net,DIRECT
 DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
