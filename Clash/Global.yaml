@@ -593,15 +593,15 @@ rules:
 
   # StreamingSE
   # > bilibili
-  - DOMAIN,api.bilibili.com,🎞StreamingSE
-  - DOMAIN,upos-hz-mirrorakam.akamaized.net,🎞StreamingSE
+  - DOMAIN,api.bilibili.com,StreamingSE
+  - DOMAIN,upos-hz-mirrorakam.akamaized.net,StreamingSE
   # > 愛奇藝台灣站
-  - DOMAIN,cache.video.iqiyi.com,🎞StreamingSE
+  - DOMAIN,cache.video.iqiyi.com,StreamingSE
   # > 芒果TV国际
-  - DOMAIN-SUFFIX,api.mgtv.com,🎞StreamingSE
+  - DOMAIN-SUFFIX,api.mgtv.com,StreamingSE
   # > WeTV
-  - DOMAIN-SUFFIX,wetv.vip,🎞StreamingSE
-  - DOMAIN-SUFFIX,wetvinfo.com,🎞StreamingSE
+  - DOMAIN-SUFFIX,wetv.vip,StreamingSE
+  - DOMAIN-SUFFIX,wetvinfo.com,StreamingSE
 
   # (DNS Cache Pollution)
   # > Google
@@ -999,8 +999,8 @@ rules:
   - DOMAIN-KEYWORD,pinterest,PROXY
   - DOMAIN-KEYWORD,porn,PROXY
 
-# (Internet Protocol Black hole)
-# > Google
+  # (Internet Protocol Black hole)
+  # > Google
   - DOMAIN-SUFFIX,abc.xyz,PROXY
   - DOMAIN-SUFFIX,advertisercommunity.com,PROXY
   - DOMAIN-SUFFIX,ampproject.org,PROXY
