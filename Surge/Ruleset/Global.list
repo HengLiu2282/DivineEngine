@@ -55,6 +55,11 @@ IP-CIDR,103.2.30.0/23,no-resolve
 IP-CIDR,125.209.208.0/20,no-resolve
 IP-CIDR,147.92.128.0/17,no-resolve
 IP-CIDR,203.104.144.0/21,no-resolve
+# > Akamai
+DOMAIN,a248.e.akamai.net
+DOMAIN,a771.dscq.akamai.net
+# > Amazon CloudFront
+DOMAIN,d3c33hcgiwev3.cloudfront.net
 # > Others
 DOMAIN-SUFFIX,4shared.com
 DOMAIN-SUFFIX,9cache.com
@@ -383,12 +388,15 @@ DOMAIN-SUFFIX,yesasia.com
 DOMAIN-SUFFIX,yes-news.com
 DOMAIN-SUFFIX,yomiuri.co.jp
 DOMAIN-SUFFIX,you-get.org
+DOMAIN-SUFFIX,zaobao.com
 DOMAIN-SUFFIX,zb.com
 DOMAIN-SUFFIX,zello.com
 DOMAIN-SUFFIX,zeronet.io
 DOMAIN-SUFFIX,zoom.us
 
 DOMAIN,payments-jp.amazon.com
+DOMAIN,search.avira.com
+
 DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,jav
 DOMAIN-KEYWORD,pinterest
@@ -486,5 +494,4 @@ DOMAIN-SUFFIX,mangakakalot.com
 # (Network Jitter)
 # DOMAIN-SUFFIX,evernote.com
 DOMAIN-SUFFIX,s3.amazonaws.com
-DOMAIN-SUFFIX,zaobao.com
 DOMAIN-SUFFIX,zaobao.com.sg

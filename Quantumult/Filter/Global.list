@@ -55,6 +55,11 @@ IP-CIDR,103.2.30.0/23,PROXY
 IP-CIDR,125.209.208.0/20,PROXY
 IP-CIDR,147.92.128.0/17,PROXY
 IP-CIDR,203.104.144.0/21,PROXY
+# > Akamai
+DOMAIN,a248.e.akamai.net,PROXY
+DOMAIN,a771.dscq.akamai.net,PROXY
+# > Amazon CloudFront
+DOMAIN,d3c33hcgiwev3.cloudfront.net,PROXY
 # > Others
 DOMAIN-SUFFIX,4shared.com,PROXY
 DOMAIN-SUFFIX,9cache.com,PROXY
@@ -383,12 +388,15 @@ DOMAIN-SUFFIX,yesasia.com,PROXY
 DOMAIN-SUFFIX,yes-news.com,PROXY
 DOMAIN-SUFFIX,yomiuri.co.jp,PROXY
 DOMAIN-SUFFIX,you-get.org,PROXY
+DOMAIN-SUFFIX,zaobao.com,PROXY
 DOMAIN-SUFFIX,zb.com,PROXY
 DOMAIN-SUFFIX,zello.com,PROXY
 DOMAIN-SUFFIX,zeronet.io,PROXY
 DOMAIN-SUFFIX,zoom.us,PROXY
 
 DOMAIN,payments-jp.amazon.com,PROXY
+DOMAIN,search.avira.com,PROXY
+
 DOMAIN-KEYWORD,github,PROXY
 DOMAIN-KEYWORD,jav,PROXY
 DOMAIN-KEYWORD,pinterest,PROXY
@@ -485,5 +493,4 @@ DOMAIN-SUFFIX,mangakakalot.com,PROXY
 # (Network Jitter)
 # DOMAIN-SUFFIX,evernote.com,PROXY
 DOMAIN-SUFFIX,s3.amazonaws.com,PROXY
-DOMAIN-SUFFIX,zaobao.com,PROXY
 DOMAIN-SUFFIX,zaobao.com.sg,PROXY
