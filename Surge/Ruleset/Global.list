@@ -163,15 +163,18 @@ DOMAIN-SUFFIX,esoir.be
 DOMAIN-SUFFIX,etherscan.io
 DOMAIN-SUFFIX,euronews.com
 DOMAIN-SUFFIX,evozi.com
+DOMAIN-SUFFIX,exblog.jp
 DOMAIN-SUFFIX,feeder.co
 DOMAIN-SUFFIX,feedly.com
 DOMAIN-SUFFIX,feedx.net
 DOMAIN-SUFFIX,firech.at
 DOMAIN-SUFFIX,flickr.com
+DOMAIN-SUFFIX,flipboard.com
 DOMAIN-SUFFIX,flitto.com
 DOMAIN-SUFFIX,foreignpolicy.com
 DOMAIN-SUFFIX,fortawesome.com
 DOMAIN-SUFFIX,freebrowser.org
+DOMAIN-SUFFIX,freetls.fastly.net
 DOMAIN-SUFFIX,freewechat.com
 DOMAIN-SUFFIX,freeweibo.com
 DOMAIN-SUFFIX,friday.tw
@@ -231,6 +234,7 @@ DOMAIN-SUFFIX,lihkg.com
 DOMAIN-SUFFIX,limbopro.xyz
 DOMAIN-SUFFIX,listennotes.com
 DOMAIN-SUFFIX,livestream.com
+DOMAIN-SUFFIX,logimg.jp
 DOMAIN-SUFFIX,logmein.com
 DOMAIN-SUFFIX,mail.ru
 DOMAIN-SUFFIX,mailchimp.com
@@ -242,6 +246,7 @@ DOMAIN-SUFFIX,mega.nz
 DOMAIN-SUFFIX,mergersandinquisitions.com
 DOMAIN-SUFFIX,mil
 DOMAIN-SUFFIX,mingpao.com
+DOMAIN-SUFFIX,mixi.jp
 DOMAIN-SUFFIX,mobile01.com
 DOMAIN-SUFFIX,myspace.com
 DOMAIN-SUFFIX,myspacecdn.com
@@ -366,11 +371,14 @@ DOMAIN-SUFFIX,wattpad.com
 DOMAIN-SUFFIX,whoer.net
 DOMAIN-SUFFIX,wikileaks.org
 DOMAIN-SUFFIX,wikimapia.org
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikinews.org
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikiquote.org
 DOMAIN-SUFFIX,wikiwand.com
 DOMAIN-SUFFIX,winudf.com
 DOMAIN-SUFFIX,wire.com
+DOMAIN-SUFFIX,wn.com
 DOMAIN-SUFFIX,wordpress.com
 DOMAIN-SUFFIX,workflow.is
 DOMAIN-SUFFIX,worldcat.org
@@ -394,7 +402,10 @@ DOMAIN-SUFFIX,zello.com
 DOMAIN-SUFFIX,zeronet.io
 DOMAIN-SUFFIX,zoom.us
 
+DOMAIN,cc.tvbs.com.tw
 DOMAIN,payments-jp.amazon.com
+DOMAIN,s3-ap-northeast-1.amazonaws.com
+DOMAIN,s3-ap-southeast-2.amazonaws.com
 DOMAIN,search.avira.com
 
 DOMAIN-KEYWORD,github
@@ -461,7 +472,6 @@ DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,noxinfluencer.com
 DOMAIN-SUFFIX,smartmailcloud.com
 DOMAIN-SUFFIX,weebly.com
-DOMAIN-SUFFIX,wikimedia.org
 
 # (Region-Restricted Access Denied)
 # ---(Apple)---
@@ -490,6 +500,7 @@ DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,cccat.io
 DOMAIN-SUFFIX,ifixit.com
 DOMAIN-SUFFIX,mangakakalot.com
+DOMAIN-SUFFIX,wordpress.org
 
 # (Network Jitter)
 # DOMAIN-SUFFIX,evernote.com

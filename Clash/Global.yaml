@@ -386,7 +386,7 @@ rules:
   - DOMAIN-SUFFIX,zhzzx.com,REJECT
 
   # Global Area Network
-  # Media
+  # Streaming
   # (Music)
   # > Deezer
   # USER-AGENT,Deezer*,Streaming
@@ -565,6 +565,7 @@ rules:
   - DOMAIN-SUFFIX,pbs.org,Streaming
   # > Pornhub
   - DOMAIN-SUFFIX,phncdn.com,Streaming
+  - DOMAIN-SUFFIX,phprcdn.com,Streaming
   - DOMAIN-SUFFIX,pornhub.com,Streaming
   - DOMAIN-SUFFIX,pornhubpremium.com,Streaming
   # > 台湾好
@@ -660,6 +661,11 @@ rules:
   - IP-CIDR,125.209.208.0/20,PROXY,no-resolve
   - IP-CIDR,147.92.128.0/17,PROXY,no-resolve
   - IP-CIDR,203.104.144.0/21,PROXY,no-resolve
+  # > Akamai
+  - DOMAIN,a248.e.akamai.net,PROXY
+  - DOMAIN,a771.dscq.akamai.net,PROXY
+  # > Amazon CloudFront
+  - DOMAIN,d3c33hcgiwev3.cloudfront.net,PROXY
   # > Others
   - DOMAIN-SUFFIX,4shared.com,PROXY
   - DOMAIN-SUFFIX,9cache.com,PROXY
@@ -763,15 +769,18 @@ rules:
   - DOMAIN-SUFFIX,etherscan.io,PROXY
   - DOMAIN-SUFFIX,euronews.com,PROXY
   - DOMAIN-SUFFIX,evozi.com,PROXY
+  - DOMAIN-SUFFIX,exblog.jp,PROXY
   - DOMAIN-SUFFIX,feeder.co,PROXY
   - DOMAIN-SUFFIX,feedly.com,PROXY
   - DOMAIN-SUFFIX,feedx.net,PROXY
   - DOMAIN-SUFFIX,firech.at,PROXY
   - DOMAIN-SUFFIX,flickr.com,PROXY
+  - DOMAIN-SUFFIX,flipboard.com,PROXY
   - DOMAIN-SUFFIX,flitto.com,PROXY
   - DOMAIN-SUFFIX,foreignpolicy.com,PROXY
   - DOMAIN-SUFFIX,fortawesome.com,PROXY
   - DOMAIN-SUFFIX,freebrowser.org,PROXY
+  - DOMAIN-SUFFIX,freetls.fastly.net,PROXY
   - DOMAIN-SUFFIX,freewechat.com,PROXY
   - DOMAIN-SUFFIX,freeweibo.com,PROXY
   - DOMAIN-SUFFIX,friday.tw,PROXY
@@ -831,6 +840,7 @@ rules:
   - DOMAIN-SUFFIX,limbopro.xyz,PROXY
   - DOMAIN-SUFFIX,listennotes.com,PROXY
   - DOMAIN-SUFFIX,livestream.com,PROXY
+  - DOMAIN-SUFFIX,logimg.jp,PROXY
   - DOMAIN-SUFFIX,logmein.com,PROXY
   - DOMAIN-SUFFIX,mail.ru,PROXY
   - DOMAIN-SUFFIX,mailchimp.com,PROXY
@@ -842,6 +852,7 @@ rules:
   - DOMAIN-SUFFIX,mergersandinquisitions.com,PROXY
   - DOMAIN-SUFFIX,mil,PROXY
   - DOMAIN-SUFFIX,mingpao.com,PROXY
+  - DOMAIN-SUFFIX,mixi.jp,PROXY
   - DOMAIN-SUFFIX,mobile01.com,PROXY
   - DOMAIN-SUFFIX,myspace.com,PROXY
   - DOMAIN-SUFFIX,myspacecdn.com,PROXY
@@ -966,11 +977,14 @@ rules:
   - DOMAIN-SUFFIX,whoer.net,PROXY
   - DOMAIN-SUFFIX,wikileaks.org,PROXY
   - DOMAIN-SUFFIX,wikimapia.org,PROXY
+  - DOMAIN-SUFFIX,wikimedia.org,PROXY
+  - DOMAIN-SUFFIX,wikinews.org,PROXY
   - DOMAIN-SUFFIX,wikipedia.org,PROXY
   - DOMAIN-SUFFIX,wikiquote.org,PROXY
   - DOMAIN-SUFFIX,wikiwand.com,PROXY
   - DOMAIN-SUFFIX,winudf.com,PROXY
   - DOMAIN-SUFFIX,wire.com,PROXY
+  - DOMAIN-SUFFIX,wn.com,PROXY
   - DOMAIN-SUFFIX,wordpress.com,PROXY
   - DOMAIN-SUFFIX,workflow.is,PROXY
   - DOMAIN-SUFFIX,worldcat.org,PROXY
@@ -988,12 +1002,18 @@ rules:
   - DOMAIN-SUFFIX,yes-news.com,PROXY
   - DOMAIN-SUFFIX,yomiuri.co.jp,PROXY
   - DOMAIN-SUFFIX,you-get.org,PROXY
+  - DOMAIN-SUFFIX,zaobao.com,PROXY
   - DOMAIN-SUFFIX,zb.com,PROXY
   - DOMAIN-SUFFIX,zello.com,PROXY
   - DOMAIN-SUFFIX,zeronet.io,PROXY
   - DOMAIN-SUFFIX,zoom.us,PROXY
 
+  - DOMAIN,cc.tvbs.com.tw,PROXY
   - DOMAIN,payments-jp.amazon.com,PROXY
+  - DOMAIN,s3-ap-northeast-1.amazonaws.com,PROXY
+  - DOMAIN,s3-ap-southeast-2.amazonaws.com,PROXY
+  - DOMAIN,search.avira.com,PROXY
+
   - DOMAIN-KEYWORD,github,PROXY
   - DOMAIN-KEYWORD,jav,PROXY
   - DOMAIN-KEYWORD,pinterest,PROXY
@@ -1058,7 +1078,6 @@ rules:
   - DOMAIN-SUFFIX,noxinfluencer.com,PROXY
   - DOMAIN-SUFFIX,smartmailcloud.com,PROXY
   - DOMAIN-SUFFIX,weebly.com,PROXY
-  - DOMAIN-SUFFIX,wikimedia.org,PROXY
 
   # (Region-Restricted Access Denied)
   # ---(Apple)---
@@ -1086,10 +1105,11 @@ rules:
   - DOMAIN-SUFFIX,cccat.io,PROXY
   - DOMAIN-SUFFIX,ifixit.com,PROXY
   - DOMAIN-SUFFIX,mangakakalot.com,PROXY
+  - DOMAIN-SUFFIX,wordpress.org,PROXY
 
   # (Network Jitter)
+  # - DOMAIN-SUFFIX,evernote.com,PROXY
   - DOMAIN-SUFFIX,s3.amazonaws.com,PROXY
-  - DOMAIN-SUFFIX,zaobao.com,PROXY
   - DOMAIN-SUFFIX,zaobao.com.sg,PROXY
 
   # China Area Network
@@ -1271,7 +1291,7 @@ rules:
   - DOMAIN-SUFFIX,whatismyip.com,DIRECT
   - DOMAIN,ip.istatmenus.app,DIRECT
   # > Speed Test
-  #   - DOMAIN-SUFFIX,speedtest.net,DIRECT
+  # - DOMAIN-SUFFIX,speedtest.net,DIRECT
   - DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
   - DOMAIN,speedtest.macpaw.com,DIRECT
   # > Private Tracker

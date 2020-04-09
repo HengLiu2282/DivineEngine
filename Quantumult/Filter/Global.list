@@ -163,15 +163,18 @@ DOMAIN-SUFFIX,esoir.be,PROXY
 DOMAIN-SUFFIX,etherscan.io,PROXY
 DOMAIN-SUFFIX,euronews.com,PROXY
 DOMAIN-SUFFIX,evozi.com,PROXY
+DOMAIN-SUFFIX,exblog.jp,PROXY
 DOMAIN-SUFFIX,feeder.co,PROXY
 DOMAIN-SUFFIX,feedly.com,PROXY
 DOMAIN-SUFFIX,feedx.net,PROXY
 DOMAIN-SUFFIX,firech.at,PROXY
 DOMAIN-SUFFIX,flickr.com,PROXY
+DOMAIN-SUFFIX,flipboard.com,PROXY
 DOMAIN-SUFFIX,flitto.com,PROXY
 DOMAIN-SUFFIX,foreignpolicy.com,PROXY
 DOMAIN-SUFFIX,fortawesome.com,PROXY
 DOMAIN-SUFFIX,freebrowser.org,PROXY
+DOMAIN-SUFFIX,freetls.fastly.net,PROXY
 DOMAIN-SUFFIX,freewechat.com,PROXY
 DOMAIN-SUFFIX,freeweibo.com,PROXY
 DOMAIN-SUFFIX,friday.tw,PROXY
@@ -231,6 +234,7 @@ DOMAIN-SUFFIX,lihkg.com,PROXY
 DOMAIN-SUFFIX,limbopro.xyz,PROXY
 DOMAIN-SUFFIX,listennotes.com,PROXY
 DOMAIN-SUFFIX,livestream.com,PROXY
+DOMAIN-SUFFIX,logimg.jp,PROXY
 DOMAIN-SUFFIX,logmein.com,PROXY
 DOMAIN-SUFFIX,mail.ru,PROXY
 DOMAIN-SUFFIX,mailchimp.com,PROXY
@@ -242,6 +246,7 @@ DOMAIN-SUFFIX,mega.nz,PROXY
 DOMAIN-SUFFIX,mergersandinquisitions.com,PROXY
 DOMAIN-SUFFIX,mil,PROXY
 DOMAIN-SUFFIX,mingpao.com,PROXY
+DOMAIN-SUFFIX,mixi.jp,PROXY
 DOMAIN-SUFFIX,mobile01.com,PROXY
 DOMAIN-SUFFIX,myspace.com,PROXY
 DOMAIN-SUFFIX,myspacecdn.com,PROXY
@@ -366,11 +371,14 @@ DOMAIN-SUFFIX,wattpad.com,PROXY
 DOMAIN-SUFFIX,whoer.net,PROXY
 DOMAIN-SUFFIX,wikileaks.org,PROXY
 DOMAIN-SUFFIX,wikimapia.org,PROXY
+DOMAIN-SUFFIX,wikimedia.org,PROXY
+DOMAIN-SUFFIX,wikinews.org,PROXY
 DOMAIN-SUFFIX,wikipedia.org,PROXY
 DOMAIN-SUFFIX,wikiquote.org,PROXY
 DOMAIN-SUFFIX,wikiwand.com,PROXY
 DOMAIN-SUFFIX,winudf.com,PROXY
 DOMAIN-SUFFIX,wire.com,PROXY
+DOMAIN-SUFFIX,wn.com,PROXY
 DOMAIN-SUFFIX,wordpress.com,PROXY
 DOMAIN-SUFFIX,workflow.is,PROXY
 DOMAIN-SUFFIX,worldcat.org,PROXY
@@ -394,7 +402,10 @@ DOMAIN-SUFFIX,zello.com,PROXY
 DOMAIN-SUFFIX,zeronet.io,PROXY
 DOMAIN-SUFFIX,zoom.us,PROXY
 
+DOMAIN,cc.tvbs.com.tw,PROXY
 DOMAIN,payments-jp.amazon.com,PROXY
+DOMAIN,s3-ap-northeast-1.amazonaws.com,PROXY
+DOMAIN,s3-ap-southeast-2.amazonaws.com,PROXY
 DOMAIN,search.avira.com,PROXY
 
 DOMAIN-KEYWORD,github,PROXY
@@ -461,7 +472,6 @@ DOMAIN-SUFFIX,telesco.pe,PROXY
 DOMAIN-SUFFIX,noxinfluencer.com,PROXY
 DOMAIN-SUFFIX,smartmailcloud.com,PROXY
 DOMAIN-SUFFIX,weebly.com,PROXY
-DOMAIN-SUFFIX,wikimedia.org,PROXY
 
 # (Region-Restricted Access Denied)
 # ---(Apple)---
@@ -489,6 +499,7 @@ DOMAIN-SUFFIX,bing.com,PROXY
 DOMAIN-SUFFIX,cccat.io,PROXY
 DOMAIN-SUFFIX,ifixit.com,PROXY
 DOMAIN-SUFFIX,mangakakalot.com,PROXY
+DOMAIN-SUFFIX,wordpress.org,PROXY
 
 # (Network Jitter)
 # DOMAIN-SUFFIX,evernote.com,PROXY

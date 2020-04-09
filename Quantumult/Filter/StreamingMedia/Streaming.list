@@ -212,6 +212,7 @@ USER-AGENT,PBS*,Streaming
 DOMAIN-SUFFIX,pbs.org,Streaming
 # > Pornhub
 DOMAIN-SUFFIX,phncdn.com,Streaming
+DOMAIN-SUFFIX,phprcdn.com,Streaming
 DOMAIN-SUFFIX,pornhub.com,Streaming
 DOMAIN-SUFFIX,pornhubpremium.com,Streaming
 # > 台湾好
