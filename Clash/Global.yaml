@@ -1214,6 +1214,7 @@ rules:
   - DOMAIN-SUFFIX,meipai.com,DIRECT
   # > MI
   - DOMAIN-SUFFIX,duokan.com,DIRECT
+  - DOMAIN-SUFFIX,mi.com,DIRECT
   - DOMAIN-SUFFIX,mi-img.com,DIRECT
   - DOMAIN-SUFFIX,miui.com,DIRECT
   - DOMAIN-SUFFIX,miwifi.com,DIRECT
