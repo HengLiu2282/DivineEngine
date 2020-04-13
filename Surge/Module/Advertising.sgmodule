@@ -2,6 +2,9 @@
 #!desc=Advertising Rewrite for Surge iOS
 #!system=ios
 
+[General]
+force-http-engine-hosts = %APPEND% 123.59.31.1,119.18.193.135,122.14.246.33,175.102.178.52
+
 [URL Rewrite]
 # 0~9
 # > 21经济 - api.21jingji.com
