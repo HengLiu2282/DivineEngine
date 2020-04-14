@@ -4,3 +4,5 @@ USER-AGENT,Google.Drive*,GoogleDrive
 USER-AGENT,*com.google.Drive*,GoogleDrive
 DOMAIN-SUFFIX,docs.google.com,GoogleDrive
 DOMAIN-SUFFIX,drive.google.com,GoogleDrive
+DOMAIN-SUFFIX,googledrive.com,GoogleDrive
+DOMAIN-SUFFIX,googleusercontent.com,GoogleDrive
