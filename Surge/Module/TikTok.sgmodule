@@ -1,0 +1,11 @@
+#!name=TikTok
+#!desc=Unlock TikTok By wzw1997007
+#!system=ios
+
+[URL Rewrite]
+(?<=_region=)CN(?=&) JP 302
+(?<=&app_version=)15..(?=.?.?&) 1 302
+(?<=\?version_code=)15..(?=.?.?&) 1 302
+
+[MITM]
+hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com
