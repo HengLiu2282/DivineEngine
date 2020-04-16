@@ -148,7 +148,7 @@ force-http-engine-hosts = %APPEND% 123.59.31.1,119.18.193.135,122.14.246.33,175.
 
 # G
 # > Google - *.googlevideo.com,youtubei.googleapis.com,*.youtube.com
-^(http|https):\/\/.+\.googlevideo\.com\/.+(&oad|ctier) - reject
+# ^(http|https):\/\/.+\.googlevideo\.com\/.+(&oad|ctier) - reject
 ^(http|https):\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ - reject
 ^(http|https):\/\/\w+\.youtube\.com\/api\/stats\/(ads|.+adformat) - reject
 ^(http|https):\/\/\w+\.youtube\.com\/(pagead|ptracking) - reject
