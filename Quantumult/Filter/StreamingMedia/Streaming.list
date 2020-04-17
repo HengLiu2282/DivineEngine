@@ -219,6 +219,15 @@ DOMAIN-SUFFIX,pornhubpremium.com,Streaming
 USER-AGENT,TaiwanGood*,Streaming
 DOMAIN-SUFFIX,skyking.com.tw,Streaming
 DOMAIN,hamifans.emome.net,Streaming
+# > TikTok
+USER-AGENT,TikTok*,Streaming
+DOMAIN-SUFFIX,byteoversea.com,Streaming
+DOMAIN-SUFFIX,ibytedtos.com,Streaming
+DOMAIN-SUFFIX,muscdn.com,Streaming
+DOMAIN-SUFFIX,musical.ly,Streaming
+DOMAIN-SUFFIX,tiktokcdn.com,Streaming
+DOMAIN-SUFFIX,tiktokv.com,Streaming
+DOMAIN-KEYWORD,-tiktokcdn-com,Streaming
 # > Twitch
 DOMAIN-SUFFIX,twitch.tv,Streaming
 DOMAIN-SUFFIX,twitchcdn.net,Streaming
