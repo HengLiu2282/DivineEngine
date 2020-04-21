@@ -1,0 +1,222 @@
+# HTTP 端口
+port: 7890
+
+# SOCKS5 端口
+socks-port: 7891
+
+# Linux 及 macOS 的 redir 端口
+# redir-port: 7892
+
+allow-lan: false
+
+# 仅适用于设置 allow-lan 为 true 时
+# "*": 绑定所有 IP 地址
+# 192.168.122.11: 绑定单个 IPv4 地址
+# "[aaaa::a8aa:ff:fe09:57d8]": 绑定单个 IPv6 地址
+# bind-address: "*"
+
+# Rule / Global / Direct (默认为 Rule 模式)
+mode: Rule
+
+# 设置输出日志的等级 (默认为 info)
+# info / warning / error / debug / silent
+log-level: info
+
+# RESTful API for clash
+external-controller: 127.0.0.1:9090
+
+# you can put the static web resource (such as clash-dashboard) to a directory, and clash would serve in `${API}/ui`
+# input is a relative path to the configuration directory or an absolute path
+# external-ui: folder
+
+# Secret for RESTful API (Optional)
+# secret: ""
+
+# 实验性功能
+experimental:
+  ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为true
+  # interface-name: en0 # 出站接口名称
+
+# 本地 SOCKS5/HTTP(S) 服务器认证
+# authentication:
+#  - "user1:pass1"
+#  - "user2:pass2"
+
+# # 实验性 hosts, 支持通配符（如 *.clash.dev 甚至 *.foo.*.examplex.com ）
+# # 静态域的优先级高于通配符域（foo.example.com > *.example.com）
+# hosts:
+#   '*.clash.dev': 127.0.0.1
+#   'alpha.clash.dev': '::1'
+
+# dns:
+  # enable: true # set true to enable dns (default is false)
+  # ipv6: false # default is false
+  # listen: 0.0.0.0:53
+  # # default-nameserver: # resolve dns nameserver host, should fill pure IP
+  # #   - 114.114.114.114
+  # #   - 8.8.8.8
+  # enhanced-mode: redir-host # or fake-ip
+  # # fake-ip-range: 198.18.0.1/16 # if you don't know what it is, don't change it
+  # fake-ip-filter: # fake ip white domain list
+  #   - '*.lan'
+  #   - localhost.ptlogin2.qq.com
+  # nameserver:
+  #   - 114.114.114.114
+  #   - tls://dns.rubyfish.cn:853 # dns over tls
+  #   - https://1.1.1.1/dns-query # dns over https
+  # fallback: # concurrent request with nameserver, fallback used when GEOIP country isn't CN
+  #   - tcp://1.1.1.1
+  # fallback-filter:
+  #   geoip: true # default
+  #   ipcidr: # ips in these subnets will be considered polluted
+  #     - 240.0.0.0/4
+
+proxies:
+# 支持的协议及加密算法示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
+
+  # Shadowsocks(Websocket + TLS)
+  - name: "CN1"
+    type: ss
+    server: server
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: "password"
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket # no QUIC now
+      tls: true # wss
+      # skip-cert-verify: true
+      # host: bing.com
+      path: "/s"
+      # mux: true
+      # headers:
+      #   custom: value
+
+  # VMess(Websocket + TLS)
+  - name: "CN2"
+    type: vmess
+    server: v2ray.cool
+    port: 443
+    uuid: a3482e88-686a-4a58-8126-99c9df64b7bf
+    alterId: 32
+    cipher: auto
+    # udp: true
+    tls: true
+    # skip-cert-verify: true
+    network: ws
+    ws-path: /v
+    # ws-headers:
+    #   Host: v2ray.com
+
+  # Trojan
+  - name: "CN3"
+    type: trojan
+    server: server
+    port: 443
+    password: yourpsk
+    # udp: true
+    # sni: example.com # aka server name
+    # alpn:
+    #   - h2
+    #   - http/1.1
+    # skip-cert-verify: true
+
+proxy-groups:
+# 策略组示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
+
+  # Fallback
+  - name: "Fallback"
+    type: fallback
+    proxies:
+      - CN1
+      - CN2
+      - CN3
+    url: 'http://cp.cloudflare.com/generate_204'
+    interval: 300
+
+  # 代理节点选择
+  - name: "PROXY"
+    type: select
+    proxies:
+      - Fallback
+      - CN1
+      - CN2
+      - CN3
+
+rules:
+  # (Video)
+  # > Acfun
+  - DOMAIN-SUFFIX,acfun.cn,PROXY
+  - DOMAIN-SUFFIX,aixifan.com,PROXY
+  # > bilibili
+  - DOMAIN-SUFFIX,bilivideo.com,PROXY
+  - DOMAIN,api.bilibili.com,PROXY
+  # > Tencent Video
+  - DOMAIN-SUFFIX,video.qq.com,PROXY
+  - DOMAIN-SUFFIX,v.qq.com,PROXY
+  # > iQiyi
+  - DOMAIN-SUFFIX,iqiyi.com,PROXY
+  - DOMAIN-SUFFIX,71edge.com,PROXY
+  # > Youku
+  - DOMAIN-SUFFIX,soku.com,PROXY
+  - DOMAIN-SUFFIX,youku.com,PROXY
+  - DOMAIN-SUFFIX,ykimg.com,PROXY
+  # > XiGua
+  - DOMAIN-SUFFIX,ixigua.com,PROXY
+  - DOMAIN-SUFFIX,snssdk.com,PROXY
+  # > HunanTV
+  - DOMAIN-SUFFIX,hitv.com,PROXY
+  - DOMAIN-SUFFIX,hunantv.com,PROXY
+  - DOMAIN-SUFFIX,mgtv.com,PROXY
+  # > Le
+  - DOMAIN-SUFFIX,le.com,PROXY
+  # > PPLive
+  - DOMAIN-SUFFIX,pplive.cn,PROXY
+  - DOMAIN-SUFFIX,pptv.com,PROXY
+  # > Sohu Video
+  - DOMAIN-SUFFIX,itc.cn,PROXY
+  - DOMAIN-SUFFIX,sohu.com,PROXY
+  # > Migu Video
+  - DOMAIN-SUFFIX,cmvideo.cn,PROXY
+  - DOMAIN-SUFFIX,miguvideo.com,PROXY
+
+  # (Music)
+  # > QQ Music
+  - DOMAIN-SUFFIX,music.qq.com,PROXY
+  - DOMAIN-SUFFIX,music.tc.qq.com,PROXY
+  - DOMAIN-SUFFIX,qqmusic.qq.com,PROXY
+  - DOMAIN-SUFFIX,tencentmusic.com,PROXY
+  - DOMAIN-SUFFIX,y.qq.com,PROXY
+  - DOMAIN,aqqmusic.tc.qq.com,PROXY
+  - DOMAIN,moo.qq.com,PROXY
+  # > China Music Corp
+  - DOMAIN-SUFFIX,kuwo.cn,PROXY
+  - DOMAIN-SUFFIX,kugou.com,PROXY
+  # > Netease Cloud Music
+  - DOMAIN-SUFFIX,music.163.com,PROXY
+  - DOMAIN-SUFFIX,music.126.net,PROXY
+  - DOMAIN,mam.netease.com,PROXY
+  - DOMAIN,api.iplay.163.com,PROXY
+  # > Qianqian Music
+  - DOMAIN-SUFFIX,qianqian.com,PROXY
+  - DOMAIN-SUFFIX,taihe.com,PROXY
+  # > Migu Music
+  - DOMAIN-SUFFIX,migu.cn,PROXY
+  # > Xiaomi
+  - DOMAIN-SUFFIX,ai.xiaomi.com,PROXY
+  - DOMAIN-SUFFIX,music.xiaomi.com,PROXY
+  - DOMAIN-SUFFIX,dmhmusic.com,PROXY
+
+  # Local Area Network
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - IP-CIDR,224.0.0.0/4,DIRECT
+
+  # GeoIP China
+  - GEOIP,CN,PROXY
+
+  - MATCH,DIRECT
