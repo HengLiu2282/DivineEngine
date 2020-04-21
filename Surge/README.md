@@ -67,7 +67,7 @@ Advertising.list 和 Rewrite 中的 reject 是专门针对 iOS 应用而写，�
 
 另外，以节省代理服务器流量出发，且（除了哔哩哔哩）视频内容均拥有大陆 CDN 节点，所以只有哔哩哔哩港澳台限定的部分视频内容才会走代理。
 
-**[Apple](https://github.com/DivineEngine/Profiles/tree/master/Surge/Ruleset/Apple)**：
+**[Apple](https://github.com/DivineEngine/Profiles/tree/master/Surge/Ruleset/Extra/Apple)**：
 
 （如果要使用）Apple 服务的 list 除了 Apple.list 均需至少放置于 Global.list 前面，而 Apple.list 需放在 Global.list 和 China.list 之间。
 
