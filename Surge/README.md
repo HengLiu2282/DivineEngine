@@ -6,10 +6,11 @@ Surge 是一个面向高级用户的网络工具箱，也是一个高性能的 H
 
 ## 规则
 
-| 版本    | 下载                                                         | 描述               |
-| ------- | ------------------------------------------------------------ | ------------------ |
-| Legacy  | https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Legacy.conf | Surge 2            |
-| NextGen | https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/NextGen.conf | Surge 3 及后续版本 |
+| 版本   | 下载                                                         | 描述                                           |
+| ------ | ------------------------------------------------------------ | ---------------------------------------------- |
+| Global | https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Legacy.conf | 盘古开天辟地天地共有，凭什么他玉皇大帝独掌乾坤 |
+| Global | https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/NextGen.conf |                                                |
+| China  | https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/China.conf | 回花果山水帘洞                                 |
 
 ## 帮助
 
