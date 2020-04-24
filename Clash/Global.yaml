@@ -44,7 +44,8 @@ experimental:
 
 # # 实验性 hosts, 支持通配符（如 *.clash.dev 甚至 *.foo.*.examplex.com ）
 # # 静态域的优先级高于通配符域（foo.example.com > *.example.com）
-# hosts:
+hosts:
+  'mtalk.google.com': 108.177.125.188
 #   '*.clash.dev': 127.0.0.1
 #   'alpha.clash.dev': '::1'
 
