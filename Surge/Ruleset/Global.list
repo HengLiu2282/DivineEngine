@@ -503,6 +503,8 @@ DOMAIN-SUFFIX,mangakakalot.com
 DOMAIN-SUFFIX,wordpress.org
 
 # (Network Jitter)
+# > Fix download or update is stuck in App Store,and when change the Apple ID region,the payment information can be selected by none.
+DOMAIN-KEYWORD,-buy.itunes.apple.com
 # DOMAIN-SUFFIX,evernote.com
 DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,zaobao.com.sg

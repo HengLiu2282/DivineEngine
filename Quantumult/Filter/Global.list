@@ -502,6 +502,8 @@ DOMAIN-SUFFIX,mangakakalot.com,PROXY
 DOMAIN-SUFFIX,wordpress.org,PROXY
 
 # (Network Jitter)
+# > Fix download or update is stuck in App Store,and when change the Apple ID region,the payment information can be selected by none.
+DOMAIN-KEYWORD,-buy.itunes.apple.com,PROXY
 # DOMAIN-SUFFIX,evernote.com,PROXY
 DOMAIN-SUFFIX,s3.amazonaws.com,PROXY
 DOMAIN-SUFFIX,zaobao.com.sg,PROXY
