@@ -137,7 +137,7 @@ force-http-engine-hosts = %APPEND% 123.59.31.1,119.18.193.135,122.14.246.33,175.
 
 # G
 # > Google - *.googlevideo.com,youtubei.googleapis.com,*.youtube.com
-^(http|https):\/\/[A-Za-z0-9\-]+\.googlevideo\.com\/[A-Za-z0-9?=&.]+(&oad|ctier)
+# ^(http|https):\/\/[A-Za-z0-9\-]+\.googlevideo\.com\/[A-Za-z0-9?=&.]+(&oad|ctier) - reject
 ^(http|https):\/\/\w+\.youtube\.com\/api\/stats\/ads - reject
 ^(http|https):\/\/\w+\.youtube\.com\/(pagead|ptracking) - reject
 # > Gofun - gateway.shouqiev.com
@@ -330,7 +330,7 @@ force-http-engine-hosts = %APPEND% 123.59.31.1,119.18.193.135,122.14.246.33,175.
 # > 腾讯体育 - news.ssp.qq.com
 ^(http|https):\/\/news\.ssp\.qq\.com\/app - reject
 # > 微信 - mp.weixin.qq.com
-^(http|https):\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad) - reject
+^(http|https):\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement) - reject
 # ---
 # > 太平洋电脑网/汽车网 - mrobot.pconline.com.cn,mrobot.pcauto.com.cn
 ^(http|https):\/\/agent-count\.pconline\.com\.cn\/counter\/adAnalyse\/ - reject
