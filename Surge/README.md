@@ -4,8 +4,6 @@ Surge 是一个面向高级用户的网络工具箱，也是一个高性能的 H
 
 [官方网站](https://nssurge.com/) / [手册](http://manual.nssurge.com/) / [FAQ](https://nssurge.com/support) / [社区](https://community.nssurge.com/)
 
-
-
 ## 配置
 
 欲往何方？

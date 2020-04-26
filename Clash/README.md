@@ -2,15 +2,21 @@
 
 A rule-based tunnel in Go.
 
-## 规则
+[Github]](https://github.com/Dreamacro/clash)
 
-| 版本   | 下载                                                         | 描述                                           |
-| ------ | ------------------------------------------------------------ | ---------------------------------------------- |
-| Global | https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/Global.conf | 盘古开天辟地天地共有，凭什么他玉皇大帝独掌乾坤 |
-| China  | https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/China.conf | 回花果山水帘洞                                 |
+## 配置
 
-## 帮助
+欲往何方？
 
-**官方示例**
+<details>
+  <summary>盘古开天辟地天地共有，凭什么他玉皇大帝独掌乾坤</summary>
+  https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/Global.yaml
+</details>
 
-- [Github](https://github.com/Dreamacro/clash)
+<details>
+  <summary>花果山水帘洞</summary>
+  https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/China.yaml
+</details>                            |
+## 附注
+
+一些增强分流体验的规则集可到 Surge 目录下查看。
