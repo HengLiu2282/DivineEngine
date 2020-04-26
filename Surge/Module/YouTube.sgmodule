@@ -1,0 +1,9 @@
+#!name=YouTube Advertising Block
+#!desc=跳过 YouTube 视频片头广告，YouTube Premium 勿使用否则遇片头广告卡黑屏。
+#!system=ios
+
+[URL Rewrite]
+^(http|https):\/\/[\w-]+\.googlevideo\.com\/[\w?=&.]+(&oad|ctier) - reject
+
+[MITM]
+hostname = %APPEND% *.googlevideo.com 
