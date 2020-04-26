@@ -12,11 +12,11 @@ Quantumult X 是一款功能强大的网络工具，适用于 Web 开发人员�
   <summary>盘古开天辟地天地共有，凭什么他玉皇大帝独掌乾坤</summary>
   https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Quantumult/Global.conf
 </details>
-
 <details>
   <summary>花果山水帘洞</summary>
   https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Quantumult/China.conf
-</details>                           |
+</details>                           
+
 
 #### 一些特有的问题的注意
 
