@@ -1,0 +1,5 @@
+#!name=MitM All Hostnames
+#!desc=在所有端口为 443 的主机名上执行 MitM。仅推荐用于抓包时启用，如果不知道这是作何用途不要使用！
+
+[MITM]
+hostname = -*.apple.com, -*.icloud.com, -*.mzstatic.com, -*.crashlytics.com, -*.facebook.com, -*.instagram.com, *
