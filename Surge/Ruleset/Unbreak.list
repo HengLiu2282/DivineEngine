@@ -1,9 +1,13 @@
 # Unbreak
 # > General
+USER-AGENT,archero*
 USER-AGENT,coffeecorp*
 USER-AGENT,Coffee%20Corp*
 USER-AGENT,restaurant-mobile*
 DOMAIN,app.adjust.com
+# > Alibaba
+DOMAIN,log.mmstat.com
+DOMAIN,sycm.mmstat.com
 # > Google
 DOMAIN-SUFFIX,googletraveladservices.com
 DOMAIN,dl.google.com

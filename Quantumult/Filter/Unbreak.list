@@ -1,12 +1,15 @@
 # Unbreak
 # > General
+USER-AGENT,archero*,DIRECT
 USER-AGENT,coffeecorp*,DIRECT
+USER-AGENT,Coffee%20Corp*,DIRECT
 USER-AGENT,restaurant-mobile*,DIRECT
 DOMAIN,app.adjust.com,DIRECT
+# > Alibaba
+DOMAIN,log.mmstat.com,DIRECT
+DOMAIN,sycm.mmstat.com,DIRECT
 # > Google
 DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
-DOMAIN,analyticsinsights-pa.googleapis.com,PROXY
-DOMAIN,analyticsreporting.googleapis.com,PROXY
 DOMAIN,dl.google.com,DIRECT
 DOMAIN,mtalk.google.com,DIRECT
 # > Tencent
