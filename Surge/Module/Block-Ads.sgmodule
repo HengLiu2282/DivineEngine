@@ -167,7 +167,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,123.59.31.1,119.18.193.135,1
 
 # G
 # > Google - *.googlevideo.com,*.youtube.com
-^(http|https):\/\/[\w-]+\.googlevideo\.com\/[\w?=&.]+(&oad|ctier) - reject
+# ^(http|https):\/\/[\w-]+\.googlevideo\.com\/.+(&oad|ctier) - reject
 ^(http|https):\/\/\w+\.youtube\.com\/api\/stats\/ads - reject
 ^(http|https):\/\/\w+\.youtube\.com\/(pagead|ptracking) - reject
 # > Gofun - gateway.shouqiev.com
