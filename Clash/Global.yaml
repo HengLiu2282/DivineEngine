@@ -445,6 +445,11 @@ rules:
 - DOMAIN-SUFFIX,amazonvideo.com,Streaming
 - DOMAIN-SUFFIX,media-amazon.com,Streaming
 - DOMAIN-SUFFIX,primevideo.com,Streaming
+# > Apple TV
+- DOMAIN-SUFFIX,tv.apple.com,Streaming
+- DOMAIN,hls.itunes.apple.com,Streaming
+- DOMAIN,hls-amt.itunes.apple.com,Streaming
+- DOMAIN,play-edge.itunes.apple.com,Streaming
 # > Bahamut
 # USER-AGENT,Anime*,Streaming
 - DOMAIN-SUFFIX,bahamut.com.tw,Streaming
@@ -794,10 +799,7 @@ rules:
 - DOMAIN-SUFFIX,flitto.com,PROXY
 - DOMAIN-SUFFIX,foreignpolicy.com,PROXY
 - DOMAIN-SUFFIX,fortawesome.com,PROXY
-- DOMAIN-SUFFIX,freebrowser.org,PROXY
 - DOMAIN-SUFFIX,freetls.fastly.net,PROXY
-- DOMAIN-SUFFIX,freewechat.com,PROXY
-- DOMAIN-SUFFIX,freeweibo.com,PROXY
 - DOMAIN-SUFFIX,friday.tw,PROXY
 - DOMAIN-SUFFIX,ft.com,PROXY
 - DOMAIN-SUFFIX,ftchinese.com,PROXY
@@ -869,6 +871,7 @@ rules:
 - DOMAIN-SUFFIX,mingpao.com,PROXY
 - DOMAIN-SUFFIX,mixi.jp,PROXY
 - DOMAIN-SUFFIX,mobile01.com,PROXY
+- DOMAIN-SUFFIX,mubi.com,PROXY
 - DOMAIN-SUFFIX,myspace.com,PROXY
 - DOMAIN-SUFFIX,myspacecdn.com,PROXY
 - DOMAIN-SUFFIX,nanyang.com,PROXY
@@ -885,6 +888,7 @@ rules:
 - DOMAIN-SUFFIX,nrk.no,PROXY
 - DOMAIN-SUFFIX,nuget.org,PROXY
 - DOMAIN-SUFFIX,nyaa.si,PROXY
+- DOMAIN-SUFFIX,nyaa.si,PROXY
 - DOMAIN-SUFFIX,nyt.com,PROXY
 - DOMAIN-SUFFIX,nytchina.com,PROXY
 - DOMAIN-SUFFIX,nytcn.me,PROXY
@@ -899,8 +903,8 @@ rules:
 - DOMAIN-SUFFIX,orientaldaily.com.my,PROXY
 - DOMAIN-SUFFIX,overcast.fm,PROXY
 - DOMAIN-SUFFIX,paltalk.com,PROXY
-- DOMAIN-SUFFIX,pao-pao.net,PROXY
 - DOMAIN-SUFFIX,parsevideo.com,PROXY
+- DOMAIN-SUFFIX,pawoo.net,PROXY
 - DOMAIN-SUFFIX,pbxes.com,PROXY
 - DOMAIN-SUFFIX,pcdvd.com.tw,PROXY
 - DOMAIN-SUFFIX,pchome.com.tw,PROXY
@@ -1071,6 +1075,7 @@ rules:
 - DOMAIN-SUFFIX,recaptcha.net,PROXY
 - DOMAIN-SUFFIX,shattered.io,PROXY
 - DOMAIN-SUFFIX,synergyse.com,PROXY
+- DOMAIN-SUFFIX,telephony.goog,PROXY
 - DOMAIN-SUFFIX,tensorflow.org,PROXY
 - DOMAIN-SUFFIX,tfhub.dev,PROXY
 - DOMAIN-SUFFIX,tiltbrush.com,PROXY
@@ -1100,11 +1105,6 @@ rules:
 - DOMAIN-SUFFIX,appsto.re,PROXY
 # > iBooks Store download
 - DOMAIN,books.itunes.apple.com,PROXY
-# > Apple TV
-- DOMAIN-SUFFIX,tv.apple.com,PROXY
-- DOMAIN,hls.itunes.apple.com,PROXY
-- DOMAIN,hls-amt.itunes.apple.com,PROXY
-- DOMAIN,play-edge.itunes.apple.com,PROXY
 # > App Store Preview
 - DOMAIN,apps.apple.com,PROXY
 - DOMAIN,itunes.apple.com,PROXY
@@ -1112,6 +1112,7 @@ rules:
 - DOMAIN,api-glb-sea.smoot.apple.com,PROXY
 # > Dictionary
 - DOMAIN,lookup-api.apple.com,PROXY
+- PROCESS-NAME,LookupViewService,PROXY
 # > Apple Music Web
 - DOMAIN,beta.music.apple.com,PROXY
 # ------
@@ -1120,12 +1121,14 @@ rules:
 - DOMAIN-SUFFIX,cccat.io,PROXY
 - DOMAIN-SUFFIX,ifixit.com,PROXY
 - DOMAIN-SUFFIX,mangakakalot.com,PROXY
-- DOMAIN-SUFFIX,wordpress.org,PROXY
+- DOMAIN-SUFFIX,shopeemobile.com,PROXY
 
 # (Network Jitter)
 # > Fix download or update is stuck in App Store,and when change the Apple ID region,the payment information can be selected by none.
 - DOMAIN-KEYWORD,-buy.itunes.apple.com,PROXY
 # - DOMAIN-SUFFIX,evernote.com,PROXY
+- DOMAIN-SUFFIX,inkbunny.net,PROXY
+- DOMAIN-SUFFIX,metapix.net,PROXY
 - DOMAIN-SUFFIX,s3.amazonaws.com,PROXY
 - DOMAIN-SUFFIX,zaobao.com.sg,PROXY
 
@@ -1133,13 +1136,6 @@ rules:
 # > 360
 - DOMAIN-SUFFIX,qhres.com,DIRECT
 - DOMAIN-SUFFIX,qhimg.com,DIRECT
-# > Akamai
-# - DOMAIN-SUFFIX,akadns.net,DIRECT
-# - DOMAIN-SUFFIX,akamai.net,DIRECT
-# - DOMAIN-SUFFIX,akamaiedge.net,DIRECT
-# - DOMAIN-SUFFIX,akamaihd.net,DIRECT
-# - DOMAIN-SUFFIX,akamaistream.net,DIRECT
-# - DOMAIN-SUFFIX,akamaized.net,DIRECT
 # > Alibaba
 # USER-AGENT,%E4%BC%98%E9%85%B7*,DIRECT
 - DOMAIN-SUFFIX,alibaba.com,DIRECT
@@ -1260,7 +1256,6 @@ rules:
 - DOMAIN-SUFFIX,ydstatic.com,DIRECT
 # > PayPal
 # USER-AGENT,PayPal*,DIRECT
-- DOMAIN-KEYWORD,paypal,DIRECT
 - DOMAIN-SUFFIX,paypal.com,DIRECT
 - DOMAIN-SUFFIX,paypalobjects.com,DIRECT
 # > Sina
@@ -1286,10 +1281,12 @@ rules:
 - DOMAIN-SUFFIX,myapp.com,DIRECT
 - DOMAIN-SUFFIX,myqcloud.com,DIRECT
 - DOMAIN-SUFFIX,qq.com,DIRECT
+- DOMAIN-SUFFIX,qqmail.com,DIRECT
 - DOMAIN-SUFFIX,servicewechat.com,DIRECT
 - DOMAIN-SUFFIX,tencent.com,DIRECT
 - DOMAIN-SUFFIX,tencent-cloud.net,DIRECT
 - DOMAIN-SUFFIX,tenpay.com,DIRECT
+- DOMAIN-SUFFIX,wechat.com,DIRECT
 - DOMAIN,file-igamecj.akamaized.net,DIRECT
 # > Content Delivery Network
 - DOMAIN-SUFFIX,ccgslb.com,DIRECT
@@ -1313,6 +1310,7 @@ rules:
 - DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
 - DOMAIN,speedtest.macpaw.com,DIRECT
 # > Private Tracker
+- DOMAIN-SUFFIX,animebytes.tv,DIRECT
 - DOMAIN-SUFFIX,awesome-hd.me,DIRECT
 - DOMAIN-SUFFIX,broadcasthe.net,DIRECT
 - DOMAIN-SUFFIX,chdbits.co,DIRECT
@@ -1327,6 +1325,7 @@ rules:
 - DOMAIN-SUFFIX,jpopsuki.eu,DIRECT
 - DOMAIN-SUFFIX,keepfrds.com,DIRECT
 - DOMAIN-SUFFIX,madsrevolution.net,DIRECT
+- DOMAIN-SUFFIX,myanonamouse.net,DIRECT
 - DOMAIN-SUFFIX,m-team.cc,DIRECT
 - DOMAIN-SUFFIX,morethan.tv,DIRECT
 - DOMAIN-SUFFIX,nanyangpt.com,DIRECT
@@ -1515,7 +1514,6 @@ rules:
 - DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
 
 # Local Area Network
-- DOMAIN-SUFFIX,local,DIRECT
 - IP-CIDR,192.168.0.0/16,DIRECT
 - IP-CIDR,10.0.0.0/8,DIRECT
 - IP-CIDR,172.16.0.0/12,DIRECT
@@ -1523,8 +1521,9 @@ rules:
 - IP-CIDR,100.64.0.0/10,DIRECT
 - IP-CIDR,224.0.0.0/4,DIRECT
 
-# DNSPod Public DNS+
-- IP-CIDR,119.28.28.28/32,DIRECT,no-resolve
+# Tencent
+- IP-CIDR,119.28.28.28/32,DIRECT
+- IP-CIDR,182.254.116.0/24,DIRECT
 # GeoIP China
 - GEOIP,CN,DIRECT
 

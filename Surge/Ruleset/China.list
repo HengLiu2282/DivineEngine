@@ -2,13 +2,6 @@
 # > 360
 DOMAIN-SUFFIX,qhres.com
 DOMAIN-SUFFIX,qhimg.com
-# > Akamai
-# DOMAIN-SUFFIX,akadns.net
-# DOMAIN-SUFFIX,akamai.net
-# DOMAIN-SUFFIX,akamaiedge.net
-# DOMAIN-SUFFIX,akamaihd.net
-# DOMAIN-SUFFIX,akamaistream.net
-# DOMAIN-SUFFIX,akamaized.net
 # > Alibaba
 USER-AGENT,%E4%BC%98%E9%85%B7*
 DOMAIN-SUFFIX,alibaba.com
@@ -129,7 +122,6 @@ DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,ydstatic.com
 # > PayPal
 USER-AGENT,PayPal*
-DOMAIN-KEYWORD,paypal
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypalobjects.com
 # > Sina
@@ -155,10 +147,12 @@ DOMAIN-SUFFIX,igamecj.com
 DOMAIN-SUFFIX,myapp.com
 DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,qqmail.com
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tencent-cloud.net
 DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,wechat.com
 DOMAIN,file-igamecj.akamaized.net
 # > Content Delivery Network
 DOMAIN-SUFFIX,ccgslb.com
@@ -182,6 +176,7 @@ DOMAIN,ip.istatmenus.app
 DOMAIN-SUFFIX,netspeedtestmaster.com
 DOMAIN,speedtest.macpaw.com
 # > Private Tracker
+DOMAIN-SUFFIX,animebytes.tv
 DOMAIN-SUFFIX,awesome-hd.me
 DOMAIN-SUFFIX,broadcasthe.net
 DOMAIN-SUFFIX,chdbits.co
@@ -196,6 +191,7 @@ DOMAIN-SUFFIX,icetorrent.org
 DOMAIN-SUFFIX,jpopsuki.eu
 DOMAIN-SUFFIX,keepfrds.com
 DOMAIN-SUFFIX,madsrevolution.net
+DOMAIN-SUFFIX,myanonamouse.net
 DOMAIN-SUFFIX,m-team.cc
 DOMAIN-SUFFIX,morethan.tv
 DOMAIN-SUFFIX,nanyangpt.com
@@ -383,5 +379,6 @@ DOMAIN-SUFFIX,zhuihd.com
 DOMAIN,download.jetbrains.com
 DOMAIN,images-cn.ssl-images-amazon.com
 
-# DNSPod Public DNS+
-IP-CIDR,119.28.28.28/32,no-resolve
+# Tencent
+IP-CIDR,119.28.28.28/32
+IP-CIDR,182.254.116.0/24

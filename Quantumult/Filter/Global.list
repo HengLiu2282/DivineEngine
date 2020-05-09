@@ -176,10 +176,7 @@ DOMAIN-SUFFIX,flipboard.com,PROXY
 DOMAIN-SUFFIX,flitto.com,PROXY
 DOMAIN-SUFFIX,foreignpolicy.com,PROXY
 DOMAIN-SUFFIX,fortawesome.com,PROXY
-DOMAIN-SUFFIX,freebrowser.org,PROXY
 DOMAIN-SUFFIX,freetls.fastly.net,PROXY
-DOMAIN-SUFFIX,freewechat.com,PROXY
-DOMAIN-SUFFIX,freeweibo.com,PROXY
 DOMAIN-SUFFIX,friday.tw,PROXY
 DOMAIN-SUFFIX,ft.com,PROXY
 DOMAIN-SUFFIX,ftchinese.com,PROXY
@@ -251,6 +248,7 @@ DOMAIN-SUFFIX,mil,PROXY
 DOMAIN-SUFFIX,mingpao.com,PROXY
 DOMAIN-SUFFIX,mixi.jp,PROXY
 DOMAIN-SUFFIX,mobile01.com,PROXY
+DOMAIN-SUFFIX,mubi.com,PROXY
 DOMAIN-SUFFIX,myspace.com,PROXY
 DOMAIN-SUFFIX,myspacecdn.com,PROXY
 DOMAIN-SUFFIX,nanyang.com,PROXY
@@ -267,6 +265,7 @@ DOMAIN-SUFFIX,now.com,PROXY
 DOMAIN-SUFFIX,nrk.no,PROXY
 DOMAIN-SUFFIX,nuget.org,PROXY
 DOMAIN-SUFFIX,nyaa.si,PROXY
+DOMAIN-SUFFIX,nyaa.si,PROXY
 DOMAIN-SUFFIX,nyt.com,PROXY
 DOMAIN-SUFFIX,nytchina.com,PROXY
 DOMAIN-SUFFIX,nytcn.me,PROXY
@@ -281,8 +280,8 @@ DOMAIN-SUFFIX,on.cc,PROXY
 DOMAIN-SUFFIX,orientaldaily.com.my,PROXY
 DOMAIN-SUFFIX,overcast.fm,PROXY
 DOMAIN-SUFFIX,paltalk.com,PROXY
-DOMAIN-SUFFIX,pao-pao.net,PROXY
 DOMAIN-SUFFIX,parsevideo.com,PROXY
+DOMAIN-SUFFIX,pawoo.net,PROXY
 DOMAIN-SUFFIX,pbxes.com,PROXY
 DOMAIN-SUFFIX,pcdvd.com.tw,PROXY
 DOMAIN-SUFFIX,pchome.com.tw,PROXY
@@ -453,6 +452,7 @@ DOMAIN-SUFFIX,admin.recaptcha.net,PROXY
 DOMAIN-SUFFIX,recaptcha.net,PROXY
 DOMAIN-SUFFIX,shattered.io,PROXY
 DOMAIN-SUFFIX,synergyse.com,PROXY
+DOMAIN-SUFFIX,telephony.goog,PROXY
 DOMAIN-SUFFIX,tensorflow.org,PROXY
 DOMAIN-SUFFIX,tfhub.dev,PROXY
 DOMAIN-SUFFIX,tiltbrush.com,PROXY
@@ -482,11 +482,6 @@ DOMAIN-SUFFIX,weebly.com,PROXY
 DOMAIN-SUFFIX,appsto.re,PROXY
 # > iBooks Store download
 DOMAIN,books.itunes.apple.com,PROXY
-# > Apple TV
-DOMAIN-SUFFIX,tv.apple.com,PROXY
-DOMAIN,hls.itunes.apple.com,PROXY
-DOMAIN,hls-amt.itunes.apple.com,PROXY
-DOMAIN,play-edge.itunes.apple.com,PROXY
 # > App Store Preview
 DOMAIN,apps.apple.com,PROXY
 DOMAIN,itunes.apple.com,PROXY
@@ -494,6 +489,7 @@ DOMAIN,itunes.apple.com,PROXY
 DOMAIN,api-glb-sea.smoot.apple.com,PROXY
 # > Dictionary
 DOMAIN,lookup-api.apple.com,PROXY
+PROCESS-NAME,LookupViewService,PROXY
 # > Apple Music Web
 DOMAIN,beta.music.apple.com,PROXY
 # ------
@@ -502,11 +498,13 @@ DOMAIN-SUFFIX,bing.com,PROXY
 DOMAIN-SUFFIX,cccat.io,PROXY
 DOMAIN-SUFFIX,ifixit.com,PROXY
 DOMAIN-SUFFIX,mangakakalot.com,PROXY
-DOMAIN-SUFFIX,wordpress.org,PROXY
+DOMAIN-SUFFIX,shopeemobile.com,PROXY
 
 # (Network Jitter)
 # > Fix download or update is stuck in App Store,and when change the Apple ID region,the payment information can be selected by none.
 DOMAIN-KEYWORD,-buy.itunes.apple.com,PROXY
 # DOMAIN-SUFFIX,evernote.com,PROXY
+DOMAIN-SUFFIX,inkbunny.net,PROXY
+DOMAIN-SUFFIX,metapix.net,PROXY
 DOMAIN-SUFFIX,s3.amazonaws.com,PROXY
 DOMAIN-SUFFIX,zaobao.com.sg,PROXY

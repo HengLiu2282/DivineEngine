@@ -2,13 +2,6 @@
 # > 360
 DOMAIN-SUFFIX,qhres.com,DIRECT
 DOMAIN-SUFFIX,qhimg.com,DIRECT
-# > Akamai
-# DOMAIN-SUFFIX,akadns.net,DIRECT
-# DOMAIN-SUFFIX,akamai.net,DIRECT
-# DOMAIN-SUFFIX,akamaiedge.net,DIRECT
-# DOMAIN-SUFFIX,akamaihd.net,DIRECT
-# DOMAIN-SUFFIX,akamaistream.net,DIRECT
-# DOMAIN-SUFFIX,akamaized.net,DIRECT
 # > Alibaba
 USER-AGENT,%E4%BC%98%E9%85%B7*,DIRECT
 DOMAIN-SUFFIX,alibaba.com,DIRECT
@@ -129,7 +122,6 @@ DOMAIN-SUFFIX,netease.com,DIRECT
 DOMAIN-SUFFIX,ydstatic.com,DIRECT
 # > PayPal
 USER-AGENT,PayPal*,DIRECT
-DOMAIN-KEYWORD,paypal,DIRECT
 DOMAIN-SUFFIX,paypal.com,DIRECT
 DOMAIN-SUFFIX,paypalobjects.com,DIRECT
 # > Sina
@@ -155,10 +147,12 @@ DOMAIN-SUFFIX,igamecj.com,DIRECT
 DOMAIN-SUFFIX,myapp.com,DIRECT
 DOMAIN-SUFFIX,myqcloud.com,DIRECT
 DOMAIN-SUFFIX,qq.com,DIRECT
+DOMAIN-SUFFIX,qqmail.com,DIRECT
 DOMAIN-SUFFIX,servicewechat.com,DIRECT
 DOMAIN-SUFFIX,tencent.com,DIRECT
 DOMAIN-SUFFIX,tencent-cloud.net,DIRECT
 DOMAIN-SUFFIX,tenpay.com,DIRECT
+DOMAIN-SUFFIX,wechat.com,DIRECT
 DOMAIN,file-igamecj.akamaized.net,DIRECT
 # > Content Delivery Network
 DOMAIN-SUFFIX,ccgslb.com,DIRECT
@@ -182,6 +176,7 @@ DOMAIN,ip.istatmenus.app,DIRECT
 DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
 DOMAIN,speedtest.macpaw.com,DIRECT
 # > Private Tracker
+DOMAIN-SUFFIX,animebytes.tv,DIRECT
 DOMAIN-SUFFIX,awesome-hd.me,DIRECT
 DOMAIN-SUFFIX,broadcasthe.net,DIRECT
 DOMAIN-SUFFIX,chdbits.co,DIRECT
@@ -196,6 +191,7 @@ DOMAIN-SUFFIX,icetorrent.org,DIRECT
 DOMAIN-SUFFIX,jpopsuki.eu,DIRECT
 DOMAIN-SUFFIX,keepfrds.com,DIRECT
 DOMAIN-SUFFIX,madsrevolution.net,DIRECT
+DOMAIN-SUFFIX,myanonamouse.net,DIRECT
 DOMAIN-SUFFIX,m-team.cc,DIRECT
 DOMAIN-SUFFIX,morethan.tv,DIRECT
 DOMAIN-SUFFIX,nanyangpt.com,DIRECT
@@ -383,7 +379,8 @@ DOMAIN-SUFFIX,zhuihd.com,DIRECT
 DOMAIN,download.jetbrains.com,DIRECT
 DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
 
-# DNSPod Public DNS+
+# Tencent
 IP-CIDR,119.28.28.28/32,DIRECT
+IP-CIDR,182.254.116.0/24,DIRECT
 # GeoIP China
 GEOIP,CN,DIRECT
