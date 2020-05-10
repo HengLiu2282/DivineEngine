@@ -487,8 +487,9 @@ DOMAIN,apps.apple.com,PROXY
 DOMAIN,itunes.apple.com,PROXY
 # > Spotlight
 DOMAIN,api-glb-sea.smoot.apple.com,PROXY
-# > Dictionary
+# > Look Up
 DOMAIN,lookup-api.apple.com,PROXY
+DOMAIN-SUFFIX,smoot.apple.com,PROXY
 # > Apple Music Web
 DOMAIN,beta.music.apple.com,PROXY
 # ------

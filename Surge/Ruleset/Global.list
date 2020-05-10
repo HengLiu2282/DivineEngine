@@ -487,9 +487,9 @@ DOMAIN,apps.apple.com
 DOMAIN,itunes.apple.com
 # > Spotlight
 DOMAIN,api-glb-sea.smoot.apple.com
-# > Dictionary
+# > Look Up
 DOMAIN,lookup-api.apple.com
-PROCESS-NAME,LookupViewService
+DOMAIN-SUFFIX,smoot.apple.com
 # > Apple Music Web
 DOMAIN,beta.music.apple.com
 # ------
