@@ -1112,7 +1112,6 @@ rules:
 - DOMAIN,api-glb-sea.smoot.apple.com,PROXY
 # > Dictionary
 - DOMAIN,lookup-api.apple.com,PROXY
-- PROCESS-NAME,LookupViewService,PROXY
 # > Apple Music Web
 - DOMAIN,beta.music.apple.com,PROXY
 # ------
