@@ -168,7 +168,7 @@ proxy-groups:
     - HK
 
 rules:
-# Internet Service Providers Hijacking 运营商劫持
+# Internet Service Providers Hijacking
 - DOMAIN-SUFFIX,17gouwuba.com,REJECT
 - DOMAIN-SUFFIX,186078.com,REJECT
 - DOMAIN-SUFFIX,189zj.cn,REJECT
@@ -194,6 +194,7 @@ rules:
 - DOMAIN-SUFFIX,beilamusi.com,REJECT
 - DOMAIN-SUFFIX,benshiw.net,REJECT
 - DOMAIN-SUFFIX,bianxianmao.com,REJECT
+- DOMAIN-SUFFIX,bkyhq.cn,REJECT
 - DOMAIN-SUFFIX,bryonypie.com,REJECT
 - DOMAIN-SUFFIX,cishantao.com,REJECT
 - DOMAIN-SUFFIX,cszlks.com,REJECT
@@ -214,8 +215,10 @@ rules:
 - DOMAIN-SUFFIX,goufanli100.com,REJECT
 - DOMAIN-SUFFIX,goupaoerdai.com,REJECT
 - DOMAIN-SUFFIX,gouwubang.com,REJECT
+- DOMAIN-SUFFIX,gscxs.cn,REJECT
 - DOMAIN-SUFFIX,gzxnlk.com,REJECT
 - DOMAIN-SUFFIX,haoshengtoys.com,REJECT
+- DOMAIN-SUFFIX,hbssjd.cn,REJECT
 - DOMAIN-SUFFIX,hyunke.com,REJECT
 - DOMAIN-SUFFIX,ichaosheng.com,REJECT
 - DOMAIN-SUFFIX,ishop789.com,REJECT
@@ -228,6 +231,7 @@ rules:
 - DOMAIN-SUFFIX,kualianyingxiao.cn,REJECT
 - DOMAIN-SUFFIX,kumihua.com,REJECT
 - DOMAIN-SUFFIX,ltheanine.cn,REJECT
+- DOMAIN-SUFFIX,lvehaisen.com,REJECT
 - DOMAIN-SUFFIX,maipinshangmao.com,REJECT
 - DOMAIN-SUFFIX,minisplat.cn,REJECT
 - DOMAIN-SUFFIX,mkitgfs.com,REJECT
@@ -263,11 +267,14 @@ rules:
 - DOMAIN-SUFFIX,tuia.cn,REJECT
 - DOMAIN-SUFFIX,tuipenguin.com,REJECT
 - DOMAIN-SUFFIX,tuitiger.com,REJECT
+- DOMAIN-SUFFIX,urlaw.cn,REJECT
+- DOMAIN-SUFFIX,urlet.cn,REJECT
 - DOMAIN-SUFFIX,websd8.com,REJECT
 - DOMAIN-SUFFIX,wsgblw.com,REJECT
 - DOMAIN-SUFFIX,wx16999.com,REJECT
 - DOMAIN-SUFFIX,xchmai.com,REJECT
 - DOMAIN-SUFFIX,xiaohuau.xyz,REJECT
+- DOMAIN-SUFFIX,ygyzx.cn,REJECT
 - DOMAIN-SUFFIX,yinmong.com,REJECT
 - DOMAIN-SUFFIX,yitaopt.com,REJECT
 - DOMAIN-SUFFIX,yjqiqi.com,REJECT
@@ -275,6 +282,7 @@ rules:
 - DOMAIN-SUFFIX,zhaozecheng.cn,REJECT
 - DOMAIN-SUFFIX,zhenxinet.com,REJECT
 - DOMAIN-SUFFIX,zlne800.com,REJECT
+- DOMAIN-SUFFIX,zmlled.cn,REJECT
 - DOMAIN-SUFFIX,zunmi.cn,REJECT
 - DOMAIN-SUFFIX,zzd6.com,REJECT
 - IP-CIDR,39.107.15.115/32,REJECT,no-resolve
@@ -310,7 +318,7 @@ rules:
 - IP-CIDR,221.179.131.72/32,REJECT,no-resolve
 - IP-CIDR,221.179.140.145/32,REJECT,no-resolve
 # > Dr.Peng
-- IP-CIDR,10.72.25.0/24,REJECT,no-resolve
+# - IP-CIDR,10.72.25.0/24,REJECT,no-resolve
 - IP-CIDR,115.182.16.79/32,REJECT,no-resolve
 - IP-CIDR,118.144.88.126/32,REJECT,no-resolve
 - IP-CIDR,118.144.88.215/32,REJECT,no-resolve
@@ -323,17 +331,27 @@ rules:
 - IP-CIDR,220.115.251.25/32,REJECT,no-resolve
 - IP-CIDR,222.73.156.235/32,REJECT,no-resolve
 
-# Infamous 声名狼藉
+# Malware
+# > Huawei AspiegelBot
+- IP-CIDR,114.119.160.0/21,REJECT,no-resolve
+# > KuaiZip
+# https://zhuanlan.zhihu.com/p/39534279
 - DOMAIN-SUFFIX,kuaizip.com,REJECT
+# > MacKeeper
+# https://www.lizhi.io/blog/40002904
 - DOMAIN-SUFFIX,mackeeper.com,REJECT
-# > Adobe 奥多比
+- DOMAIN-SUFFIX,zryydi.com,REJECT
+# > Adobe Flash China Special Edition
+# https://www.zhihu.com/question/281163698/answer/441388130
 - DOMAIN-SUFFIX,flash.cn,REJECT
 - DOMAIN,geo2.adobe.com,REJECT
-# > CJ Marketing 思杰马克丁软件
+# > C&J Marketing
+# https://www.zhihu.com/question/46746200
 - DOMAIN-SUFFIX,4009997658.com,REJECT
 - DOMAIN-SUFFIX,abbyychina.com,REJECT
 - DOMAIN-SUFFIX,bartender.cc,REJECT
 - DOMAIN-SUFFIX,betterzip.net,REJECT
+- DOMAIN-SUFFIX,betterzipcn.com,REJECT
 - DOMAIN-SUFFIX,beyondcompare.cc,REJECT
 - DOMAIN-SUFFIX,bingdianhuanyuan.cn,REJECT
 - DOMAIN-SUFFIX,chemdraw.com.cn,REJECT
@@ -379,6 +397,7 @@ rules:
 - DOMAIN-SUFFIX,shankejingling.com,REJECT
 - DOMAIN-SUFFIX,ultraiso.net,REJECT
 - DOMAIN-SUFFIX,vegaschina.cn,REJECT
+- DOMAIN-SUFFIX,xitongqingli.com,REJECT
 - DOMAIN-SUFFIX,xmindchina.net,REJECT
 - DOMAIN-SUFFIX,xshellcn.com,REJECT
 - DOMAIN-SUFFIX,yihuifu.cn,REJECT
