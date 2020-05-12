@@ -10,8 +10,8 @@ Surge 是一个面向高级用户的网络工具箱，也是一个高性能的 H
 
 <details>
   <summary>盘古开天辟地天地共有，凭什么他玉皇大帝独掌乾坤</summary>
-  https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Legacy.conf
-  https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/NextGen.conf
+  Surge: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Global.conf
+  Surge 2: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Global2.conf
 </details>
 
 <details>
