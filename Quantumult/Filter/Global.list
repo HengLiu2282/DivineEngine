@@ -11,6 +11,8 @@ DOMAIN-KEYWORD,google,PROXY
 DOMAIN-KEYWORD,blogspot,PROXY
 # > Microsoft
 DOMAIN-SUFFIX,onedrive.live.com,PROXY
+DOMAIN,az416426.vo.msecnd.ne,PROXY
+DOMAIN,az668014.vo.msecnd.ne,PROXY
 # > Facebook
 DOMAIN-SUFFIX,cdninstagram.com,PROXY
 DOMAIN-SUFFIX,fb.com,PROXY
