@@ -495,10 +495,11 @@ DOMAIN-SUFFIX,cccat.io,PROXY
 DOMAIN-SUFFIX,ifixit.com,PROXY
 DOMAIN-SUFFIX,mangakakalot.com,PROXY
 DOMAIN-SUFFIX,shopeemobile.com,PROXY
+DOMAIN-SUFFIX,teamviewer.com,PROXY
 
 # (Network Jitter)
 # > Fix download or update is stuck in App Store,and when change the Apple ID region,the payment information can be selected by none.
-DOMAIN-KEYWORD,-buy.itunes.apple.com,PROXY
+DOMAIN-KEYWORD,buy.itunes.apple.com,PROXY
 # DOMAIN-SUFFIX,evernote.com,PROXY
 DOMAIN-SUFFIX,inkbunny.net,PROXY
 DOMAIN-SUFFIX,metapix.net,PROXY
