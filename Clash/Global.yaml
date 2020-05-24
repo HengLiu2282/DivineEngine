@@ -905,6 +905,7 @@ rules:
 - DOMAIN-SUFFIX,nii.ac.jp,PROXY
 - DOMAIN-SUFFIX,nikkei.com,PROXY
 - DOMAIN-SUFFIX,nofile.io,PROXY
+- DOMAIN-SUFFIX,notion.so,PROXY
 - DOMAIN-SUFFIX,now.com,PROXY
 - DOMAIN-SUFFIX,nrk.no,PROXY
 - DOMAIN-SUFFIX,nuget.org,PROXY
