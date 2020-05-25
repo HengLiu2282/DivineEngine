@@ -408,6 +408,7 @@ DOMAIN-SUFFIX,zeronet.io
 DOMAIN-SUFFIX,zoom.us
 
 DOMAIN,cc.tvbs.com.tw
+DOMAIN,ocsp.int-x3.letsencrypt.org
 DOMAIN,payments-jp.amazon.com
 DOMAIN,s3-ap-northeast-1.amazonaws.com
 DOMAIN,s3-ap-southeast-2.amazonaws.com
@@ -510,7 +511,6 @@ DOMAIN-SUFFIX,cccat.io
 DOMAIN-SUFFIX,ifixit.com
 DOMAIN-SUFFIX,mangakakalot.com
 DOMAIN-SUFFIX,shopeemobile.com
-DOMAIN-SUFFIX,teamviewer.com
 
 # (Network Jitter)
 # > Fix download or update is stuck in App Store,and when change the Apple ID region,the payment information can be selected by none.

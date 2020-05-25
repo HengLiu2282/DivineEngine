@@ -408,6 +408,7 @@ DOMAIN-SUFFIX,zeronet.io,PROXY
 DOMAIN-SUFFIX,zoom.us,PROXY
 
 DOMAIN,cc.tvbs.com.tw,PROXY
+DOMAIN,ocsp.int-x3.letsencrypt.org
 DOMAIN,payments-jp.amazon.com,PROXY
 DOMAIN,s3-ap-northeast-1.amazonaws.com,PROXY
 DOMAIN,s3-ap-southeast-2.amazonaws.com,PROXY
@@ -504,7 +505,6 @@ DOMAIN-SUFFIX,cccat.io,PROXY
 DOMAIN-SUFFIX,ifixit.com,PROXY
 DOMAIN-SUFFIX,mangakakalot.com,PROXY
 DOMAIN-SUFFIX,shopeemobile.com,PROXY
-DOMAIN-SUFFIX,teamviewer.com,PROXY
 
 # (Network Jitter)
 # > Fix download or update is stuck in App Store,and when change the Apple ID region,the payment information can be selected by none.
