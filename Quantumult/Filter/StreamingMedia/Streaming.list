@@ -1,3 +1,5 @@
+# Global Area Network
+# Streaming Media
 # (Podcast)
 # > Himalaya
 USER-AGENT,Himalaya*,Streaming
@@ -7,15 +9,15 @@ DOMAIN-SUFFIX,himalaya.com,Streaming
 USER-AGENT,Deezer*,Streaming
 DOMAIN-SUFFIX,deezer.com,Streaming
 DOMAIN-SUFFIX,dzcdn.net,Streaming
-# > KKBOX
-DOMAIN-SUFFIX,kkbox.com,Streaming
-DOMAIN-SUFFIX,kkbox.com.tw,Streaming
-DOMAIN-SUFFIX,kfs.io,Streaming
 # > JOOX
 USER-AGENT,WeMusic*,Streaming
 USER-AGENT,JOOX*,Streaming
 DOMAIN-SUFFIX,joox.com,Streaming
 DOMAIN-KEYWORD,jooxweb-api,Streaming
+# > KKBOX
+DOMAIN-SUFFIX,kkbox.com,Streaming
+DOMAIN-SUFFIX,kkbox.com.tw,Streaming
+DOMAIN-SUFFIX,kfs.io,Streaming
 # > Pandora
 USER-AGENT,Pandora*,Streaming
 DOMAIN-SUFFIX,pandora.com,Streaming
@@ -45,10 +47,7 @@ DOMAIN-SUFFIX,abema.io,Streaming
 DOMAIN-SUFFIX,abema.tv,Streaming
 DOMAIN-SUFFIX,ameba.jp,Streaming
 DOMAIN-SUFFIX,hayabusa.io,Streaming
-DOMAIN,abematv.akamaized.net,Streaming
-DOMAIN,ds-linear-abematv.akamaized.net,Streaming
-DOMAIN,ds-vod-abematv.akamaized.net,Streaming
-DOMAIN,linear-abematv.akamaized.net,Streaming
+DOMAIN-KEYWORD,abematv.akamaized.net,Streaming
 # > All 4
 USER-AGENT,All4*,Streaming
 DOMAIN-SUFFIX,c4assets.com,Streaming
@@ -117,11 +116,13 @@ DOMAIN,foxsports01-i.akamaihd.net,Streaming
 DOMAIN,foxsports02-i.akamaihd.net,Streaming
 DOMAIN,foxsports03-i.akamaihd.net,Streaming
 DOMAIN,staticasiafox.akamaized.net,Streaming
-# > HBO NOW
+# > HBO NOW & Max
 USER-AGENT,HBO%20NOW*,Streaming
 DOMAIN-SUFFIX,hbo.com,Streaming
 DOMAIN-SUFFIX,hbogo.com,Streaming
 DOMAIN-SUFFIX,hbonow.com,Streaming
+USER-AGENT,HBOMAX*,Streaming
+DOMAIN-SUFFIX,hbomax.com,Streaming
 # > HBO GO HKG
 USER-AGENT,HBO%20GO%20PROD%20HKG*,Streaming
 DOMAIN-SUFFIX,hbogoasia.com,Streaming

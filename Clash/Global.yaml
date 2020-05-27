@@ -168,6 +168,12 @@ proxy-groups:
     - HK
 
 rules:
+# Unbreak
+# > Google
+- DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
+- DOMAIN,dl.google.com,DIRECT
+- DOMAIN,mtalk.google.com,DIRECT
+
 # Internet Service Providers Hijacking
 - DOMAIN-SUFFIX,17gouwuba.com,REJECT
 - DOMAIN-SUFFIX,186078.com,REJECT
@@ -406,20 +412,25 @@ rules:
 - DOMAIN-SUFFIX,zhzzx.com,REJECT
 
 # Global Area Network
-# Streaming
+# Streaming Media
+# (Podcast)
+# > Himalaya
+# USER-AGENT,Himalaya*,Streaming
+- DOMAIN-SUFFIX,himalaya.com,Streaming
 # (Music)
 # > Deezer
 # USER-AGENT,Deezer*,Streaming
 - DOMAIN-SUFFIX,deezer.com,Streaming
 - DOMAIN-SUFFIX,dzcdn.net,Streaming
-# > KKBOX
-- DOMAIN-SUFFIX,kkbox.com,Streaming
-- DOMAIN-SUFFIX,kkbox.com.tw,Streaming
-- DOMAIN-SUFFIX,kfs.io,Streaming
 # > JOOX
 # USER-AGENT,WeMusic*,Streaming
 # USER-AGENT,JOOX*,Streaming
 - DOMAIN-SUFFIX,joox.com,Streaming
+- DOMAIN-KEYWORD,jooxweb-api,Streaming
+# > KKBOX
+- DOMAIN-SUFFIX,kkbox.com,Streaming
+- DOMAIN-SUFFIX,kkbox.com.tw,Streaming
+- DOMAIN-SUFFIX,kfs.io,Streaming
 # > Pandora
 # USER-AGENT,Pandora*,Streaming
 - DOMAIN-SUFFIX,pandora.com,Streaming
@@ -434,7 +445,8 @@ rules:
 - DOMAIN-SUFFIX,scdn.co,Streaming
 - DOMAIN-SUFFIX,spotify.com,Streaming
 - DOMAIN-SUFFIX,spoti.fi,Streaming
-- IP-CIDR,35.186.224.47/32,Streaming,no-resolve
+- DOMAIN-KEYWORD,spotify.com,Streaming
+- DOMAIN-KEYWORD,-spotify-com,Streaming
 # > TIDAL
 # USER-AGENT,TIDAL*,Streaming
 - DOMAIN-SUFFIX,tidal.com,Streaming
@@ -442,28 +454,31 @@ rules:
 # USER-AGENT,com.google.ios.youtubemusic*,Streaming
 # USER-AGENT,YouTubeMusic*,Streaming
 # (Video)
-# > All4
-# USER-AGENT,All4*,Streaming
-- DOMAIN-SUFFIX,c4assets.com,Streaming
-- DOMAIN-SUFFIX,channel4.com,Streaming
 # > AbemaTV
 # USER-AGENT,AbemaTV*,Streaming
 - DOMAIN-SUFFIX,abema.io,Streaming
-- DOMAIN-SUFFIX,ameba.jp,Streaming
 - DOMAIN-SUFFIX,abema.tv,Streaming
+- DOMAIN-SUFFIX,ameba.jp,Streaming
 - DOMAIN-SUFFIX,hayabusa.io,Streaming
-- DOMAIN,abematv.akamaized.net,Streaming
-- DOMAIN,ds-linear-abematv.akamaized.net,Streaming
-- DOMAIN,ds-vod-abematv.akamaized.net,Streaming
-- DOMAIN,linear-abematv.akamaized.net,Streaming
+- DOMAIN-KEYWORD,abematv.akamaized.net,Streaming
+# > All 4
+# USER-AGENT,All4*,Streaming
+- DOMAIN-SUFFIX,c4assets.com,Streaming
+- DOMAIN-SUFFIX,channel4.com,Streaming
 # > Amazon Prime Video
 # USER-AGENT,InstantVideo.US*,Streaming
 # USER-AGENT,Prime%20Video*,Streaming
 - DOMAIN-SUFFIX,aiv-cdn.net,Streaming
 - DOMAIN-SUFFIX,aiv-delivery.net,Streaming
 - DOMAIN-SUFFIX,amazonvideo.com,Streaming
-- DOMAIN-SUFFIX,media-amazon.com,Streaming
 - DOMAIN-SUFFIX,primevideo.com,Streaming
+- DOMAIN,avodmp4s3ww-a.akamaihd.net,Streaming
+- DOMAIN,d25xi40x97liuc.cloudfront.net,Streaming
+- DOMAIN,dmqdd6hw24ucf.cloudfront.net,Streaming
+- DOMAIN,dmqdd6hw24ucf.cloudfront.net,Streaming
+- DOMAIN,d22qjgkvxw22r6.cloudfront.net,Streaming
+- DOMAIN,d1v5ir2lpwr8os.cloudfront.net,Streaming
+- DOMAIN-KEYWORD,avoddashs,Streaming
 # > Apple TV
 - DOMAIN-SUFFIX,tv.apple.com,Streaming
 - DOMAIN,hls.itunes.apple.com,Streaming
@@ -499,30 +514,43 @@ rules:
 - DOMAIN-SUFFIX,encoretvb.com,Streaming
 - DOMAIN,edge.api.brightcove.com,Streaming
 - DOMAIN,bcbolt446c5271-a.akamaihd.net,Streaming
-# > Fox+ & Fox Now
+# > FOX NOW
 # USER-AGENT,FOX%20NOW*,Streaming
-# USER-AGENT,FOXPlus*,Streaming
-- DOMAIN-SUFFIX,dashasiafox.akamaized.net,Streaming
 - DOMAIN-SUFFIX,fox.com,Streaming
 - DOMAIN-SUFFIX,foxdcg.com,Streaming
-- DOMAIN-SUFFIX,foxplus.com,Streaming
-- DOMAIN-SUFFIX,staticasiafox.akamaized.net,Streaming
 - DOMAIN-SUFFIX,theplatform.com,Streaming
 - DOMAIN-SUFFIX,uplynk.com,Streaming
-# > HBO Now & HBO GO
+# > FOX+
+- DOMAIN-SUFFIX,foxplus.com,Streaming
+# - DOMAIN-SUFFIX,theplatform.com,Streaming
+- DOMAIN,cdn-fox-networks-group-green.akamaized.net,Streaming
+- DOMAIN,d3cv4a9a9wh0bt.cloudfront.net,Streaming
+- DOMAIN,foxsports01-i.akamaihd.net,Streaming
+- DOMAIN,foxsports02-i.akamaihd.net,Streaming
+- DOMAIN,foxsports03-i.akamaihd.net,Streaming
+- DOMAIN,staticasiafox.akamaized.net,Streaming
+# > HBO NOW & Max
 # USER-AGENT,HBO%20NOW*,Streaming
-# USER-AGENT,HBO%20GO*,Streaming
-# USER-AGENT,HBOAsia*,Streaming
 - DOMAIN-SUFFIX,hbo.com,Streaming
 - DOMAIN-SUFFIX,hbogo.com,Streaming
-- DOMAIN-SUFFIX,hboasia.com,Streaming
-- DOMAIN-SUFFIX,hbogo.com,Streaming
+- DOMAIN-SUFFIX,hbonow.com,Streaming
+# USER-AGENT,HBOMAX*,Streaming
+- DOMAIN-SUFFIX,hbomax.com,Streaming
+# > HBO GO HKG
+# USER-AGENT,HBO%20GO%20PROD%20HKG*,Streaming
+- DOMAIN-SUFFIX,hbogoasia.com,Streaming
 - DOMAIN-SUFFIX,hbogoasia.hk,Streaming
-- DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,Streaming
 - DOMAIN,bcbolthboa-a.akamaihd.net,Streaming
-- DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,Streaming
-- DOMAIN,manifest.prod.boltdns.net,Streaming
+- DOMAIN,players.brightcove.net,Streaming
 - DOMAIN,s3-ap-southeast-1.amazonaws.com,Streaming
+- DOMAIN,dai3fd1oh325y.cloudfront.net,Streaming
+- DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,Streaming
+- DOMAIN,hboasia1-i.akamaihd.net,Streaming
+- DOMAIN,hboasia2-i.akamaihd.net,Streaming
+- DOMAIN,hboasia3-i.akamaihd.net,Streaming
+- DOMAIN,hboasia4-i.akamaihd.net,Streaming
+- DOMAIN,hboasia5-i.akamaihd.net,Streaming
+- DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,Streaming
 # > 华文电视
 # USER-AGENT,HWTVMobile*,Streaming
 - DOMAIN-SUFFIX,5itv.tv,Streaming
@@ -531,7 +559,7 @@ rules:
 - DOMAIN-SUFFIX,hulu.com,Streaming
 - DOMAIN-SUFFIX,huluim.com,Streaming
 - DOMAIN-SUFFIX,hulustream.com,Streaming
-# > Hulu(フールー)
+# > Hulu / フールー
 - DOMAIN-SUFFIX,happyon.jp,Streaming
 - DOMAIN-SUFFIX,hulu.jp,Streaming
 # > ITV
@@ -545,7 +573,7 @@ rules:
 - DOMAIN-SUFFIX,kktv.com.tw,Streaming
 - DOMAIN-SUFFIX,kktv.me,Streaming
 - DOMAIN,kktv-theater.kk.stream,Streaming
-# > Line TV
+# > LINE TV
 # USER-AGENT,LINE%20TV*,Streaming
 - DOMAIN-SUFFIX,linetv.tw,Streaming
 - DOMAIN,d3c7rimkq79yfu.cloudfront.net,Streaming
@@ -570,6 +598,16 @@ rules:
 - DOMAIN-SUFFIX,nflximg.net,Streaming
 - DOMAIN-SUFFIX,nflxso.net,Streaming
 - DOMAIN-SUFFIX,nflxvideo.net,Streaming
+- DOMAIN-SUFFIX,netflixdnstest0.com,Streaming
+- DOMAIN-SUFFIX,netflixdnstest1.com,Streaming
+- DOMAIN-SUFFIX,netflixdnstest2.com,Streaming
+- DOMAIN-SUFFIX,netflixdnstest3.com,Streaming
+- DOMAIN-SUFFIX,netflixdnstest4.com,Streaming
+- DOMAIN-SUFFIX,netflixdnstest5.com,Streaming
+- DOMAIN-SUFFIX,netflixdnstest6.com,Streaming
+- DOMAIN-SUFFIX,netflixdnstest7.com,Streaming
+- DOMAIN-SUFFIX,netflixdnstest8.com,Streaming
+- DOMAIN-SUFFIX,netflixdnstest9.com,Streaming
 - IP-CIDR,23.246.0.0/18,Streaming,no-resolve
 - IP-CIDR,37.77.184.0/21,Streaming,no-resolve
 - IP-CIDR,45.57.0.0/17,Streaming,no-resolve
@@ -585,6 +623,9 @@ rules:
 - DOMAIN-SUFFIX,nicovideo.jp,Streaming
 - DOMAIN-SUFFIX,nimg.jp,Streaming
 - DOMAIN-SUFFIX,socdm.com,Streaming
+# > Now E
+- DOMAIN-SUFFIX,nowe.com,Streaming
+- DOMAIN-SUFFIX,nowestatic.com,Streaming
 # > PBS
 # USER-AGENT,PBS*,Streaming
 - DOMAIN-SUFFIX,pbs.org,Streaming
@@ -610,9 +651,9 @@ rules:
 - DOMAIN-SUFFIX,twitch.tv,Streaming
 - DOMAIN-SUFFIX,twitchcdn.net,Streaming
 - DOMAIN-SUFFIX,ttvnw.net,Streaming
+- DOMAIN-SUFFIX,jtvnw.net,Streaming
 # > ViuTV
 # USER-AGENT,Viu*,Streaming
-# USER-AGENT,ViuTV*,Streaming
 - DOMAIN-SUFFIX,viu.com,Streaming
 - DOMAIN-SUFFIX,viu.tv,Streaming
 - DOMAIN,api.viu.now.com,Streaming
@@ -1168,7 +1209,7 @@ rules:
 - DOMAIN-SUFFIX,qhres.com,DIRECT
 - DOMAIN-SUFFIX,qhimg.com,DIRECT
 # > Alibaba
-# USER-AGENT,%E4%BC%98%E9%85%B7*,DIRECT
+# # USER-AGENT,%E4%BC%98%E9%85%B7*,DIRECT
 - DOMAIN-SUFFIX,alibaba.com,DIRECT
 - DOMAIN-SUFFIX,alibabausercontent.com,DIRECT
 - DOMAIN-SUFFIX,alicdn.com,DIRECT
@@ -1273,10 +1314,10 @@ rules:
 - DOMAIN-SUFFIX,visualstudio.com,DIRECT
 - DOMAIN-SUFFIX,windows.com,DIRECT
 - DOMAIN-SUFFIX,windowsupdate.com,DIRECT
-# DOMAIN-KEYWORD,-microsoft-com.akamaized.net,DIRECT
+# - DOMAIN-KEYWORD,-microsoft-com.akamaized.net,DIRECT
 # > NetEase
-# USER-AGENT,NeteaseMusic*,DIRECT
-# USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,DIRECT
+# # USER-AGENT,NeteaseMusic*,DIRECT
+# # USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,DIRECT
 - DOMAIN-SUFFIX,163.com,DIRECT
 - DOMAIN-SUFFIX,126.com,DIRECT
 - DOMAIN-SUFFIX,126.net,DIRECT
@@ -1286,7 +1327,7 @@ rules:
 - DOMAIN-SUFFIX,netease.com,DIRECT
 - DOMAIN-SUFFIX,ydstatic.com,DIRECT
 # > PayPal
-# USER-AGENT,PayPal*,DIRECT
+# # USER-AGENT,PayPal*,DIRECT
 - DOMAIN-SUFFIX,paypal.com,DIRECT
 - DOMAIN-SUFFIX,paypalobjects.com,DIRECT
 # > Sina
@@ -1303,9 +1344,9 @@ rules:
 - DOMAIN-SUFFIX,sogou.com,DIRECT
 - DOMAIN-SUFFIX,sogoucdn.com,DIRECT
 # > Tencent
-# USER-AGENT,MicroMessenger%20Client,DIRECT
-# USER-AGENT,WeChat*,DIRECT
-# USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*,DIRECT
+# # USER-AGENT,MicroMessenger%20Client,DIRECT
+# # USER-AGENT,WeChat*,DIRECT
+# # USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*,DIRECT
 - DOMAIN-SUFFIX,gtimg.com,DIRECT
 - DOMAIN-SUFFIX,idqqimg.com,DIRECT
 - DOMAIN-SUFFIX,igamecj.com,DIRECT

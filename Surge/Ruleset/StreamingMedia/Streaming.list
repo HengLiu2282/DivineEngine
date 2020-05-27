@@ -1,3 +1,4 @@
+# Streaming Media
 # (Podcast)
 # > Himalaya
 USER-AGENT,Himalaya*
@@ -7,15 +8,15 @@ DOMAIN-SUFFIX,himalaya.com
 USER-AGENT,Deezer*
 DOMAIN-SUFFIX,deezer.com
 DOMAIN-SUFFIX,dzcdn.net
-# > KKBOX
-DOMAIN-SUFFIX,kkbox.com
-DOMAIN-SUFFIX,kkbox.com.tw
-DOMAIN-SUFFIX,kfs.io
 # > JOOX
 USER-AGENT,WeMusic*
 USER-AGENT,JOOX*
 DOMAIN-SUFFIX,joox.com
 DOMAIN-KEYWORD,jooxweb-api
+# > KKBOX
+DOMAIN-SUFFIX,kkbox.com
+DOMAIN-SUFFIX,kkbox.com.tw
+DOMAIN-SUFFIX,kfs.io
 # > Pandora
 USER-AGENT,Pandora*
 DOMAIN-SUFFIX,pandora.com
@@ -45,10 +46,7 @@ DOMAIN-SUFFIX,abema.io
 DOMAIN-SUFFIX,abema.tv
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,hayabusa.io
-DOMAIN,abematv.akamaized.net
-DOMAIN,ds-linear-abematv.akamaized.net
-DOMAIN,ds-vod-abematv.akamaized.net
-DOMAIN,linear-abematv.akamaized.net
+DOMAIN-KEYWORD,abematv.akamaized.net
 # > All 4
 USER-AGENT,All4*
 DOMAIN-SUFFIX,c4assets.com
@@ -117,11 +115,13 @@ DOMAIN,foxsports01-i.akamaihd.net
 DOMAIN,foxsports02-i.akamaihd.net
 DOMAIN,foxsports03-i.akamaihd.net
 DOMAIN,staticasiafox.akamaized.net
-# > HBO NOW
+# > HBO NOW & Max
 USER-AGENT,HBO%20NOW*
 DOMAIN-SUFFIX,hbo.com
 DOMAIN-SUFFIX,hbogo.com
 DOMAIN-SUFFIX,hbonow.com
+USER-AGENT,HBOMAX*
+DOMAIN-SUFFIX,hbomax.com
 # > HBO GO HKG
 USER-AGENT,HBO%20GO%20PROD%20HKG*
 DOMAIN-SUFFIX,hbogoasia.com
