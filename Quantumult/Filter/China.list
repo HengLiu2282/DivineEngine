@@ -123,6 +123,7 @@ DOMAIN-SUFFIX,ydstatic.com,DIRECT
 # > PayPal
 USER-AGENT,PayPal*,DIRECT
 DOMAIN-SUFFIX,paypal.com,DIRECT
+DOMAIN-SUFFIX,paypal.me,DIRECT
 DOMAIN-SUFFIX,paypalobjects.com,DIRECT
 # > Sina
 DOMAIN-SUFFIX,sina.com,DIRECT
