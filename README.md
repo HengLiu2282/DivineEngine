@@ -4,6 +4,7 @@ Please read the [Documentation](https://www.notion.so/divineengine/b4161dac04124
 
 <details>
   <summary>Surge</summary>
+
   Surge is a network toolbox for power users and a high-performance HTTP/SOCKS5 proxy server.
 
   Resources: [Website](https://nssurge.com/) / [Manual](http://manual.nssurge.com/) / [FAQ](https://nssurge.com/support) / [Community](https://community.nssurge.com/)
@@ -15,6 +16,7 @@ Please read the [Documentation](https://www.notion.so/divineengine/b4161dac04124
 
 <details>
   <summary>Quantumult X</summary>
+
   Quantumult X is a powerful network tool for web developers and users who need to customize their proxies.
 
   Resources: [Github](https://github.com/crossutility/Quantumult-X)
@@ -26,7 +28,8 @@ Please read the [Documentation](https://www.notion.so/divineengine/b4161dac04124
 
 <details>
   <summary>Clash</summary>
+
   A rule-based tunnel in Go.
-  
+
   Profiles: [Global](https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/Global.yaml) / [China](https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/China.yaml)
 </details>
