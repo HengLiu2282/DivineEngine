@@ -9,9 +9,9 @@ Please read the [Documentation](https://www.notion.so/divineengine/b4161dac04124
 
   Resources: [Website](https://nssurge.com/) / [Manual](http://manual.nssurge.com/) / [FAQ](https://nssurge.com/support) / [Community](https://community.nssurge.com/)
 
-  Profiles: [Global](https://github.com/DivineEngine/Profiles/tree/master/Surge/Ruleset) / [Global2](https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Global2.conf)(Surge 2) / [China](https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/China.conf)
+  Profiles: [Global](https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Global.conf) / [Global2](https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Global2.conf)(Surge 2) / [China](https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/China.conf)
 
-  More: [Ruleset](https://github.com/DivineEngine/Profiles/tree/master/Surge/Ruleset) / [Module](https://github.com/DivineEngine/Profiles/tree/master/Surge/Ruleset)
+  More: [Ruleset](https://github.com/DivineEngine/Profiles/tree/master/Surge/Ruleset) / [Module](https://github.com/DivineEngine/Profiles/tree/master/Surge/Module)
 </details>
 
 <details>
