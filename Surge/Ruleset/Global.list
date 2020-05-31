@@ -11,8 +11,8 @@ DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,blogspot
 # > Microsoft
 DOMAIN-SUFFIX,onedrive.live.com
-DOMAIN,az416426.vo.msecnd.ne
-DOMAIN,az668014.vo.msecnd.ne
+DOMAIN,az416426.vo.msecnd.net
+DOMAIN,az668014.vo.msecnd.net
 # > Facebook
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,fb.com
@@ -419,7 +419,7 @@ DOMAIN-KEYWORD,jav
 DOMAIN-KEYWORD,pinterest
 DOMAIN-KEYWORD,porn
 
-# (Internet Protocol Black hole)
+# (IP Blackhole)
 # > Google
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,advertisercommunity.com
@@ -497,14 +497,6 @@ DOMAIN-SUFFIX,smoot.apple.com
 # > Apple Music Web
 DOMAIN,beta.music.apple.com
 # ------
-# > JegoTrip
-DOMAIN-SUFFIX,cmpassport.com
-DOMAIN-SUFFIX,jegotrip.com.cn
-IP-CIDR,18.162.33.57/32,no-resolve
-IP-CIDR,18.162.73.69/32,no-resolve
-IP-CIDR,18.166.18.104/32,no-resolve
-IP-CIDR,52.80.122.129/32,no-resolve
-IP-CIDR,54.222.162.124/32,no-resolve
 # > Others
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,cccat.io
