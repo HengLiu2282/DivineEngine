@@ -198,7 +198,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,123.59.31.1,119.18.193.135,1
 # > iFreeTime
 ^(http|https):\/\/api\.applovefrom\.com\/api\/v\d\/splash\/ - reject
 # > iCleaner - ib-soft.net
-^(http|https):\/\/ib-soft\.net\/icleaner\/txt\/ad_priority\.txt$
+^(http|https):\/\/ib-soft\.net\/icleaner\/txt\/ad_priority\.txt$ - reject
 
 # J
 # > JD - api.m.jd.com,ms.jr.jd.com,img*.360buyimg.com
