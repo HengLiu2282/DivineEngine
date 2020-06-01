@@ -166,47 +166,54 @@ proxy-groups:
     - DIRECT
     - HK
 
-# https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
-rule-providers:
+# 关于 Rule Provider 请查阅：https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
 
-  Unbreak: # name of the provider
-    type: http # type of the provider, it can be a HTTP or a File
-    behavior: domain # or domain
+rule-providers:
+  # name: # Provider 名称
+  #   type: http # http 或 file
+  #   behavior: ipcidr # ipcidr 或 domain
+  #   path: # 文件路径
+  #   url: # 只有当类型为 HTTP 时才可用，您不需要在本地空间中创建新文件。
+  #   interval: # 自动更新间隔，仅在类型为 HTTP 时可用
+
+  Unbreak:
+    type: http
+    behavior: domain
     path: ./RuleSet/
     url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Unbreak.yaml
     interval: 600
 
-  Streaming: # name of the provider
-    type: http # type of the provider, it can be a HTTP or a File
-    behavior: domain # or domain
+  Streaming:
+    type: http
+    behavior: domain
     path: ./RuleSet/
     url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Streaming.yaml
     interval: 600
   
-  StreamingSE: # name of the provider
-    type: http # type of the provider, it can be a HTTP or a File
-    behavior: domain # or domain
+  StreamingSE:
+    type: http
+    behavior: domain
     path: ./RuleSet/
     url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingSE.yaml
     interval: 600
 
-  GlobalDomain: # name of the provider
-    type: http # type of the provider, it can be a HTTP or a File
-    behavior: domain # or domain
+  GlobalDomain:
+    type: http
+    behavior: domain
     path: ./RuleSet/
     url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/GlobalDomain.yaml
     interval: 600
 
-  GlobalIP: # name of the provider
-    type: http # type of the provider, it can be a HTTP or a File
-    behavior: ipcidr # or domain
+  GlobalIP:
+    type: http
+    behavior: ipcidr
     path: ./RuleSet/
     url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/GlobalIP.yaml
     interval: 600
 
-  ChinaDomain: # name of the provider
-    type: http # type of the provider, it can be a HTTP or a File
-    behavior: domain # or domain
+  ChinaDomain:
+    type: http
+    behavior: domain
     path: ./RuleSet/
     url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/ChinaDomain.yaml
     interval: 600
