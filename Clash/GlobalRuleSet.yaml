@@ -1,0 +1,277 @@
+# HTTP 端口
+port: 7890
+
+# SOCKS5 端口
+socks-port: 7891
+
+# Linux 及 macOS 的 redir 端口
+# redir-port: 7892
+
+allow-lan: false
+
+# 仅适用于设置 allow-lan 为 true 时
+# "*": 绑定所有 IP 地址
+# 192.168.122.11: 绑定单个 IPv4 地址
+# "[aaaa::a8aa:ff:fe09:57d8]": 绑定单个 IPv6 地址
+# bind-address: "*"
+
+# Rule / Global / Direct (默认为 Rule 模式)
+mode: Rule
+
+# 设置输出日志的等级 (默认为 info)
+# info / warning / error / debug / silent
+log-level: info
+
+# RESTful API for clash
+external-controller: 127.0.0.1:9090
+
+# you can put the static web resource (such as clash-dashboard) to a directory, and clash would serve in `${API}/ui`
+# input is a relative path to the configuration directory or an absolute path
+# external-ui: folder
+
+# Secret for RESTful API (Optional)
+# secret: ""
+
+# 实验性功能
+experimental:
+  ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为true
+  # interface-name: en0 # 出站接口名称
+
+# 本地 SOCKS5/HTTP(S) 服务器认证
+# authentication:
+#  - "user1:pass1"
+#  - "user2:pass2"
+
+# # 实验性 hosts, 支持通配符（如 *.clash.dev 甚至 *.foo.*.examplex.com ）
+# # 静态域的优先级高于通配符域（foo.example.com > *.example.com）
+hosts:
+  'mtalk.google.com': 108.177.125.188
+#   '*.clash.dev': 127.0.0.1
+#   'alpha.clash.dev': '::1'
+
+dns:
+  enable: true # set true to enable dns (default is false)
+  ipv6: false # default is false
+  listen: 0.0.0.0:53
+  # default-nameserver: # resolve dns nameserver host, should fill pure IP
+  #   - 114.114.114.114
+  #   - 8.8.8.8
+  enhanced-mode: redir-host # or fake-ip
+  # fake-ip-range: 198.18.0.1/16 # if you don't know what it is, don't change it
+  fake-ip-filter: # fake ip white domain list
+    - '*.lan'
+    - localhost.ptlogin2.qq.com
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback: # concurrent request with nameserver, fallback used when GEOIP country isn't CN
+    - tcp://1.1.1.1
+  fallback-filter:
+    geoip: true # default
+    ipcidr: # ips in these subnets will be considered polluted
+      - 240.0.0.0/4
+
+proxies:
+# 支持的协议及加密算法示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
+
+# Shadowsocks(Websocket + TLS)
+- name: "HK"
+  type: ss
+  server: server
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: "password"
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket # no QUIC now
+    tls: true # wss
+    # skip-cert-verify: true
+    # host: bing.com
+    path: "/s"
+    # mux: true
+    # headers:
+    #   custom: value
+
+# VMess(Websocket + TLS)
+- name: "US"
+  type: vmess
+  server: v2ray.cool
+  port: 443
+  uuid: a3482e88-686a-4a58-8126-99c9df64b7bf
+  alterId: 32
+  cipher: auto
+  # udp: true
+  tls: true
+  # skip-cert-verify: true
+  network: ws
+  ws-path: /v
+  # ws-headers:
+  #   Host: v2ray.com
+
+# Trojan
+- name: "SG"
+  type: trojan
+  server: server
+  port: 443
+  password: yourpsk
+  # udp: true
+  # sni: example.com # aka server name
+  # alpn:
+  #   - h2
+  #   - http/1.1
+  # skip-cert-verify: true
+
+proxy-groups:
+# 策略组示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
+
+# Fallback
+- name: "Fallback"
+  type: fallback
+  proxies:
+    - HK
+    - US
+    - SG
+  url: 'http://www.gstatic.com/generate_204'
+  interval: 300
+
+# 代理节点选择
+- name: "PROXY"
+  type: select
+  proxies:
+    - Fallback
+    - HK
+    - US
+    - SG
+
+# 白名单模式 PROXY, 黑名单模式 DIRECT, 不知道别动
+- name: "MATCH"
+  type: select
+  proxies:
+    - PROXY
+    - DIRECT
+
+# 国际流媒体服务
+- name: "Streaming"
+  type: select
+  proxies:
+    - PROXY
+    - HK
+    - US
+    - SG
+
+# 中国流媒体服务（面向海外版本）
+- name: "StreamingSE"
+  type: select
+  proxies:
+    - DIRECT
+    - HK
+
+# https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
+rule-providers:
+
+  Unbreak: # name of the provider
+    type: http # type of the provider, it can be a HTTP or a File
+    behavior: domain # or domain
+    path: ./RuleSet/
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Unbreak.yaml
+    interval: 600
+
+  Streaming: # name of the provider
+    type: http # type of the provider, it can be a HTTP or a File
+    behavior: domain # or domain
+    path: ./RuleSet/
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Streaming.yaml
+    interval: 600
+  
+  StreamingSE: # name of the provider
+    type: http # type of the provider, it can be a HTTP or a File
+    behavior: domain # or domain
+    path: ./RuleSet/
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingSE.yaml
+    interval: 600
+
+  GlobalDomain: # name of the provider
+    type: http # type of the provider, it can be a HTTP or a File
+    behavior: domain # or domain
+    path: ./RuleSet/
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/GlobalDomain.yaml
+    interval: 600
+
+  GlobalIP: # name of the provider
+    type: http # type of the provider, it can be a HTTP or a File
+    behavior: ipcidr # or domain
+    path: ./RuleSet/
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/GlobalIP.yaml
+    interval: 600
+
+  ChinaDomain: # name of the provider
+    type: http # type of the provider, it can be a HTTP or a File
+    behavior: domain # or domain
+    path: ./RuleSet/
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/ChinaDomain.yaml
+    interval: 600
+
+
+# 规则
+rules:
+# Unbreak
+- RULE-SET,Unbreak,DIRECT
+
+# Global Area Network
+# Streaming Media
+- DOMAIN-KEYWORD,jooxweb-api,Streaming
+- DOMAIN-KEYWORD,spotify.com,Streaming
+- DOMAIN-KEYWORD,-spotify-com,Streaming
+# (Video)
+# > AbemaTV
+- DOMAIN-KEYWORD,abematv.akamaized.net,Streaming
+# > Amazon Prime Video
+- DOMAIN-KEYWORD,avoddashs,Streaming
+# > BBC iPlayer
+- DOMAIN-KEYWORD,bbcfmt,Streaming
+- DOMAIN-KEYWORD,uk-live,Streaming
+# > DAZN
+- DOMAIN-KEYWORD,voddazn,Streaming
+# > TikTok
+- DOMAIN-KEYWORD,-tiktokcdn-com,Streaming
+- RULE-SET,Streaming,Streaming
+# StreamingSE
+- RULE-SET,StreamingSE,StreamingSE
+# (DNS Cache Pollution)
+# - DOMAIN-KEYWORD,google,PROXY
+- DOMAIN-KEYWORD,blogspot,PROXY
+- DOMAIN-KEYWORD,facebook,PROXY
+- DOMAIN-KEYWORD,twitter,PROXY
+- DOMAIN-KEYWORD,github,PROXY
+- DOMAIN-KEYWORD,jav,PROXY
+- DOMAIN-KEYWORD,pinterest,PROXY
+- DOMAIN-KEYWORD,porn,PROXY
+# (Network Jitter)
+# > Fix download or update is stuck in App Store,and when change the Apple ID region,the payment information can be selected by none.
+- DOMAIN-KEYWORD,buy.itunes.apple.com,PROXY
+- RULE-SET,GlobalDomain,PROXY
+
+# China Area Network
+# > Apple
+- DOMAIN-KEYWORD,apple.com.akadns.net,DIRECT
+- DOMAIN-KEYWORD,icloud.com.akadns.net,DIRECT
+- RULE-SET,ChinaDomain,DIRECT
+
+# Local Area Network
+- IP-CIDR,192.168.0.0/16,DIRECT
+- IP-CIDR,10.0.0.0/8,DIRECT
+- IP-CIDR,172.16.0.0/12,DIRECT
+- IP-CIDR,127.0.0.0/8,DIRECT
+- IP-CIDR,100.64.0.0/10,DIRECT
+- IP-CIDR,224.0.0.0/4,DIRECT
+
+# (IP Blackhole)
+- RULE-SET,GlobalIP,PROXY
+
+# Tencent
+- IP-CIDR,119.28.28.28/32,DIRECT
+- IP-CIDR,182.254.116.0/24,DIRECT
+# GeoIP China
+- GEOIP,CN,DIRECT
+
+- MATCH,MATCH

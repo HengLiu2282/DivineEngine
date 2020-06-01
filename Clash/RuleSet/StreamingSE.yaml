@@ -1,0 +1,17 @@
+payload:
+  # > bilibili
+  - '.biliapi.net'
+  - 'biliapi.net'
+  - 'api.bilibili.com'
+  - 'www.bilibili.com'
+  - 'upos-hz-mirrorakam.akamaized.net'
+  # > 愛奇藝台灣站
+  - 'cache.video.iqiyi.com'
+  # > 芒果TV国际
+  - '.api.mgtv.com'
+  - 'api.mgtv.com'
+  # > WeTV
+  - '.wetv.vip'
+  - 'wetv.vip'
+  - '.wetvinfo.com'
+  - 'wetvinfo.com'
