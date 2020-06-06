@@ -1,4 +1,4 @@
-# Advertising 广告
+# Advertising
 # > General
 DOMAIN-KEYWORD,adservice,REJECT
 
@@ -69,6 +69,7 @@ DOMAIN-SUFFIX,addealing.com,REJECT
 DOMAIN-SUFFIX,addealsnetwork.com,REJECT
 DOMAIN-SUFFIX,ad-delivery.net,REJECT
 DOMAIN-SUFFIX,addict-mobile.net,REJECT
+DOMAIN-SUFFIX,addragon.com,REJECT
 DOMAIN-SUFFIX,adecorp.co.kr,REJECT
 DOMAIN-SUFFIX,adecosystems.net,REJECT
 DOMAIN-SUFFIX,adecosystems.tech,REJECT
@@ -105,6 +106,7 @@ DOMAIN-SUFFIX,adtarget.io,REJECT
 DOMAIN-SUFFIX,adtarget.me,REJECT
 DOMAIN-SUFFIX,adthor.com,REJECT
 DOMAIN-SUFFIX,adtrace.org,REJECT
+DOMAIN-SUFFIX,advertising.com,REJECT
 DOMAIN-SUFFIX,adwhirl.com,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,amobee.com,REJECT
@@ -122,7 +124,10 @@ DOMAIN-SUFFIX,axonix.com,REJECT
 DOMAIN-SUFFIX,b2pk.com,REJECT
 DOMAIN-SUFFIX,bayimob.com,REJECT
 DOMAIN-SUFFIX,bjvvqu.cn,REJECT
+DOMAIN-SUFFIX,brightcom.com,REJECT
 DOMAIN-SUFFIX,bulldogcpi.com,REJECT
+DOMAIN-SUFFIX,bxsnews.com,REJECT
+DOMAIN-SUFFIX,carbonads.net,REJECT
 DOMAIN-SUFFIX,clotfun.mobi,REJECT
 DOMAIN-SUFFIX,clotfun.online,REJECT
 DOMAIN-SUFFIX,cloudmobi.net,REJECT
@@ -187,17 +192,46 @@ DOMAIN-SUFFIX,tanv.com,REJECT
 DOMAIN-SUFFIX,tanx.com,REJECT
 DOMAIN-SUFFIX,tapjoy.com,REJECT
 DOMAIN-SUFFIX,trafficjunky.net,REJECT
+DOMAIN-SUFFIX,trvdp.com,REJECT
 DOMAIN-SUFFIX,turn.com,REJECT
 DOMAIN-SUFFIX,uri6.com,REJECT
 DOMAIN-SUFFIX,vidoomy.com,REJECT
 DOMAIN-SUFFIX,vungle.com,REJECT
 DOMAIN-SUFFIX,wedolook.com,REJECT
+DOMAIN-SUFFIX,wrinkads.com,REJECT
+DOMAIN-SUFFIX,wsod.com,REJECT
+DOMAIN-SUFFIX,xapads.com,REJECT
 DOMAIN-SUFFIX,xdrig.com,REJECT
+DOMAIN-SUFFIX,xmlwizard.com,REJECT
+DOMAIN-SUFFIX,xpanama.net,REJECT
+DOMAIN-SUFFIX,xy7elite.com,REJECT
+DOMAIN-SUFFIX,yandexadexchange.net,REJECT
+DOMAIN-SUFFIX,ybrantdigital.com,REJECT
+DOMAIN-SUFFIX,ydmob.com,REJECT
+DOMAIN-SUFFIX,yeahmobi.com,REJECT
+DOMAIN-SUFFIX,yhdichan.com,REJECT
+DOMAIN-SUFFIX,yicha.jp,REJECT
+DOMAIN-SUFFIX,yllix.com,REJECT
+DOMAIN-SUFFIX,ymtrack6.co,REJECT
+DOMAIN-SUFFIX,ymtracking.com,REJECT
+DOMAIN-SUFFIX,yoc.com,REJECT
+DOMAIN-SUFFIX,yomob.com.cn,REJECT
+DOMAIN-SUFFIX,youappi.com,REJECT
+DOMAIN-SUFFIX,youmi.net,REJECT
 DOMAIN-SUFFIX,yumimobi.com,REJECT
+DOMAIN-SUFFIX,zapr.in,REJECT
+DOMAIN-SUFFIX,zemanta.com,REJECT
+DOMAIN-SUFFIX,zestads.com,REJECT
+DOMAIN-SUFFIX,zhiziyun.com,REJECT
 DOMAIN-SUFFIX,zu08e.cn,REJECT
+DOMAIN-SUFFIX,zucks.co.jp,REJECT
+DOMAIN-SUFFIX,zucks.net,REJECT
+DOMAIN-SUFFIX,zumobi.com,REJECT
+yoc-performance.com,REJECT
 
 DOMAIN-SUFFIX,ad.cmvideo.cn,REJECT
 DOMAIN-SUFFIX,ad.daum.net,REJECT
+
 DOMAIN,abema-adx.ameba.jp,REJECT
 DOMAIN,ad.12306.cn,REJECT
 DOMAIN,ad.360in.com,REJECT
@@ -209,6 +243,7 @@ DOMAIN,ad.jiemian.com,REJECT
 DOMAIN,ad.qingting.fm,REJECT
 DOMAIN,ad.toutiao.com,REJECT
 DOMAIN,ad.wappalyzer.com,REJECT
+DOMAIN,ad.zing.vn,REJECT
 DOMAIN,ad-cn.jovcloud.com,REJECT
 DOMAIN,adextra.51wnl-cq.com,REJECT
 DOMAIN,ads.adadapted.com,REJECT
@@ -221,6 +256,7 @@ DOMAIN,adserver.pandora.com,REJECT
 DOMAIN,adshow.58.com,REJECT
 DOMAIN,adui.tg.meitu.com,REJECT
 DOMAIN,adv.bandi.so,REJECT
+DOMAIN,adv.ettoday.net,REJECT
 DOMAIN,api.adnet.mob.com,REJECT
 DOMAIN,app-ad.variflight.com,REJECT
 DOMAIN,appnext.hs.llnwd.net,REJECT
@@ -309,6 +345,8 @@ DOMAIN-SUFFIX,doubleclick.net,REJECT
 DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,googleadsserving.cn,REJECT
 DOMAIN-SUFFIX,googlesyndication.com,REJECT
+DOMAIN-SUFFIX,googletagservices.com,REJECT
+DOMAIN,ads.youtube.com,REJECT
 
 # (H)
 # > HunanTV
@@ -365,6 +403,8 @@ DOMAIN,v1.log.moji.com,REJECT
 
 # (N)
 # > NetEase
+DOMAIN-SUFFIX,dsp.youdao.com,REJECT
+DOMAIN-SUFFIX,union.youdao.com,REJECT
 DOMAIN,ad.bn.netease.com,REJECT
 DOMAIN,ad.yixin.im,REJECT
 DOMAIN,admusicpic.music.126.net,REJECT
@@ -375,8 +415,6 @@ DOMAIN,iadmusicmat.music.126.net,REJECT
 DOMAIN,iadmusicmatvideo.music.126.net,REJECT
 DOMAIN,impservice.dictapp.youdao.com,REJECT
 DOMAIN,impservice.youdao.com,REJECT
-DOMAIN,log.yex.youdao.com,REJECT
-DOMAIN,log-yex.youdao.com,REJECT
 DOMAIN,n.3g.163.com,REJECT
 DOMAIN,nex.163.com,REJECT
 DOMAIN,yt-adp.nosdn.127.net,REJECT
@@ -473,6 +511,19 @@ DOMAIN,adsebs.ximalaya.com,REJECT
 DOMAIN,ads-img-qc.xhscdn.com,REJECT
 DOMAIN,ads-video-qc.xhscdn.com,REJECT
 DOMAIN,t-ads.xiaohongshu.com,REJECT
+
+# (Y)
+# > Yahoo
+DOMAIN-SUFFIX,adserver.yahoo.com,REJECT
+DOMAIN-SUFFIX,adspecs.yahoo.com,REJECT
+DOMAIN-SUFFIX,advertising.yahoo.com,REJECT
+DOMAIN-SUFFIX,gemini.yahoo.com,REJECT
+DOMAIN-SUFFIX,yap.yahoo.com,REJECT
+DOMAIN,admarketing.yahoo.net,REJECT
+DOMAIN,ads.auctions.yahoo.com,REJECT
+DOMAIN,ads.finance.yahoo.com,REJECT
+DOMAIN,ads.yahoo.com,REJECT
+DOMAIN,ads.yahoo.de,REJECT
 
 # (Z)
 # > ZOL

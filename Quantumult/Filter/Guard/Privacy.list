@@ -1,6 +1,11 @@
-# Privacy 隐私
+# Privacy
+DOMAIN-SUFFIX,247-inc.net,REJECT
 DOMAIN-SUFFIX,42trck.com,REJECT
 DOMAIN-SUFFIX,51.la,REJECT
+DOMAIN-SUFFIX,81plug.com,REJECT
+DOMAIN-SUFFIX,actionteaser.ru,REJECT
+DOMAIN-SUFFIX,adalyser.com,REJECT
+DOMAIN-SUFFIX,addnow.com,REJECT
 DOMAIN-SUFFIX,adinfuse.com,REJECT
 DOMAIN-SUFFIX,adjust.com,REJECT
 DOMAIN-SUFFIX,adjust.io,REJECT
@@ -9,17 +14,22 @@ DOMAIN-SUFFIX,appsflyer.com,REJECT
 DOMAIN-SUFFIX,cnzz.com,REJECT
 DOMAIN-SUFFIX,flurry.com,REJECT
 DOMAIN-SUFFIX,voicefive.com,REJECT
+DOMAIN-SUFFIX,xiti.com,REJECT
+DOMAIN-SUFFIX,youramigo.com,REJECT
+DOMAIN-SUFFIX,zoomboya.com,REJECT
 
 DOMAIN,applog.mobike.com,REJECT
 DOMAIN,gs.getui.com,REJECT
 DOMAIN,log.b612kaji.com,REJECT
+DOMAIN,track.sohu.com,REJECT
 DOMAIN,track.tiara.daum.net,REJECT
 DOMAIN,track.tiara.kakao.com,REJECT
 DOMAIN,trackapp.guahao.cn,REJECT
 DOMAIN,traffic.mogujie.com,REJECT
 DOMAIN,wmlog.meituan.com,REJECT
+DOMAIN,zgsdk.zhugeio.com,REJECT
 
-# > 58同城
+# > 58
 DOMAIN,track.58.com,REJECT
 DOMAIN,tracklog.58.com,REJECT
 # > Alibaba
@@ -45,13 +55,16 @@ DOMAIN,xlog.snssdk.com,REJECT
 DOMAIN,xlog-va.byteoversea.com,REJECT
 # > Google
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
-DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN,ssl.google-analytics.com,REJECT
 DOMAIN,www.google-analytics.com,REJECT
 # > MI
 DOMAIN-SUFFIX,tracking.miui.com,REJECT
 DOMAIN,data.mistat.xiaomi.com,REJECT
 DOMAIN,tracking.intl.miui.com,REJECT
+# > NetEase
+DOMAIN-SUFFIX,analytics.163.com,REJECT
+DOMAIN,crash.163.com,REJECT
+DOMAIN,crashlytics.163.com,REJECT
 # > Tencent
 DOMAIN-SUFFIX,beacon.qq.com,REJECT
 DOMAIN,pingma.qq.com,REJECT

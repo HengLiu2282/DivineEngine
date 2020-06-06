@@ -1,4 +1,4 @@
-# Advertising 广告
+# Advertising
 # > General
 DOMAIN-KEYWORD,adservice
 
@@ -69,6 +69,7 @@ DOMAIN-SUFFIX,addealing.com
 DOMAIN-SUFFIX,addealsnetwork.com
 DOMAIN-SUFFIX,ad-delivery.net
 DOMAIN-SUFFIX,addict-mobile.net
+DOMAIN-SUFFIX,addragon.com
 DOMAIN-SUFFIX,adecorp.co.kr
 DOMAIN-SUFFIX,adecosystems.net
 DOMAIN-SUFFIX,adecosystems.tech
@@ -105,6 +106,7 @@ DOMAIN-SUFFIX,adtarget.io
 DOMAIN-SUFFIX,adtarget.me
 DOMAIN-SUFFIX,adthor.com
 DOMAIN-SUFFIX,adtrace.org
+DOMAIN-SUFFIX,advertising.com
 DOMAIN-SUFFIX,adwhirl.com
 DOMAIN-SUFFIX,amazon-adsystem.com
 DOMAIN-SUFFIX,amobee.com
@@ -122,7 +124,10 @@ DOMAIN-SUFFIX,axonix.com
 DOMAIN-SUFFIX,b2pk.com
 DOMAIN-SUFFIX,bayimob.com
 DOMAIN-SUFFIX,bjvvqu.cn
+DOMAIN-SUFFIX,brightcom.com
 DOMAIN-SUFFIX,bulldogcpi.com
+DOMAIN-SUFFIX,bxsnews.com
+DOMAIN-SUFFIX,carbonads.net
 DOMAIN-SUFFIX,clotfun.mobi
 DOMAIN-SUFFIX,clotfun.online
 DOMAIN-SUFFIX,cloudmobi.net
@@ -187,17 +192,46 @@ DOMAIN-SUFFIX,tanv.com
 DOMAIN-SUFFIX,tanx.com
 DOMAIN-SUFFIX,tapjoy.com
 DOMAIN-SUFFIX,trafficjunky.net
+DOMAIN-SUFFIX,trvdp.com
 DOMAIN-SUFFIX,turn.com
 DOMAIN-SUFFIX,uri6.com
 DOMAIN-SUFFIX,vidoomy.com
 DOMAIN-SUFFIX,vungle.com
 DOMAIN-SUFFIX,wedolook.com
+DOMAIN-SUFFIX,wrinkads.com
+DOMAIN-SUFFIX,wsod.com
+DOMAIN-SUFFIX,xapads.com
 DOMAIN-SUFFIX,xdrig.com
+DOMAIN-SUFFIX,xmlwizard.com
+DOMAIN-SUFFIX,xpanama.net
+DOMAIN-SUFFIX,xy7elite.com
+DOMAIN-SUFFIX,yandexadexchange.net
+DOMAIN-SUFFIX,ybrantdigital.com
+DOMAIN-SUFFIX,ydmob.com
+DOMAIN-SUFFIX,yeahmobi.com
+DOMAIN-SUFFIX,yhdichan.com
+DOMAIN-SUFFIX,yicha.jp
+DOMAIN-SUFFIX,yllix.com
+DOMAIN-SUFFIX,ymtrack6.co
+DOMAIN-SUFFIX,ymtracking.com
+DOMAIN-SUFFIX,yoc.com
+DOMAIN-SUFFIX,yomob.com.cn
+DOMAIN-SUFFIX,youappi.com
+DOMAIN-SUFFIX,youmi.net
 DOMAIN-SUFFIX,yumimobi.com
+DOMAIN-SUFFIX,zapr.in
+DOMAIN-SUFFIX,zemanta.com
+DOMAIN-SUFFIX,zestads.com
+DOMAIN-SUFFIX,zhiziyun.com
 DOMAIN-SUFFIX,zu08e.cn
+DOMAIN-SUFFIX,zucks.co.jp
+DOMAIN-SUFFIX,zucks.net
+DOMAIN-SUFFIX,zumobi.com
+yoc-performance.com
 
 DOMAIN-SUFFIX,ad.cmvideo.cn
 DOMAIN-SUFFIX,ad.daum.net
+
 DOMAIN,abema-adx.ameba.jp
 DOMAIN,ad.12306.cn
 DOMAIN,ad.360in.com
@@ -209,6 +243,7 @@ DOMAIN,ad.jiemian.com
 DOMAIN,ad.qingting.fm
 DOMAIN,ad.toutiao.com
 DOMAIN,ad.wappalyzer.com
+DOMAIN,ad.zing.vn
 DOMAIN,ad-cn.jovcloud.com
 DOMAIN,adextra.51wnl-cq.com
 DOMAIN,ads.adadapted.com
@@ -221,6 +256,7 @@ DOMAIN,adserver.pandora.com
 DOMAIN,adshow.58.com
 DOMAIN,adui.tg.meitu.com
 DOMAIN,adv.bandi.so
+DOMAIN,adv.ettoday.net
 DOMAIN,api.adnet.mob.com
 DOMAIN,app-ad.variflight.com
 DOMAIN,appnext.hs.llnwd.net
@@ -309,6 +345,8 @@ DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googleadsserving.cn
 DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googletagservices.com
+DOMAIN,ads.youtube.com
 
 # (H)
 # > HunanTV
@@ -365,6 +403,8 @@ DOMAIN,v1.log.moji.com
 
 # (N)
 # > NetEase
+DOMAIN-SUFFIX,dsp.youdao.com
+DOMAIN-SUFFIX,union.youdao.com
 DOMAIN,ad.bn.netease.com
 DOMAIN,ad.yixin.im
 DOMAIN,admusicpic.music.126.net
@@ -375,8 +415,6 @@ DOMAIN,iadmusicmat.music.126.net
 DOMAIN,iadmusicmatvideo.music.126.net
 DOMAIN,impservice.dictapp.youdao.com
 DOMAIN,impservice.youdao.com
-DOMAIN,log.yex.youdao.com
-DOMAIN,log-yex.youdao.com
 DOMAIN,n.3g.163.com
 DOMAIN,nex.163.com
 DOMAIN,yt-adp.nosdn.127.net
@@ -473,6 +511,19 @@ DOMAIN,adsebs.ximalaya.com
 DOMAIN,ads-img-qc.xhscdn.com
 DOMAIN,ads-video-qc.xhscdn.com
 DOMAIN,t-ads.xiaohongshu.com
+
+# (Y)
+# > Yahoo
+DOMAIN-SUFFIX,adserver.yahoo.com
+DOMAIN-SUFFIX,adspecs.yahoo.com
+DOMAIN-SUFFIX,advertising.yahoo.com
+DOMAIN-SUFFIX,gemini.yahoo.com
+DOMAIN-SUFFIX,yap.yahoo.com
+DOMAIN,admarketing.yahoo.net
+DOMAIN,ads.auctions.yahoo.com
+DOMAIN,ads.finance.yahoo.com
+DOMAIN,ads.yahoo.com
+DOMAIN,ads.yahoo.de
 
 # (Z)
 # > ZOL
