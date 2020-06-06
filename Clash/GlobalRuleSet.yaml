@@ -245,11 +245,9 @@ rules:
 # StreamingSE
 - RULE-SET,StreamingSE,StreamingSE
 # (DNS Cache Pollution)
-# - DOMAIN-KEYWORD,google,PROXY
+- DOMAIN-KEYWORD,google,PROXY
 - DOMAIN-KEYWORD,blogspot,PROXY
 - DOMAIN-KEYWORD,facebook,PROXY
-- DOMAIN-KEYWORD,twitter,PROXY
-- DOMAIN-KEYWORD,github,PROXY
 - DOMAIN-KEYWORD,jav,PROXY
 - DOMAIN-KEYWORD,pinterest,PROXY
 - DOMAIN-KEYWORD,porn,PROXY

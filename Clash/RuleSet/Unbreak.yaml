@@ -1,5 +1,4 @@
 payload:
-  - '.googletraveladservices.com'
-  - 'googletraveladservices.com'
+  - '+.googletraveladservices.com'
   - 'dl.google.com'
   - 'mtalk.google.com'
