@@ -171,51 +171,58 @@ proxy-groups:
 rule-providers:
   # name: # Provider 名称
   #   type: http # http 或 file
-  #   behavior: ipcidr # ipcidr 或 domain
+  #   behavior: classical # 或 ipcidr、domain
   #   path: # 文件路径
   #   url: # 只有当类型为 HTTP 时才可用，您不需要在本地空间中创建新文件。
   #   interval: # 自动更新间隔，仅在类型为 HTTP 时可用
 
   Unbreak:
     type: http
-    behavior: domain
+    behavior: classical
     path: ./RuleSet/
     url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Unbreak.yaml
     interval: 600
 
   Streaming:
     type: http
-    behavior: domain
-    path: ./RuleSet/
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Streaming.yaml
+    behavior: classical
+    path: ./RuleSet/Streaming/
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Streaming.yaml
     interval: 600
   
   StreamingSE:
     type: http
-    behavior: domain
-    path: ./RuleSet/
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingSE.yaml
+    behavior: classical
+    path: ./RuleSet/StreamingSE/
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
     interval: 600
 
-  GlobalDomain:
+  Global:
     type: http
-    behavior: domain
+    behavior: classical
     path: ./RuleSet/
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/GlobalDomain.yaml
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Global.yaml
     interval: 600
 
-  GlobalIP:
+  China:
     type: http
-    behavior: ipcidr
+    behavior: classical
     path: ./RuleSet/
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/GlobalIP.yaml
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/China.yaml
     interval: 600
 
-  ChinaDomain:
+  IP-Blackhole:
     type: http
-    behavior: domain
-    path: ./RuleSet/
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/ChinaDomain.yaml
+    behavior: classical
+    path: ./RuleSet/Extra/
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/IP-Blackhole.yaml
+    interval: 600
+
+  ChinaIP:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Extra/
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/ChinaIP.yaml
     interval: 600
 
 
@@ -225,41 +232,17 @@ rules:
 - RULE-SET,Unbreak,DIRECT
 
 # Global Area Network
-# Streaming Media
-- DOMAIN-KEYWORD,jooxweb-api,Streaming
-- DOMAIN-KEYWORD,spotify.com,Streaming
-- DOMAIN-KEYWORD,-spotify-com,Streaming
-# (Video)
-# > AbemaTV
-- DOMAIN-KEYWORD,abematv.akamaized.net,Streaming
-# > Amazon Prime Video
-- DOMAIN-KEYWORD,avoddashs,Streaming
-# > BBC iPlayer
-- DOMAIN-KEYWORD,bbcfmt,Streaming
-- DOMAIN-KEYWORD,uk-live,Streaming
-# > DAZN
-- DOMAIN-KEYWORD,voddazn,Streaming
-# > TikTok
-- DOMAIN-KEYWORD,-tiktokcdn-com,Streaming
+
+# (Streaming Media)
 - RULE-SET,Streaming,Streaming
-# StreamingSE
+
+# (StreamingSE)
 - RULE-SET,StreamingSE,StreamingSE
-# (DNS Cache Pollution)
-- DOMAIN-KEYWORD,google,PROXY
-- DOMAIN-KEYWORD,blogspot,PROXY
-- DOMAIN-KEYWORD,facebook,PROXY
-- DOMAIN-KEYWORD,jav,PROXY
-- DOMAIN-KEYWORD,pinterest,PROXY
-- DOMAIN-KEYWORD,porn,PROXY
-# (Network Jitter)
-# > Fix download or update is stuck in App Store,and when change the Apple ID region,the payment information can be selected by none.
-- DOMAIN-KEYWORD,buy.itunes.apple.com,PROXY
-- RULE-SET,GlobalDomain,PROXY
+
+# (DNS Cache Pollution) / (IP Blackhole) / (Region-Restricted Access Denied) / (Network Jitter)
+- RULE-SET,Global,PROXY
 
 # China Area Network
-# > Apple
-- DOMAIN-KEYWORD,apple.com.akadns.net,DIRECT
-- DOMAIN-KEYWORD,icloud.com.akadns.net,DIRECT
 - RULE-SET,ChinaDomain,DIRECT
 
 # Local Area Network
@@ -270,12 +253,17 @@ rules:
 - IP-CIDR,100.64.0.0/10,DIRECT
 - IP-CIDR,224.0.0.0/4,DIRECT
 
+# IP Blackhole
+- RULE-SET,IP-Blackhole,PROXY
+
 # (IP Blackhole)
 - RULE-SET,GlobalIP,PROXY
 
 # Tencent
 - IP-CIDR,119.28.28.28/32,DIRECT
 - IP-CIDR,182.254.116.0/24,DIRECT
+# 使用来自 ipipdotnet 的 ChinaIP 以解决数据不准确的问题，使用 ChinaIP.yaml 时禁用「GEOIP,CN」规则
+# - RULE-SET,ChinaIP,DIRECT
 # GeoIP China
 - GEOIP,CN,DIRECT
 

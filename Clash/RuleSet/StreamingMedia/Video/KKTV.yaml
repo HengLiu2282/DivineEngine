@@ -1,0 +1,5 @@
+payload:
+  # > KKTV
+  - DOMAIN-SUFFIX,kktv.com.tw
+  - DOMAIN-SUFFIX,kktv.me
+  - DOMAIN,kktv-theater.kk.stream

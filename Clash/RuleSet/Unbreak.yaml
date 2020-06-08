@@ -1,4 +1,4 @@
 payload:
-  - '+.googletraveladservices.com'
-  - 'dl.google.com'
-  - 'mtalk.google.com'
+  - DOMAIN-SUFFIX,googletraveladservices.com
+  - DOMAIN,dl.google.com
+  - DOMAIN,mtalk.google.com
