@@ -1,5 +1,5 @@
 payload:
-  - # (Video)
+  # (Video)
   # > Acfun
   - DOMAIN-SUFFIX,acfun.cn
   - DOMAIN-SUFFIX,aixifan.com
@@ -35,7 +35,7 @@ payload:
   - DOMAIN-SUFFIX,cmvideo.cn
   - DOMAIN-SUFFIX,miguvideo.com
 
-  - # (Music)
+  # (Music)
   # > QQ Music
   - DOMAIN-SUFFIX,music.qq.com
   - DOMAIN-SUFFIX,music.tc.qq.com
