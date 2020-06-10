@@ -179,51 +179,51 @@ rule-providers:
   Unbreak:
     type: http
     behavior: classical
-    path: ./RuleSet/
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Unbreak.yaml
-    interval: 600
+    path: ./RuleSet/Unbreak.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
+    interval: 86400
 
   Streaming:
     type: http
     behavior: classical
-    path: ./RuleSet/Streaming/
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Streaming.yaml
-    interval: 600
+    path: ./RuleSet/Streaming/Streaming.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
+    interval: 86400
   
   StreamingSE:
     type: http
     behavior: classical
-    path: ./RuleSet/StreamingSE/
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
-    interval: 600
+    path: ./RuleSet/StreamingSE/StreamingSE.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
+    interval: 86400
 
   Global:
     type: http
     behavior: classical
-    path: ./RuleSet/
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Global.yaml
-    interval: 600
+    path: ./RuleSet/Global.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
+    interval: 86400
 
   China:
     type: http
     behavior: classical
-    path: ./RuleSet/
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/China.yaml
-    interval: 600
+    path: ./RuleSet/China.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
+    interval: 86400
 
   IP-Blackhole:
     type: http
     behavior: classical
-    path: ./RuleSet/Extra/
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/IP-Blackhole.yaml
-    interval: 600
+    path: ./RuleSet/Extra/IP-Blackhole.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/IP-Blackhole.yaml
+    interval: 86400
 
   ChinaIP:
     type: http
     behavior: classical
-    path: ./RuleSet/Extra/
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/ChinaIP.yaml
-    interval: 600
+    path: ./RuleSet/Extra/ChinaIP.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml
+    interval: 86400
 
 
 # 规则
