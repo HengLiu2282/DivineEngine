@@ -121,7 +121,7 @@ proxies:
     #   - http/1.1
     # skip-cert-verify: true
 
-# 节点订阅
+# 服务器节点订阅
 proxy-providers:
   # name: # Provider 名称
   #   type: http # http 或 file
@@ -132,6 +132,14 @@ proxy-providers:
   #     enable:
   #     url: 
   #     interval: 
+
+  #
+  # 「url」参数填写订阅链接
+  #
+  # 订阅链接可以使用 KOP-XIAO 的 API (https://github.com/KOP-XIAO/QuantumultX-Surge-API)进行转换，如「https://dove.589669.xyz/all2clash?sub=https%3A%2F%2Fraw.githubusercontent.com%2Fcrossutility%2FQuantumult-X%2Fmaster%2Fserver.txt」
+  #
+  # 主要是两个部分「https://dove.589669.xyz/all2clash?sub=」以及订阅链接，订阅链接的 URL 需要先进行 UrlEncode (https://c.runoob.com/front-end/695)
+  #
 
   # DuckDuckGo: # 冲鸭机场订阅链接
   #   type: http
