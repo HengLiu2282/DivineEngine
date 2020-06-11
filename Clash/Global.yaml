@@ -141,15 +141,15 @@ proxy-providers:
   # 主要是两个部分「https://dove.589669.xyz/all2clash?sub=」以及订阅链接，订阅链接的 URL 需要先进行 UrlEncode (https://c.runoob.com/front-end/695)
   #
 
-  # DuckDuckGo: # 冲鸭机场订阅链接
-  #   type: http
-  #   url: "https://duckduckgo.security/user/sub.php?token=DivineEngine"
-  #   interval: 3600
-  #   path: ./Proxy/ProxyList.yaml
-  #   health-check:
-  #     enable: true
-  #     interval: 600
-  #     url: http://www.gstatic.com/generate_204
+  DuckDuckGo: # 冲鸭机场订阅链接
+    type: http
+    url: "https://duckduckgo.security/user/sub.php?token=DivineEngine"
+    interval: 3600
+    path: ./Proxy/ProxyList.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
 
 proxy-groups:
 # 策略组示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
@@ -178,6 +178,8 @@ proxy-groups:
   # 代理节点选择
   - name: "PROXY"
     type: select
+    use:
+      - CCCAT
     proxies:
       - Fallback
       - HK
