@@ -136,9 +136,9 @@ proxy-providers:
   #
   # 「url」参数填写订阅链接
   #
-  # 订阅链接可以使用 KOP-XIAO 的 API (https://github.com/KOP-XIAO/QuantumultX-Surge-API)进行转换，如「https://dove.589669.xyz/all2clash?sub=https%3A%2F%2Fraw.githubusercontent.com%2Fcrossutility%2FQuantumult-X%2Fmaster%2Fserver.txt」
+  # 订阅链接可以使用 API 进行转换，如：https://sub.dler.io/
   #
-  # 主要是两个部分「https://dove.589669.xyz/all2clash?sub=」以及订阅链接，订阅链接的 URL 需要先进行 UrlEncode (https://c.runoob.com/front-end/695)
+  # 1.模式选择「进阶模式」 2.填写订阅链接 3.勾选「输出为 Node List」 4.「生成订阅链接」
   #
 
   DuckDuckGo: # 冲鸭机场订阅链接
