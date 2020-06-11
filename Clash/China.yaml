@@ -149,11 +149,12 @@ proxy-groups:
   # Fallback
   - name: "Fallback"
     type: fallback
+    # use:
+    #   - DuckDuckGo
     proxies:
       - CN1
       - CN2
       - CN3
-      # - DuckDuckGo
     url: 'http://cp.cloudflare.com/generate_204'
     interval: 300
 
