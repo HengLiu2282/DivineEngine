@@ -260,14 +260,14 @@ rule-providers:
 
   IP-Blackhole:
     type: http
-    behavior: classical
+    behavior: ipcidr
     path: ./RuleSet/Extra/IP-Blackhole.yaml
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/IP-Blackhole.yaml
     interval: 86400
 
   ChinaIP:
     type: http
-    behavior: classical
+    behavior: ipcidr
     path: ./RuleSet/Extra/ChinaIP.yaml
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml
     interval: 86400
