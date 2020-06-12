@@ -37,3 +37,14 @@ Please read the [Documentation](https://www.notion.so/divineengine/b4161dac04124
 
   More: [RuleSet](https://github.com/DivineEngine/Profiles/tree/master/Clash/RuleSet)
 </details>
+
+
+
+**Special thanks to**
+
+- [scomper / Surge](https://github.com/scomper/Surge)
+- [lhie1 / Rules](https://github.com/lhie1/Rules)
+- [Choler / Surge](https://github.com/Choler/Surge)
+- [yichahucha / surge](https://github.com/yichahucha/surge)
+- [Koolson / Qure](https://github.com/Koolson/Qure)
+- [17mon / china_ip_list](https://github.com/17mon/china_ip_list)
