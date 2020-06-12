@@ -141,7 +141,7 @@ proxy-providers:
   # 1.模式选择「进阶模式」 2.填写订阅链接 3.勾选「输出为 Node List」 4.「生成订阅链接」
   #
 
-  DuckDuckGo: # 冲鸭机场订阅链接
+  DuckDuckGo-Sub: # 冲鸭机场订阅链接
     type: http
     url: "https://duckduckgo.security/user/sub.php?token=DivineEngine"
     interval: 3600
@@ -171,20 +171,18 @@ proxy-groups:
       - HK
       - US
       - SG
-      # - DuckDuckGo
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
   # 代理节点选择
   - name: "PROXY"
     type: select
-    use:
-      - CCCAT
     proxies:
       - Fallback
       - HK
       - US
       - SG
+      - DuckDuckGo
 
   # 白名单模式 PROXY, 黑名单模式 DIRECT, 不知道别动
   - name: "MATCH"
@@ -208,6 +206,12 @@ proxy-groups:
     proxies:
       - DIRECT
       - HK
+
+  # 手动选择节点订阅
+  - name: "DuckDuckGo"
+    type: select # 亦可使用 fallback 或 load-balance
+    use:
+      - DuckDuckGo-Sub
 
 # 关于 Rule Provider 请查阅：https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
 
