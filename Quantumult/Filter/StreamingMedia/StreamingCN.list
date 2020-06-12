@@ -49,7 +49,7 @@ DOMAIN-SUFFIX,kugou.com,PROXY
 # > Netease Cloud Music
 DOMAIN-SUFFIX,music.163.com,PROXY
 DOMAIN-SUFFIX,music.126.net,PROXY
-DOMAIN,mam.netease.com
+DOMAIN,mam.netease.com,PROXY
 DOMAIN,api.iplay.163.com,PROXY
 # > Qianqian Music
 DOMAIN-SUFFIX,qianqian.com,PROXY
