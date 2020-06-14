@@ -232,6 +232,7 @@ DOMAIN-SUFFIX,zumobi.com,REJECT
 
 DOMAIN-SUFFIX,ad.cmvideo.cn,REJECT
 DOMAIN-SUFFIX,ad.daum.net,REJECT
+DOMAIN-SUFFIX,aiseet.atianqi.com,REJECT
 
 DOMAIN,abema-adx.ameba.jp,REJECT
 DOMAIN,ad.12306.cn,REJECT
@@ -287,6 +288,7 @@ DOMAIN,tunion-api.m.taobao.com,REJECT
 DOMAIN-SUFFIX,atm.youku.com,REJECT
 DOMAIN,ad.mobile.youku.com,REJECT
 DOMAIN,iyes.youku.com,REJECT
+DOMAIN,pl.cp31.ott.cibntv.net,REJECT
 # > AMap
 DOMAIN,optimus-ads.amap.com,REJECT
 DOMAIN,optimus-ads.amap.com.w.alikunlun.com,REJECT
@@ -448,6 +450,7 @@ DOMAIN,ifengad.3g.ifeng.com,REJECT
 # (S)
 # > Sina
 DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
+DOMAIN,adimg.uve.weibo.com,REJECT
 DOMAIN,adimg.vue.weibo.com,REJECT
 DOMAIN,u1.img.mobile.sina.cn,REJECT
 DOMAIN,sax.sina.com.cn,REJECT

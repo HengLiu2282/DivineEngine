@@ -233,6 +233,7 @@ payload:
 
   - DOMAIN-SUFFIX,ad.cmvideo.cn
   - DOMAIN-SUFFIX,ad.daum.net
+  - DOMAIN-SUFFIX,aiseet.atianqi.com
 
   - DOMAIN,abema-adx.ameba.jp
   - DOMAIN,ad.12306.cn
@@ -288,6 +289,7 @@ payload:
   - DOMAIN-SUFFIX,atm.youku.com
   - DOMAIN,ad.mobile.youku.com
   - DOMAIN,iyes.youku.com
+  - DOMAIN,pl.cp31.ott.cibntv.net
   # > AMap
   - DOMAIN,optimus-ads.amap.com
   - DOMAIN,optimus-ads.amap.com.w.alikunlun.com
@@ -449,6 +451,7 @@ payload:
   # (S)
   # > Sina
   - DOMAIN-SUFFIX,beacon.sina.com.cn
+  - DOMAIN,adimg.uve.weibo.com
   - DOMAIN,adimg.vue.weibo.com
   - DOMAIN,u1.img.mobile.sina.cn
   - DOMAIN,sax.sina.com.cn
