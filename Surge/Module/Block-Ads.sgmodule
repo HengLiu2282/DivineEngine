@@ -329,8 +329,8 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,123.59.31.1,119.18.193.135,1
 # S
 # ---(Sina)---
 # > Weibo - *.uve.weibo.com,weibointl.api.weibo.cn
-^(http|https):\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(actionad|sdkad)\.php - reject
-^(http|https):\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua - reject
+# ^(http|https):\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(actionad|sdkad)\.php - reject
+# ^(http|https):\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua - reject
 ^(http|https):\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - reject
 # > tianqitong - tqt.weibo.cn
 ^(http|https):\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=(tqt_sdkad|tqtad) - reject
