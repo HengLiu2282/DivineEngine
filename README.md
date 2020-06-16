@@ -48,3 +48,4 @@ Please read the [Documentation](https://www.notion.so/divineengine/b4161dac04124
 - [yichahucha / surge](https://github.com/yichahucha/surge)
 - [Koolson / Qure](https://github.com/Koolson/Qure)
 - [17mon / china_ip_list](https://github.com/17mon/china_ip_list)
+- [onewayticket255 / Surge-Script](https://github.com/onewayticket255/Surge-Script)
