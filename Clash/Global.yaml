@@ -145,7 +145,7 @@ proxy-providers:
     type: http
     url: "https://duckduckgo.security/user/sub.php?token=DivineEngine"
     interval: 3600
-    path: ./Proxy/ProxyList.yaml
+    path: ./Proxy/ProxyList.yaml # 不同机场不同命名
     health-check:
       enable: true
       interval: 600
@@ -159,7 +159,7 @@ proxy-groups:
 #
 # 「MATCH」类似 Surge 的「Final」，此处用于选择白名单模式(PROXY 策略)和黑名单模式(DIRECT 策略)
 #
-# 「Streaming」和「StreamingSE」比较好理解，有专用语流媒体的节点就设置到其中，如果没有「StreamingSE」的需求可以连带 Rule 部分一起删掉，「Streaming」需至少保留 Rule，用「PROXY」即可。
+# 「Streaming」和「StreamingSE」比较好理解，有专用于流媒体的节点就设置到其中，如果没有「StreamingSE」的需求可以连带 Rule 部分一起删掉，「Streaming」需至少保留 Rule，用「PROXY」即可。
 #
 # 「PROXY」是代理规则策略，它可以指定为某个节点或嵌套一个其他策略组，如：「自动测试」、「Fallback」或「负载均衡」的策略组，关于这 3 个策略组的具体示例可以看官方示例：https://github.com/Dreamacro/clash
 #
@@ -302,11 +302,11 @@ rules:
   # IP Blackhole
   # - RULE-SET,IP-Blackhole,PROXY
 
+  # （可选）使用来自 ipipdotnet 的 ChinaIP 以解决数据不准确的问题，使用 ChinaIP.yaml 时可禁用下列直至（包括）「GEOIP,CN」规则
+  # - RULE-SET,ChinaIP,DIRECT
   # Tencent
   - IP-CIDR,119.28.28.28/32,DIRECT
   - IP-CIDR,182.254.116.0/24,DIRECT
-  # 使用来自 ipipdotnet 的 ChinaIP 以解决数据不准确的问题，使用 ChinaIP.yaml 时禁用「GEOIP,CN」规则
-  # - RULE-SET,ChinaIP,DIRECT
   # GeoIP China
   - GEOIP,CN,DIRECT
 
