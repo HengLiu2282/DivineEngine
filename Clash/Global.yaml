@@ -49,27 +49,28 @@ hosts:
 #   '*.clash.dev': 127.0.0.1
 #   'alpha.clash.dev': '::1'
 
-dns:
-  enable: true # set true to enable dns (default is false)
-  ipv6: false # default is false
-  listen: 0.0.0.0:53
-  # default-nameserver: # resolve dns nameserver host, should fill pure IP
+# dns:
+  # enable: true # set true to enable dns (default is false)
+  # ipv6: false # default is false
+  # listen: 0.0.0.0:53
+  # # default-nameserver: # resolve dns nameserver host, should fill pure IP
+  # #   - 114.114.114.114
+  # #   - 8.8.8.8
+  # enhanced-mode: redir-host # or fake-ip
+  # # fake-ip-range: 198.18.0.1/16 # if you don't know what it is, don't change it
+  # fake-ip-filter: # fake ip white domain list
+  #   - '*.lan'
+  #   - localhost.ptlogin2.qq.com
+  # nameserver:
   #   - 114.114.114.114
-  #   - 8.8.8.8
-  enhanced-mode: redir-host # or fake-ip
-  # fake-ip-range: 198.18.0.1/16 # if you don't know what it is, don't change it
-  fake-ip-filter: # fake ip white domain list
-    - '*.lan'
-    - localhost.ptlogin2.qq.com
-  nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-  fallback: # concurrent request with nameserver, fallback used when GEOIP country isn't CN
-    - tcp://1.1.1.1
-  fallback-filter:
-    geoip: true # default
-    ipcidr: # ips in these subnets will be considered polluted
-      - 240.0.0.0/4
+  #   - tls://dns.rubyfish.cn:853 # dns over tls
+  #   - https://1.1.1.1/dns-query # dns over https
+  # fallback: # concurrent request with nameserver, fallback used when GEOIP country isn't CN
+  #   - tcp://1.1.1.1
+  # fallback-filter:
+  #   geoip: true # default
+  #   ipcidr: # ips in these subnets will be considered polluted
+  #     - 240.0.0.0/4
 
 proxies:
 # 支持的协议及加密算法示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
