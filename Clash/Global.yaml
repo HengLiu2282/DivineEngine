@@ -259,13 +259,6 @@ rule-providers:
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
     interval: 86400
 
-  # IP-Blackhole:
-  #   type: http
-  #   behavior: ipcidr
-  #   path: ./RuleSet/Extra/IP-Blackhole.yaml
-  #   url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/IP-Blackhole.yaml
-  #   interval: 86400
-
   ChinaIP:
     type: http
     behavior: ipcidr
@@ -299,9 +292,6 @@ rules:
   - IP-CIDR,127.0.0.0/8,DIRECT
   - IP-CIDR,100.64.0.0/10,DIRECT
   - IP-CIDR,224.0.0.0/4,DIRECT
-
-  # IP Blackhole
-  # - RULE-SET,IP-Blackhole,PROXY
 
   # （可选）使用来自 ipipdotnet 的 ChinaIP 以解决数据不准确的问题，使用 ChinaIP.yaml 时可禁用下列直至（包括）「GEOIP,CN」规则
   # - RULE-SET,ChinaIP,DIRECT
