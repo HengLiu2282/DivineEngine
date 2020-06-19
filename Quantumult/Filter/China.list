@@ -381,3 +381,7 @@ DOMAIN-SUFFIX,zhimg.com,DIRECT
 DOMAIN-SUFFIX,zhuihd.com,DIRECT
 DOMAIN,download.jetbrains.com,DIRECT
 DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
+
+# Tencent
+IP-CIDR,119.28.28.28/32
+IP-CIDR,182.254.116.0/24
