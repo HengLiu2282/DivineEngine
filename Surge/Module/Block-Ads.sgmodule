@@ -5,6 +5,9 @@
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,123.59.31.1,119.18.193.135,122.14.246.33,175.102.178.52
 
+[Rule]
+URL-REGEX,^(http|https):\/\/api\.m\.jd.com\/client\.action\?functionId=start,REJECT-TINYGIF
+
 [URL Rewrite]
 # 0~9
 # > 21st Century Business Herald - api.21jingji.com
@@ -204,7 +207,6 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,123.59.31.1,119.18.193.135,1
 
 # J
 # > JD - api.m.jd.com,ms.jr.jd.com,img*.360buyimg.com
-^(http|https):\/\/api\.m\.jd.com\/client\.action\?functionId=start - reject
 ^(http|https):\/\/api\.m\.jd.com\/client\.action\?functionId=queryMaterialAdverts - reject
 ^(http|https):\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
 ^(http|https):\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture - reject
