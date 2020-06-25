@@ -1,4 +1,3 @@
-# Global Area Network
 # Streaming Media
 # (Podcast)
 # > Himalaya
@@ -10,8 +9,8 @@ USER-AGENT,Deezer*,Streaming
 DOMAIN-SUFFIX,deezer.com,Streaming
 DOMAIN-SUFFIX,dzcdn.net,Streaming
 # > JOOX
-USER-AGENT,WeMusic*,Streaming
 USER-AGENT,JOOX*,Streaming
+USER-AGENT,WeMusic*,Streaming
 DOMAIN-SUFFIX,joox.com,Streaming
 DOMAIN-KEYWORD,jooxweb-api,Streaming
 # > KKBOX
@@ -96,6 +95,10 @@ DOMAIN-SUFFIX,disneyplus.com,Streaming
 DOMAIN-SUFFIX,dssott.com,Streaming
 DOMAIN,cdn.registerdisney.go.com,Streaming
 DOMAIN,global.edge.bamgrid.com,Streaming
+# > DMM
+DOMAIN-SUFFIX,dmm.co.jp,Streaming
+DOMAIN-SUFFIX,dmm.com,Streaming
+DOMAIN-SUFFIX,dmm-extension.com,Streaming
 # > encoreTVB
 USER-AGENT,encoreTVB*,Streaming
 DOMAIN-SUFFIX,encoretvb.com,Streaming
@@ -148,6 +151,7 @@ DOMAIN-SUFFIX,huluim.com,Streaming
 DOMAIN-SUFFIX,hulustream.com,Streaming
 # > Hulu / フールー
 DOMAIN-SUFFIX,happyon.jp,Streaming
+DOMAIN-SUFFIX,hjholdings.jp,Streaming
 DOMAIN-SUFFIX,hulu.jp,Streaming
 # > ITV
 USER-AGENT,ITV_Player*,Streaming
@@ -235,10 +239,10 @@ DOMAIN-SUFFIX,tiktokcdn.com,Streaming
 DOMAIN-SUFFIX,tiktokv.com,Streaming
 DOMAIN-KEYWORD,-tiktokcdn-com,Streaming
 # > Twitch
+DOMAIN-SUFFIX,jtvnw.net,Streaming
+DOMAIN-SUFFIX,ttvnw.net,Streaming
 DOMAIN-SUFFIX,twitch.tv,Streaming
 DOMAIN-SUFFIX,twitchcdn.net,Streaming
-DOMAIN-SUFFIX,ttvnw.net,Streaming
-DOMAIN-SUFFIX,jtvnw.net,Streaming
 # > ViuTV
 USER-AGENT,Viu*,Streaming
 DOMAIN-SUFFIX,viu.com,Streaming
