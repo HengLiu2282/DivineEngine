@@ -126,7 +126,7 @@ URL-REGEX,^(http|https):\/\/api\.m\.jd.com\/client\.action\?functionId=start,REJ
 # > douban - api.douban.com
 ^(http|https):\/\/api\.douban\.com\/v\d\/app_ads\/ - reject
 # > DouYuZhiBo - rtbapi.douyucdn.cn
-^(http|https):\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo - reject
+^(http|https):\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo\?uid=&mdid=iphone&client_sys=ios$ - reject
 # > Dangdang - e.dangdang.com
 ^(http|https):\/\/mapi\.dangdang\.com\/index\.php\?action=init - reject
 ^(http|https):\/\/e\.dangdang\.com\/media\/api\d\.go\?action=getDeviceStartPage - reject
@@ -207,6 +207,7 @@ URL-REGEX,^(http|https):\/\/api\.m\.jd.com\/client\.action\?functionId=start,REJ
 
 # J
 # > JD - api.m.jd.com,ms.jr.jd.com,img*.360buyimg.com
+# ^(http|https):\/\/api\.m\.jd.com\/client\.action\?functionId=start - reject
 ^(http|https):\/\/api\.m\.jd.com\/client\.action\?functionId=queryMaterialAdverts - reject
 ^(http|https):\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
 ^(http|https):\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture - reject
@@ -383,8 +384,9 @@ URL-REGEX,^(http|https):\/\/api\.m\.jd.com\/client\.action\?functionId=start,REJ
 ^(http|https):\/\/4gimg\.map\.qq\.com\/mwaSplash\/ - reject
 # > Tencent Video
 ^(http|https):\/\/vv\.video\.qq\.com\/getvmind\? - reject
-^(http|https):\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/[a-z.]+\.tc\.qq\.com\/[\w\/.-]+p20\d\.1\.mp4\? - reject
-^(http|https):\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/[a-z.]+\.tc\.qq\.com\/[\w\/.-]+_p20\d_ - reject
+^(http|https):\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/[a-z.]+\.tc\.qq\.com\/[\w\W]+p20\d\.1\.mp4\? - reject
+^(http|https):\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/[a-z.]+\.tc\.qq\.com\/[\w\W]+=v3004 - reject
+^(http|https):\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/[a-z.]+\.tc\.qq\.com\/[\w\W]+_p20\d_ - reject
 # > Tencent News - r.inews.qq.com
 ^(http|https):\/\/r\.inews\.qq\.com\/(adsBlacklist|getFullScreenPic|getQQNewsRemoteConfig) - reject
 # > Tencent Sports - news.ssp.qq.com
