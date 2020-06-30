@@ -1,27 +1,28 @@
-# 本地端 HTTP(S)代理服务器端口
+# Port of HTTP(S) proxy server on the local end
 port: 7890
 
-# 本地端 SOCKS5 代理服务器端口
+# Port of SOCKS5 proxy server on the local end
 socks-port: 7891
 
-# Linux 和 macOS 的透明代理服务器端口
+# Transparent proxy server port for Linux and macOS
 redir-port: 7892
 
-# HTTP(S) 和 SOCKS5 代理服务器共用端口
+# HTTP(S) and SOCKS5 server on the same port
 # mixed-port: 7890
 
-# 本地 SOCKS5/HTTP(S) 服务器验证
+# authentication of local SOCKS5/HTTP(S) server
 # authentication:
 #  - "user1:pass1"
 #  - "user2:pass2"
 
-# 设置为 true 以允许从其他 LAN IP 地址连接到本地端服务器
+# Set to true to allow connections to local-end server from
+# other LAN IP addresses
 allow-lan: false
 
-# 仅适用于设置 allow-lan 为 true 时
-# '*': 绑定所有 IP 地址
-# 192.168.122.11: 绑定一个 IPv4 地址
-# "[aaaa::a8aa:ff:fe09:57d8]": 绑定一个 IPv6 地址
+# This is only applicable when `allow-lan` is `true`
+# '*': bind all IP addresses
+# 192.168.122.11: bind a single IPv4 address
+# "[aaaa::a8aa:ff:fe09:57d8]": bind a single IPv6 address
 bind-address: '*'
 
 # Clash router working mode
