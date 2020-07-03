@@ -396,7 +396,7 @@ URL-REGEX,^(http|https):\/\/api\.m\.jd.com\/client\.action\?functionId=start,REJ
 ^(http|https):\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info\/ - reject
 ^(http|https):\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/music\/common\/upload\/t_splash_info\/ - reject
 # > Tencent WeChat - mp.weixin.qq.com
-^(http|https):\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement) - reject
+# ^(http|https):\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement) - reject
 # ---
 # > TuNiu - m.tuniu.com
 ^(http|https):\/\/m\.tuniu\.com\/api\/operation\/splash\/ - reject
