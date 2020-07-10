@@ -1,58 +1,14 @@
 # Privacy
-DOMAIN-SUFFIX,247-inc.net,REJECT
-DOMAIN-SUFFIX,42trck.com,REJECT
-DOMAIN-SUFFIX,51.la,REJECT
-DOMAIN-SUFFIX,81plug.com,REJECT
-DOMAIN-SUFFIX,actionteaser.ru,REJECT
-DOMAIN-SUFFIX,adalyser.com,REJECT
-DOMAIN-SUFFIX,addnow.com,REJECT
-DOMAIN-SUFFIX,adinfuse.com,REJECT
-DOMAIN-SUFFIX,adjust.com,REJECT
-DOMAIN-SUFFIX,adjust.io,REJECT
-DOMAIN-SUFFIX,analysys.cn,REJECT
-DOMAIN-SUFFIX,appsflyer.com,REJECT
-DOMAIN-SUFFIX,cnzz.com,REJECT
-DOMAIN-SUFFIX,flurry.com,REJECT
-DOMAIN-SUFFIX,voicefive.com,REJECT
-DOMAIN-SUFFIX,xiti.com,REJECT
-DOMAIN-SUFFIX,youramigo.com,REJECT
-DOMAIN-SUFFIX,zoomboya.com,REJECT
-
-DOMAIN,applog.mobike.com,REJECT
-DOMAIN,gs.getui.com,REJECT
-DOMAIN,log.b612kaji.com,REJECT
-DOMAIN,track.sohu.com,REJECT
 DOMAIN,track.tiara.daum.net,REJECT
 DOMAIN,track.tiara.kakao.com,REJECT
 DOMAIN,trackapp.guahao.cn,REJECT
-DOMAIN,traffic.mogujie.com,REJECT
-DOMAIN,wmlog.meituan.com,REJECT
 DOMAIN,zgsdk.zhugeio.com,REJECT
 
 # > 58
 DOMAIN,track.58.com,REJECT
 DOMAIN,tracklog.58.com,REJECT
-# > Alibaba
-DOMAIN,acs4baichuan.m.taobao.com,REJECT
-DOMAIN,adash.m.taobao.com,REJECT
-DOMAIN,adash.man.aliyuncs.com,REJECT
-DOMAIN,adashbc.ut.taobao.com,REJECT
-DOMAIN,adash-c.ut.taobao.com,REJECT
-DOMAIN,adashx.m.taobao.com,REJECT
-DOMAIN,adashx4yt.m.taobao.com,REJECT
-DOMAIN,adashxgc.ut.taobao.com,REJECT
-DOMAIN,h-adashx.ut.taobao.com,REJECT
-DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
-# > Baidu
-DOMAIN-SUFFIX,baidustatic.com,REJECT
-DOMAIN,hm.baidu.com,REJECT
-DOMAIN,hmma.baidu.com,REJECT
-# > ByteDance
-DOMAIN,applog.musical.ly,REJECT
-DOMAIN,log-lq.snssdk.com,REJECT
-DOMAIN,track.toutiao.com,REJECT
-DOMAIN,xlog.snssdk.com,REJECT
-DOMAIN,xlog-va.byteoversea.com,REJECT
+# > Facebook
+DOMAIN,graph.facebook.com,REJECT
 # > Google
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN,ssl.google-analytics.com,REJECT
@@ -61,22 +17,8 @@ DOMAIN,www.google-analytics.com,REJECT
 DOMAIN-SUFFIX,tracking.miui.com,REJECT
 DOMAIN,data.mistat.xiaomi.com,REJECT
 DOMAIN,tracking.intl.miui.com,REJECT
-# > NetEase
-DOMAIN-SUFFIX,analytics.163.com,REJECT
-DOMAIN,crash.163.com,REJECT
-DOMAIN,crashlytics.163.com,REJECT
 # > Tencent
-DOMAIN-SUFFIX,beacon.qq.com,REJECT
 DOMAIN,pingma.qq.com,REJECT
-DOMAIN,pingtcss.qq.com,REJECT
-DOMAIN,tajs.qq.com,REJECT
 DOMAIN,btrace.qq.com,REJECT
 DOMAIN,mtrace.qq.com,REJECT
 DOMAIN,safebrowsing.urlsec.qq.com,REJECT
-# > UC
-DOMAIN,adtrack.ucweb.com,REJECT
-DOMAIN,track.uc.cn,REJECT
-# > Umeng
-DOMAIN-SUFFIX,umeng.co,REJECT
-DOMAIN-SUFFIX,umeng.com,REJECT
-DOMAIN-SUFFIX,umengcloud.com,REJECT
