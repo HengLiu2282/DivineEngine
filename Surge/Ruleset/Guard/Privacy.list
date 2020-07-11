@@ -8,7 +8,7 @@ DOMAIN,zgsdk.zhugeio.com
 DOMAIN,track.58.com
 DOMAIN,tracklog.58.com
 # > Facebook
-DOMAIN,graph.facebook.com
+# DOMAIN,graph.facebook.com
 # > Google
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN,ssl.google-analytics.com

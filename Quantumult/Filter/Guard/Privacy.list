@@ -8,7 +8,7 @@ DOMAIN,zgsdk.zhugeio.com,REJECT
 DOMAIN,track.58.com,REJECT
 DOMAIN,tracklog.58.com,REJECT
 # > Facebook
-DOMAIN,graph.facebook.com,REJECT
+# DOMAIN,graph.facebook.com,REJECT
 # > Google
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN,ssl.google-analytics.com,REJECT
