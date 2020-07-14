@@ -523,7 +523,6 @@ payload:
   - DOMAIN-SUFFIX,adspecs.yahoo.com
   - DOMAIN-SUFFIX,advertising.yahoo.com
   - DOMAIN-SUFFIX,gemini.yahoo.com
-  - DOMAIN-SUFFIX,yap.yahoo.com
   - DOMAIN,admarketing.yahoo.net
   - DOMAIN,ads.auctions.yahoo.com
   - DOMAIN,ads.finance.yahoo.com

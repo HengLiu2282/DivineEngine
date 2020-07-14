@@ -522,7 +522,6 @@ DOMAIN-SUFFIX,adserver.yahoo.com,REJECT
 DOMAIN-SUFFIX,adspecs.yahoo.com,REJECT
 DOMAIN-SUFFIX,advertising.yahoo.com,REJECT
 DOMAIN-SUFFIX,gemini.yahoo.com,REJECT
-DOMAIN-SUFFIX,yap.yahoo.com,REJECT
 DOMAIN,admarketing.yahoo.net,REJECT
 DOMAIN,ads.auctions.yahoo.com,REJECT
 DOMAIN,ads.finance.yahoo.com,REJECT
