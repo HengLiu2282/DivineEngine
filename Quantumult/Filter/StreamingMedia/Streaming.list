@@ -199,15 +199,18 @@ DOMAIN-SUFFIX,netflixdnstest6.com,Streaming
 DOMAIN-SUFFIX,netflixdnstest7.com,Streaming
 DOMAIN-SUFFIX,netflixdnstest8.com,Streaming
 DOMAIN-SUFFIX,netflixdnstest9.com,Streaming
-IP-CIDR,23.246.0.0/18,Streaming,no-resolve
-IP-CIDR,37.77.184.0/21,Streaming,no-resolve
-IP-CIDR,45.57.0.0/17,Streaming,no-resolve
-IP-CIDR,64.120.128.0/17,Streaming,no-resolve
-IP-CIDR,66.197.128.0/17,Streaming,no-resolve
-IP-CIDR,108.175.32.0/20,Streaming,no-resolve
-IP-CIDR,192.173.64.0/18,Streaming,no-resolve
-IP-CIDR,198.38.96.0/19,Streaming,no-resolve
-IP-CIDR,198.45.48.0/20,Streaming,no-resolve
+IP-CIDR,23.246.0.0/18,Streaming
+IP-CIDR,37.77.184.0/21,Streaming
+IP-CIDR,45.57.0.0/17,Streaming
+IP-CIDR,64.120.128.0/17,Streaming
+IP-CIDR,66.197.128.0/17,Streaming
+IP-CIDR,108.175.32.0/20,Streaming
+IP-CIDR,192.173.64.0/18,Streaming
+IP-CIDR,198.38.96.0/19,Streaming
+IP-CIDR,198.45.48.0/20,Streaming
+IP-CIDR,34.210.42.111/32,Streaming
+IP-CIDR,52.89.124.203/32,Streaming
+IP-CIDR,54.148.37.5/32,Streaming
 # > niconico
 USER-AGENT,Niconico*,Streaming
 DOMAIN-SUFFIX,dmc.nico,Streaming
