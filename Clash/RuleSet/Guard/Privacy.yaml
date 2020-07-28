@@ -1,2 +1,3 @@
 payload:
   # Privacy
+  - DOMAIN,safebrowsing.urlsec.qq.com
