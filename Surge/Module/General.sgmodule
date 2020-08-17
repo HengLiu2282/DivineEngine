@@ -69,3 +69,6 @@
 
 # AbeamTV - api.abema.io
 ^(http|https):\/\/api\.abema\.io\/v\d\/ip\/check - reject
+
+[MITM]
+hostname = %INSERT% www.google.cn,api.abema.io
