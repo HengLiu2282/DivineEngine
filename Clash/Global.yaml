@@ -197,7 +197,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/ProxyList/List.yaml" # 放机场订阅链接
     interval: 3600
-    path: ./Proxy/ALL.yaml # 注意此处文件名不可相同
+    path: ./Proxy/List.yaml # 注意此处文件名不可相同
     health-check:
       enable: true
       interval: 600
