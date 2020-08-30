@@ -6,6 +6,9 @@ payload:
   # > bilibili
   - DOMAIN-SUFFIX,bilivideo.com
   - DOMAIN,api.bilibili.com
+  - DOMAIN,www.bilibili.com
+  - DOMAIN,interface.bilibili.com
+  - DOMAIN,bangumi.bilibili.com
   # > Tencent Video
   - DOMAIN-SUFFIX,video.qq.com
   - DOMAIN-SUFFIX,v.qq.com
