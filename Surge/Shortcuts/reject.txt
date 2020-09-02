@@ -316,7 +316,7 @@
 # > Qinbaobao - api.qbb6.com
 ^https?:\/\/api\.qbb6\.com\/ad\/ - reject
 # > QDReader - mage.if.qidian.com
-^https?:\/\/mage\.if\.qidian\.com\/argus\/api\/v\d\/client\/getsplashscreen - reject 
+^https?:\/\/mage\.if\.qidian\.com\/argus\/api\/v\d\/client\/getsplashscreen - reject
 
 # R
 # > RRtv - msspjh.emarbox.com,api.rr.tv
