@@ -1,3 +1,5 @@
+# Block Ads Start
+
 # 0~9
 # > 21st Century Business Herald - api.21jingji.com
 ^https?:\/\/api\.21jingji\.com\/ad\/ - reject
@@ -473,3 +475,5 @@
 # > Zhangyue - webboot.zhangyue.com,saad.ms.zhangyue.net
 ^https?:\/\/webboot\.zhangyue\.com\/zycl\/api\/ad\/ - reject
 ^https?:\/\/saad\.ms\.zhangyue\.net\/ad - reject
+
+# Block Ads End
