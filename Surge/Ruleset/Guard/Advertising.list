@@ -552,7 +552,7 @@ DOMAIN,ads.yahoo.de
 USER-AGENT,AVOS*
 DOMAIN,appcloud2.zhihu.com
 DOMAIN,sugar.zhihu.com
-IP-CIDR,118.89.204.198/32,no-resolve
+# IP-CIDR,118.89.204.198/32,no-resolve
 # > ZOL
 DOMAIN,apppv.zol.com.cn
 DOMAIN,pvnapp.zol.com.cn
