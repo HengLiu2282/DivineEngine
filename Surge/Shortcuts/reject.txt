@@ -237,6 +237,8 @@
 # L
 # > LaiFeng
 ^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads - reject
+# > Lenovo - api.club.lenovo.cn
+^https?:\/\/api\.club\.lenovo\.cn\/common\/open_ad - reject
 
 # M
 # > MI - api.jr.mi.com,api-mifit*.huami.com
@@ -297,9 +299,8 @@
 # P
 # > PiaoGen - pss.txffp.com
 ^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ - reject
-# > Pinduoduo - api.yangkeduo.com
-^https?:\/\/api\.yangkeduo\.com\/api\/cappuccino\/splash - reject
-^https?:\/\/t00img\.yangkeduo\.com\/goods\/[\d-]+\/[A-Za-z0-9]+\.jpeg\?imageView2\/format\/webp$ - reject
+# > Pinduoduo - api.yangkeduo.com,api.pinduoduo.com
+^https?:\/\/api\.(pinduoduo|yangkeduo\).com\/api\/cappuccino\/splash - reject
 # > PeanutWiFi
 ^https?:\/\/cmsapi\.wifi8\.com\/v\d\/(emptyAd|adNew)\/ - reject
 # > PConline - mrobot.pconline.com.cn,mrobot.pcauto.com.cn
