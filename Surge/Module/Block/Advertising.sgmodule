@@ -309,7 +309,7 @@ URL-REGEX,^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start,REJECT-TI
 # > PiaoGen - pss.txffp.com
 ^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ - reject
 # > Pinduoduo - api.yangkeduo.com,api.pinduoduo.com
-^https?:\/\/api\.(pinduoduo|yangkeduo\).com\/api\/cappuccino\/splash - reject
+^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject
 # > PeanutWiFi
 ^https?:\/\/cmsapi\.wifi8\.com\/v\d\/(emptyAd|adNew)\/ - reject
 # > PConline - mrobot.pconline.com.cn,mrobot.pcauto.com.cn
