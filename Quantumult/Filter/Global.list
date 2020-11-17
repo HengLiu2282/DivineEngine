@@ -8,6 +8,7 @@ DOMAIN-SUFFIX,getoutline.org,PROXY
 DOMAIN-SUFFIX,gvt0.com,PROXY
 DOMAIN-SUFFIX,gvt3.com,PROXY
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
+DOMAIN-SUFFIX,ytimg.com,PROXY
 DOMAIN-KEYWORD,google,PROXY
 DOMAIN-KEYWORD,.blogspot.,PROXY
 # > Microsoft
