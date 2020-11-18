@@ -56,6 +56,7 @@
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule - reject
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo - reject
 ^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog) - reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/\w+\/\w+\/(sync|newRnSync|mlog) - reject
 # > Baidu Map - newclient.map.baidu.com
 ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads - reject
 # > Baidu InputMethod - mime.baidu.com

@@ -65,6 +65,7 @@ URL-REGEX,^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start,REJECT-TI
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule - reject
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo - reject
 ^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog) - reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/\w+\/\w+\/(sync|newRnSync|mlog) - reject
 # > Baidu Map - newclient.map.baidu.com
 ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads - reject
 # > Baidu InputMethod - mime.baidu.com
@@ -76,7 +77,7 @@ URL-REGEX,^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start,REJECT-TI
 ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v\d\/show - reject
 # ---
 # > bilibili - app.bilibili.com,manga.bilibili.com
-^https?:\/\/app\.bilibili\.com\/x\/v\d\/splash\/ - reject
+# ^https?:\/\/app\.bilibili\.com\/x\/v\d\/splash\/ - reject
 ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash - reject
 # > BeiTaiKitchen - channel.beitaichufang.com
 ^https?:\/\/channel\.beitaichufang\.com\/channel\/api\/v\d\/promote\/ios\/start\/page - reject
@@ -341,8 +342,8 @@ URL-REGEX,^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start,REJECT-TI
 # S
 # ---(Sina)---
 # > Weibo - *.uve.weibo.com,weibointl.api.weibo.cn
-^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(actionad|sdkad)\.php - reject
-^https?:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua - reject
+# ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(actionad|sdkad)\.php - reject
+# ^https?:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua - reject
 ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - reject
 # > tianqitong - tqt.weibo.cn
 ^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=(tqt_sdkad|tqtad) - reject
@@ -512,7 +513,8 @@ douyin = type=http-response,pattern= ^https?:\/\/(.*\.amemv|aweme\.snssdk)\.com\
 
 # ---(By yichahucha)---
 # > Weibo - api.weibo.cn,mapi.weibo.com
-weibo = type=http-response,pattern=^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list|photo/info),requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
+weibo_splash = type=http-response,pattern=^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua),requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
+weibo_ads = type=http-response,pattern=^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list|photo/info),requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
 # ------
 
 # ---(By blackmatrix7)---
@@ -527,6 +529,9 @@ weibo = type=http-response,pattern=^https?://m?api\.weibo\.c(n|om)/2/(statuses/(
 什么值得买_首页去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/homepage-api.smzdm.com\/home,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
 什么值得买_好价去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/haojia-api.smzdm.com\/home\/list\?,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
 什么值得买_好文去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/article-api.smzdm.com\/article\/index_home_page,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
+
+# > bilibili
+Bilibili_开屏去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js
 # ------
 
 [MITM]
