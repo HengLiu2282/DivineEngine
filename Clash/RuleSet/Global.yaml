@@ -536,8 +536,6 @@ payload:
   # URL-REGEX,http:\/\/img\.sina\.com\/usweibo\/
 
   # (Network Jitter)
-  # > Fix download or update is stuck in App Store,and when change the Apple ID region,the payment information can be selected by none.
-  - DOMAIN-KEYWORD,buy.itunes.apple.com
   - DOMAIN-SUFFIX,cloudcone.com.cn
   - DOMAIN-SUFFIX,inkbunny.net
   - DOMAIN-SUFFIX,metapix.net
