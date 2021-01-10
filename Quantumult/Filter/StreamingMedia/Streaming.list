@@ -221,7 +221,6 @@ USER-AGENT,Niconico*,Streaming
 DOMAIN-SUFFIX,dmc.nico,Streaming
 DOMAIN-SUFFIX,nicovideo.jp,Streaming
 DOMAIN-SUFFIX,nimg.jp,Streaming
-DOMAIN-SUFFIX,socdm.com,Streaming
 # > Now E
 DOMAIN-SUFFIX,nowe.com,Streaming
 DOMAIN-SUFFIX,nowestatic.com,Streaming

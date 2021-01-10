@@ -223,7 +223,6 @@ payload:
   - DOMAIN-SUFFIX,dmc.nico
   - DOMAIN-SUFFIX,nicovideo.jp
   - DOMAIN-SUFFIX,nimg.jp
-  - DOMAIN-SUFFIX,socdm.com
   # > Now E
   - PROCESS-NAME,com.pccw.nowemobile
   - DOMAIN-SUFFIX,nowe.com
