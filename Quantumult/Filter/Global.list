@@ -134,6 +134,7 @@ DOMAIN-SUFFIX,channelnewsasia.com,PROXY
 DOMAIN-SUFFIX,ck101.com,PROXY
 DOMAIN-SUFFIX,clarionproject.org,PROXY
 DOMAIN-SUFFIX,cloudcone.com,PROXY
+DOMAIN-SUFFIX,clubhouseapi.com,PROXY
 DOMAIN-SUFFIX,clyp.it,PROXY
 DOMAIN-SUFFIX,cna.com.tw,PROXY
 DOMAIN-SUFFIX,comparitech.com,PROXY
@@ -234,6 +235,7 @@ DOMAIN-SUFFIX,japantimes.co.jp,PROXY
 DOMAIN-SUFFIX,jiji.com,PROXY
 DOMAIN-SUFFIX,jinx.com,PROXY
 DOMAIN-SUFFIX,jkforum.net,PROXY
+DOMAIN-SUFFIX,joinclubhouse.com,PROXY
 DOMAIN-SUFFIX,joinmastodon.org,PROXY
 DOMAIN-SUFFIX,justmysocks.net,PROXY
 DOMAIN-SUFFIX,justpaste.it,PROXY
