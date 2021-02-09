@@ -1,0 +1,12 @@
+# > Clubhouse
+DOMAIN-SUFFIX,clubhouseapi.com,Clubhouse
+DOMAIN-SUFFIX,joinclubhouse.com,Clubhouse
+DOMAIN,clubhouseprod.s3.amazonaws.com,Clubhouse
+IP-CIDR,56.58.56.244/32,Clubhouse
+IP-CIDR,164.52.120.66/32,Clubhouse
+IP-CIDR,164.52.120.67/32,Clubhouse
+IP-CIDR,164.52.120.68/32,Clubhouse
+IP-CIDR,164.52.120.70/32,Clubhouse
+IP-CIDR,164.52.120.75/32,Clubhouse
+IP-CIDR,164.52.120.76/32,Clubhouse
+IP-CIDR,164.52.120.77/32,Clubhouse
