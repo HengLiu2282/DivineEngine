@@ -6,7 +6,9 @@ DOMAIN,clubhouseprod.s3.amazonaws.com,Clubhouse
 DOMAIN,clubhouse.pubnub.com,Clubhouse
 IP-CIDR,3.0.163.78/32,Clubhouse
 IP-CIDR,35.178.208.187/32,Clubhouse
+IP-CIDR,52.52.84.170/32,Clubhouse
 IP-CIDR,52.58.56.244/32,Clubhouse
+IP-CIDR,52.194.158.59/32,Clubhouse
 IP-CIDR,164.52.102.66/32,Clubhouse
 IP-CIDR,164.52.102.67/32,Clubhouse
 IP-CIDR,164.52.102.68/32,Clubhouse
