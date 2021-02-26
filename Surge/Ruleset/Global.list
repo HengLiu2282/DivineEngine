@@ -540,6 +540,10 @@ DOMAIN-SUFFIX,shopeemobile.com
 URL-REGEX,http:\/\/img\.sina\.com\/usweibo\/
 
 # (Network Jitter)
+# > Apple
+DOMAIN,appleid.apple.com
+DOMAIN,developer.apple.com
+DOMAIN,xp.apple.com
 # > DigiCert
 DOMAIN,cacerts.digicert.com
 DOMAIN,crl3.digicert.com

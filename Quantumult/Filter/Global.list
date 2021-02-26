@@ -531,6 +531,10 @@ DOMAIN-SUFFIX,mangakakalot.com,PROXY
 DOMAIN-SUFFIX,shopeemobile.com,PROXY
 
 # (Network Jitter)
+# > Apple
+DOMAIN,appleid.apple.com,PROXY
+DOMAIN,developer.apple.com,PROXY
+DOMAIN,xp.apple.com,PROXY
 # > DigiCert
 DOMAIN,cacerts.digicert.com,PROXY
 DOMAIN,crl3.digicert.com,PROXY
