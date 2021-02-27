@@ -534,6 +534,7 @@ DOMAIN-SUFFIX,shopeemobile.com,PROXY
 # > Apple
 DOMAIN,appleid.apple.com,PROXY
 DOMAIN,developer.apple.com,PROXY
+DOMAIN,www.icloud.com,PROXY
 DOMAIN,xp.apple.com,PROXY
 # > DigiCert
 DOMAIN,cacerts.digicert.com,PROXY

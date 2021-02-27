@@ -544,6 +544,7 @@ payload:
   # > Apple
   - DOMAIN,appleid.apple.com
   - DOMAIN,developer.apple.com
+  - DOMAIN,www.icloud.com
   - DOMAIN,xp.apple.com
   # > DigiCert
   - DOMAIN,cacerts.digicert.com
