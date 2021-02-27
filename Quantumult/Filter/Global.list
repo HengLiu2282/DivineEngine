@@ -535,6 +535,7 @@ DOMAIN-SUFFIX,shopeemobile.com,PROXY
 DOMAIN,appleid.apple.com,PROXY
 DOMAIN,developer.apple.com,PROXY
 DOMAIN,www.icloud.com,PROXY
+DOMAIN,ocsp.apple.com,PROXY
 DOMAIN,xp.apple.com,PROXY
 # > DigiCert
 DOMAIN,cacerts.digicert.com,PROXY
@@ -548,5 +549,4 @@ DOMAIN-SUFFIX,metapix.net,PROXY
 DOMAIN-SUFFIX,s3.amazonaws.com,PROXY
 DOMAIN-SUFFIX,zaobao.com.sg,PROXY
 DOMAIN,international-gfe.download.nvidia.com,PROXY
-DOMAIN,ocsp.apple.com,PROXY
 DOMAIN,store-images.s-microsoft.com,PROXY
