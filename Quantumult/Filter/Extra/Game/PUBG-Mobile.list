@@ -1,0 +1,6 @@
+# > PUBG Mobile
+DOMAIN-SUFFIX,igamecj.com,PUBG Mobile
+DOMAIN,file-igamecj.akamaized.net,PUBG Mobile
+# Asia
+IP-CIDR,45.40.220.0/22,PUBG Mobile
+IP-CIDR,150.109.124.0/23,PUBG Mobile
