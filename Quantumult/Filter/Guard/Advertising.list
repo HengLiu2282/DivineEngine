@@ -338,7 +338,7 @@ DOMAIN,ads.adadapted.com,REJECT
 DOMAIN,ads.chinadaily.com.cn,REJECT
 DOMAIN,ads.daydaycook.com.cn,REJECT
 DOMAIN,ads.flurry.com,REJECT
-DOAMIN,ads.play.cbsi.video,REJECT
+DOMAIN,ads.play.cbsi.video,REJECT
 DOMAIN,ads.weilitoutiao.net,REJECT
 DOMAIN,adsapi.manhuaren.com,REJECT
 DOMAIN,adsdk.dmzj.com,REJECT
