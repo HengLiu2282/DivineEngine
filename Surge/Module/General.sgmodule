@@ -18,7 +18,7 @@ skip-proxy = %APPEND% passenger.t3go.cn
 exclude-simple-hostnames = true
 
 # > Always Real IP Hosts
-always-real-ip = %APPEND% msftconnecttest.com, msftncsi.com, *.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com
+always-real-ip = %APPEND% msftconnecttest.com, msftncsi.com, *.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.battlenet.com.cn, *.battlenet.com, *.blzstatic.cn, *.battle.net
 
 # > VIF Excluded Routes
 tun-excluded-routes = %APPEND% 239.255.255.250/32
@@ -37,9 +37,6 @@ tun-excluded-routes = %APPEND% 239.255.255.250/32
 ^(http|https):\/\/you\.163\.com\/ https://you.163.com/ 302
 ^(http|https):\/\/(www.)?suning\.com\/ https://suning.com/ 302
 ^(http|https):\/\/(www.)?yhd\.com\/ https://yhd.com/ 302
-
-# Weibo Short URL
-^http:\/\/t\.cn http://sinaurl.cn 302
 
 # Redirect False to True
 # > IGN China to IGN Global
