@@ -43,7 +43,7 @@ weibo_ads = type=http-response,pattern=^https?://m?api\.weibo\.c(n|om)/2/(status
 
 # ---(By srk24)---
 # > bilibili
-Bilibili_开屏去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list,script-path=https://raw.githubusercontent.com/srk24/profile/master/bilibili_splash.js
+Bilibili_开屏去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list,script-path=https://raw.githubusercontent.com/srk24/profile/master/js/bilibili_splash.js
 # ------
 
 [MITM]
