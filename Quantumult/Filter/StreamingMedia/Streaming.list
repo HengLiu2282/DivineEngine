@@ -88,6 +88,8 @@ DOMAIN-KEYWORD,uk-live,Streaming
 USER-AGENT,DAZN*,Streaming
 DOMAIN-SUFFIX,dazn.com,Streaming
 DOMAIN-SUFFIX,dazn-api.com,Streaming
+DOMAIN-SUFFIX,dazndn.com,Streaming
+DOMAIN-SUFFIX,indazn.com,Streaming
 DOMAIN,d151l6v8er5bdm.cloudfront.net,Streaming
 DOMAIN-KEYWORD,voddazn,Streaming
 # > Disney+
