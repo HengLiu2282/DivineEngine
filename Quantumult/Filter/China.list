@@ -220,7 +220,7 @@ DOMAIN-SUFFIX,steamcontent.com,DIRECT
 DOMAIN-SUFFIX,steampowered.com,DIRECT
 DOMAIN-SUFFIX,steamstatic.com,DIRECT
 # > Tencent
-USER-AGENT,MicroMessenger%20Client,DIRECT
+USER-AGENT,MicroMessenger*,DIRECT
 USER-AGENT,WeChat*,DIRECT
 USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*,DIRECT
 DOMAIN-SUFFIX,gcloudcs.com,DIRECT
@@ -235,6 +235,7 @@ DOMAIN-SUFFIX,tencent.com,DIRECT
 DOMAIN-SUFFIX,tencent-cloud.net,DIRECT
 DOMAIN-SUFFIX,tenpay.com,DIRECT
 DOMAIN-SUFFIX,wechat.com,DIRECT
+IP-CIDR,203.205.254.0/23,DIRECT
 # >> PUBG Mobile
 DOMAIN-SUFFIX,igamecj.com,DIRECT
 DOMAIN,file-igamecj.akamaized.net,DIRECT
