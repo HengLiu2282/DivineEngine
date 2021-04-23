@@ -92,6 +92,14 @@ DOMAIN-SUFFIX,dazndn.com,Streaming
 DOMAIN-SUFFIX,indazn.com,Streaming
 DOMAIN,d151l6v8er5bdm.cloudfront.net,Streaming
 DOMAIN-KEYWORD,voddazn,Streaming
+# > discovery+
+USER-AGENT,DPlus*,Streaming
+USER-AGENT,discovery+*,Streaming
+DOMAIN-SUFFIX,disco-api.com,Streaming
+DOMAIN-SUFFIX,discoveryplus.co.uk,Streaming
+DOMAIN-SUFFIX,discoveryplus.com,Streaming
+DOMAIN-SUFFIX,discoveryplus.in,Streaming
+DOMAIN-SUFFIX,dnitv.com,Streaming
 # > Disney+
 USER-AGENT,Disney+*,Streaming
 DOMAIN-SUFFIX,bamgrid.com,Streaming
