@@ -84,6 +84,9 @@ DOMAIN-SUFFIX,bbc.co.uk
 DOMAIN-SUFFIX,bbci.co.uk
 DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,uk-live
+# > bilibili Intl
+DOMAIN-SUFFIX,app.biliintl.com
+DOMAIN,upos-bstar-mirrorakam.akamaized.net
 # > DAZN
 USER-AGENT,DAZN*
 DOMAIN-SUFFIX,dazn.com
