@@ -23,6 +23,7 @@ payload:
   - DOMAIN-SUFFIX,okex.com
   - DOMAIN-SUFFIX,zb.com
   # > Discord
+  - DOMAIN-SUFFIX,discord.com
   - DOMAIN-SUFFIX,discordapp.com
   - DOMAIN-SUFFIX,discordapp.net
   # > Dropbox

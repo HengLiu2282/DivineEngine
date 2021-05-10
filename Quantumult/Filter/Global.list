@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,huobi.com,PROXY
 DOMAIN-SUFFIX,okex.com,PROXY
 DOMAIN-SUFFIX,zb.com,PROXY
 # > Discord
+DOMAIN-SUFFIX,discord.com,PROXY
 DOMAIN-SUFFIX,discordapp.com,PROXY
 DOMAIN-SUFFIX,discordapp.net,PROXY
 # > Dropbox
