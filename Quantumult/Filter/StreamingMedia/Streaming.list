@@ -125,21 +125,24 @@ DOMAIN-SUFFIX,hbonow.com,Streaming
 USER-AGENT,HBOMAX*,Streaming
 DOMAIN-SUFFIX,hbomax.com,Streaming
 DOMAIN-SUFFIX,hbomaxcdn.com,Streaming
-# > HBO GO HKG
-USER-AGENT,HBO%20GO%20PROD%20HKG*,Streaming
-DOMAIN-SUFFIX,hbogoasia.com,Streaming
-DOMAIN-SUFFIX,hbogoasia.hk,Streaming
-DOMAIN,bcbolthboa-a.akamaihd.net,Streaming
-DOMAIN,players.brightcove.net,Streaming
-DOMAIN,s3-ap-southeast-1.amazonaws.com,Streaming
-DOMAIN,dai3fd1oh325y.cloudfront.net,Streaming
+# > HBO Asia
+USER-AGENT,HBO%20GO%20PROD*,Streaming
+DOMAIN-KEYWORD,.hbogoasia.,Streaming
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,Streaming
+DOMAIN,bcbolthboa-a.akamaihd.net,Streaming
+DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,Streaming
+DOMAIN,dai3fd1oh325y.cloudfront.net,Streaming
 DOMAIN,hboasia1-i.akamaihd.net,Streaming
 DOMAIN,hboasia2-i.akamaihd.net,Streaming
 DOMAIN,hboasia3-i.akamaihd.net,Streaming
 DOMAIN,hboasia4-i.akamaihd.net,Streaming
 DOMAIN,hboasia5-i.akamaihd.net,Streaming
-DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,Streaming
+DOMAIN,hboasialive.akamaized.net,Streaming
+DOMAIN,hbogoprod-vod.akamaized.net,Streaming
+DOMAIN,hbolb.onwardsmg.com,Streaming
+DOMAIN,hbounify-prod.evergent.com,Streaming
+DOMAIN,players.brightcove.net,Streaming
+DOMAIN,s3-ap-southeast-1.amazonaws.com,Streaming
 # > 华文电视
 USER-AGENT,HWTVMobile*,Streaming
 DOMAIN-SUFFIX,5itv.tv,Streaming
