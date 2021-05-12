@@ -234,6 +234,7 @@ DOMAIN-SUFFIX,pplusstatic.com,Streaming
 DOMAIN,cbsi.live.ott.irdeto.com,Streaming
 DOMAIN,cbsplaylistserver.aws.syncbak.com,Streaming
 DOMAIN,cbsservice.aws.syncbak.com,Streaming
+DOMAIN,link.theplatform.com
 # > PBS
 USER-AGENT,PBS*,Streaming
 DOMAIN-SUFFIX,pbs.org,Streaming
