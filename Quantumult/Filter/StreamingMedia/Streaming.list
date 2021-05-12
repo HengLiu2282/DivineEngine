@@ -127,6 +127,8 @@ DOMAIN-SUFFIX,hbomax.com,Streaming
 DOMAIN-SUFFIX,hbomaxcdn.com,Streaming
 # > HBO Asia
 USER-AGENT,HBO%20GO%20PROD*,Streaming
+DOMAIN-SUFFIX,hbogoasia.com,Streaming
+DOMAIN-SUFFIX,hbogoasia.hk,Streaming
 DOMAIN-KEYWORD,.hbogoasia.,Streaming
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,Streaming
 DOMAIN,bcbolthboa-a.akamaihd.net,Streaming
