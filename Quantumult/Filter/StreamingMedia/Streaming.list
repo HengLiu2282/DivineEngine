@@ -117,12 +117,6 @@ USER-AGENT,encoreTVB*,Streaming
 DOMAIN-SUFFIX,encoretvb.com,Streaming
 DOMAIN,edge.api.brightcove.com,Streaming
 DOMAIN,bcbolt446c5271-a.akamaihd.net,Streaming
-# > FOX NOW
-USER-AGENT,FOX%20NOW*,Streaming
-DOMAIN-SUFFIX,fox.com,Streaming
-DOMAIN-SUFFIX,foxdcg.com,Streaming
-DOMAIN-SUFFIX,theplatform.com,Streaming
-DOMAIN-SUFFIX,uplynk.com,Streaming
 # > HBO NOW & Max
 USER-AGENT,HBO%20NOW*,Streaming
 DOMAIN-SUFFIX,hbo.com,Streaming

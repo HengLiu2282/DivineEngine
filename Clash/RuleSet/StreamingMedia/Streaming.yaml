@@ -118,12 +118,6 @@ payload:
   - DOMAIN-SUFFIX,encoretvb.com
   - DOMAIN,edge.api.brightcove.com
   - DOMAIN,bcbolt446c5271-a.akamaihd.net
-  # > FOX NOW
-  - PROCESS-NAME,com.fox.now
-  - DOMAIN-SUFFIX,fox.com
-  - DOMAIN-SUFFIX,foxdcg.com
-  - DOMAIN-SUFFIX,theplatform.com
-  - DOMAIN-SUFFIX,uplynk.com
   # > HBO NOW & Max
   - PROCESS-NAME,com.hbo.hbonow
   - DOMAIN-SUFFIX,hbo.com
