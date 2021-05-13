@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,huobi.com
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,zb.com
 # > Discord
+DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net
 # > Dropbox
@@ -86,6 +87,15 @@ DOMAIN-SUFFIX,nytimes.com
 DOMAIN-SUFFIX,nytimg.com
 DOMAIN-SUFFIX,nytlog.com
 DOMAIN-SUFFIX,nytstyle.com
+# > Pinterest
+DOMAIN-SUFFIX,pinterest.at
+DOMAIN-SUFFIX,pinterest.ca
+DOMAIN-SUFFIX,pinterest.co.uk
+DOMAIN-SUFFIX,pinterest.com
+DOMAIN-SUFFIX,pinterest.de
+DOMAIN-SUFFIX,pinterest.fr
+DOMAIN-SUFFIX,pinterest.jp
+DOMAIN-SUFFIX,pinterest.se
 # > pixiv
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pixiv.org
@@ -103,6 +113,7 @@ IP-CIDR,91.108.12.0/22,no-resolve
 IP-CIDR,91.108.16.0/22,no-resolve
 IP-CIDR,91.108.20.0/22,no-resolve
 IP-CIDR,91.108.56.0/22,no-resolve
+IP-CIDR,95.161.64.0/20,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
 IP-CIDR6,2001:b28:f23d::/48,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
@@ -187,8 +198,10 @@ DOMAIN-SUFFIX,crucial.com
 DOMAIN-SUFFIX,cts.com.tw
 DOMAIN-SUFFIX,cw.com.tw
 DOMAIN-SUFFIX,cyberctm.com
+DOMAIN-SUFFIX,cyclingnews.com
 DOMAIN-SUFFIX,dailymotion.com
 DOMAIN-SUFFIX,dailyview.tw
+DOMAIN-SUFFIX,dandanzan.com
 DOMAIN-SUFFIX,daum.net
 DOMAIN-SUFFIX,daumcdn.net
 DOMAIN-SUFFIX,dcard.tw
@@ -301,6 +314,7 @@ DOMAIN-SUFFIX,mega.nz
 DOMAIN-SUFFIX,mergersandinquisitions.com
 DOMAIN-SUFFIX,mingpao.com
 DOMAIN-SUFFIX,mixi.jp
+DOMAIN-SUFFIX,mixlr.com
 DOMAIN-SUFFIX,mobile01.com
 DOMAIN-SUFFIX,mubi.com
 DOMAIN-SUFFIX,myspace.com
@@ -409,6 +423,7 @@ DOMAIN-SUFFIX,uptodown.com
 DOMAIN-SUFFIX,urbandictionary.com
 DOMAIN-SUFFIX,ustream.tv
 DOMAIN-SUFFIX,uwants.com
+DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,v2fly.org
 DOMAIN-SUFFIX,v2ray.com
 DOMAIN-SUFFIX,viber.com
@@ -449,10 +464,7 @@ DOMAIN-SUFFIX,zoom.us
 
 DOMAIN,cc.tvbs.com.tw
 DOMAIN,ocsp.int-x3.letsencrypt.org
-DOMAIN,search.avira.com
 DOMAIN,us.weibo.com
-
-DOMAIN-KEYWORD,.pinterest.
 
 DOMAIN-SUFFIX,edu
 DOMAIN-SUFFIX,gov
