@@ -63,10 +63,12 @@
 # > Baidu InputMethod - mime.baidu.com
 ^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo$ - reject
 ^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement - reject
-# > iQIYI - act.vip.iqiyi.com
+# > iQIYI - act.vip.iqiyi.com,intl.iqiyi.com
 ^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo - reject
 ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do - reject
 ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v\d\/show - reject
+^https?:\/\/intl\.iqiyi\.com\/ad_external\/ - reject
+^https?:\/\/intl\.iqiyi\.com\/video\/advertise - reject
 # ---
 # > bilibili - app.bilibili.com,manga.bilibili.com
 ^https?:\/\/app\.bilibili\.com\/x\/v\d\/splash\/ - reject
@@ -474,6 +476,9 @@
 ^https?:\/\/app\.yinxiang\.com\/ads\/ - reject
 # > YUNMAI - restapi.iyunmai.com
 ^https?:\/\/restapi\.iyunmai\.com\/api\/ios\/ad\/ - reject
+# > YXLiveVideo - api.yizhibo.com
+^https?:\/\/api\.yizhibo\.com\/common\/api\/api_pz$ - reject
+^https?:\/\/api\.yizhibo\.com\/common\/api\/pz$ - reject
 
 # Z
 # > Zhihu - www.zhihu.com,api.zhihu.com
