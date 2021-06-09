@@ -47,4 +47,4 @@ Bilibili_开屏去广告 = type=http-response,requires-body=1,max-size=0,pattern
 # ------
 
 [MITM]
-hostname = %APPEND% *.amemv.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,www.zhihu.com,api.zhihu.com,homepage-api.smzdm.com,haojia-api.smzdm.com,article-api.smzdm.com,haojia.m.smzdm.com,app-api.smzdm.com,s-api.smzdm.com,app.bilibili.com
+hostname = %APPEND% api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,www.zhihu.com,api.zhihu.com,homepage-api.smzdm.com,haojia-api.smzdm.com,article-api.smzdm.com,haojia.m.smzdm.com,app-api.smzdm.com,s-api.smzdm.com,app.bilibili.com
