@@ -543,7 +543,6 @@ DOMAIN-SUFFIX,webrtc.org
 DOMAIN-SUFFIX,whatbrowser.org
 DOMAIN-SUFFIX,widevine.com
 DOMAIN-SUFFIX,x.company
-DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 # > Telegram
@@ -551,6 +550,15 @@ DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telesco.pe
+
+USER-AGENT,*youtube*
+USER-AGENT,YouTube*
+DOMAIN-KEYWORD,youtube
+DOMAIN,yt3.ggpht.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,youtu.be
+
 # > Facebook
 DOMAIN-KEYWORD,.facebook.
 DOMAIN-SUFFIX,facebookmail.com
@@ -660,8 +668,6 @@ DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,tensorflow.org
 DOMAIN-SUFFIX,toggleable.com
 DOMAIN-SUFFIX,torproject.org
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,twitpic.com
 DOMAIN-SUFFIX,unfiltered.news
 DOMAIN-SUFFIX,waveprotocol.org
 DOMAIN-SUFFIX,webmproject.org
