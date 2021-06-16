@@ -595,7 +595,7 @@ DOMAIN-SUFFIX,metapix.net
 DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,zaobao.com.sg
 DOMAIN,international-gfe.download.nvidia.com
-DOMAIN,bugsnag.com
+DOMAIN-SUFFIX,bugsnag.com
 
 USER-AGENT,WhatsApp*
 
