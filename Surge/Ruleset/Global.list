@@ -585,6 +585,7 @@ DOMAIN,lookup-api.apple.com
 # > Apple Music Web
 DOMAIN,beta.music.apple.com
 # ------
+DOMAIN-SUFFIX,courier.push.apple.com
 # > Others
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,cccat.io
