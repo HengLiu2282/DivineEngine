@@ -114,8 +114,12 @@ DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
 # > Telegram
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telesco.pe
 IP-CIDR,91.108.4.0/22,no-resolve
 IP-CIDR,91.108.8.0/22,no-resolve
 IP-CIDR,91.108.12.0/22,no-resolve
@@ -136,6 +140,14 @@ DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitpic.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,vine.co
+IP-CIDR,69.195.160.0/19,no-resolve
+IP-CIDR,104.244.42.0/21,no-resolve
+IP-CIDR,192.133.76.0/22,no-resolve
+IP-CIDR,199.16.156.0/22,no-resolve
+IP-CIDR,199.59.148.0/22,no-resolve
+IP-CIDR,199.96.56.0/21,no-resolve
+IP-CIDR,202.160.128.0/22,no-resolve
+IP-CIDR,209.237.192.0/19,no-resolve
 # > Wikimedia Foundation
 DOMAIN-SUFFIX,wikileaks.org
 DOMAIN-SUFFIX,wikimapia.org
