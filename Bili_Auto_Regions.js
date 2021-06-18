@@ -1,32 +1,43 @@
-/****************************
-哔哩哔哩、港澳台番剧自动切换地区&显示豆瓣评分
-不想去豆瓣评分或策略通知，可去BoxJs设置。
-BoxJs订阅地址：https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
-更新：2021.06.17
-作者：@NobyDa
-使用：Surge、QuanX、Loon
-********************************
-港澳台自动切换地区说明：
-********************************
+/**************************
+
+哔哩哔哩, 港澳台番剧自动切换地区 & 显示豆瓣评分
+
+如需禁用豆瓣评分或策略通知, 可前往BoxJs设置.
+BoxJs订阅地址: https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
+
+Update: 2021.05.02
+Author: @NobyDa
+Use: Surge, QuanX, Loon
+
+****************************
+港澳台自动切换地区说明 :
+****************************
+
 地区自动切换功能仅适用于Surge4.7+(iOS)，Loon2.1.10(286)+，QuanX1.0.22(543)+
-较早版本仅显示豆瓣评分。
-您需要配置相关规则集：
-浪涌、龙： 
+低于以上版本仅显示豆瓣评分.
+
+您需要配置相关规则集:
+Surge、Loon: 
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list
-全X： 
+
+QuanX: 
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/StreamingSE.list
-绑定相关选择或静态策略组，并且需要有相关的区域代理服务器才有您的子策略中，子策略可以是服务器也可以是其他区域策略组。
-，您可以通过BoxJs设置最后策略名和子策略名，或者手动填入脚本。
-去搜索指定地区番剧，可在搜索框添加后缀“港”、“台”、“中”。例如：进击的巨人港
-QX注：切换功能请确保您的QX地区使用=>其他设置=>策略策略设置关闭状态，以及填写策略名和用户策略名时注意大小写。
-********************************
-Surge 4.7+远程脚本配置：
-********************************
-[脚本]
+
+绑定相关select或static策略组，并且需要具有相关的区域代理服务器纳入您的子策略中，子策略可以是服务器也可以是其他区域策略组．
+最后，您可以通过BoxJs设置策略名和子策略名，或者手动填入脚本.
+
+如需搜索指定地区番剧, 可在搜索框添加后缀" 港", " 台", " 中". 例如: 进击的巨人 港
+
+QX用户注: 使用切换地区功能请确保您的QX=>其他设置=>温和策略机制处于关闭状态, 以及填写策略名和子策略名时注意大小写.
+
+****************************
+Surge 4.7+ 远程脚本配置 :
+****************************
+[Script]
 Bili Region = type=http-response,pattern=^https:\/\/ap(p|i)\.bilibili\.com\/(pgc\/view\/(v\d\/)?app|x (\/v\d)?\/view\/video)\/(season|online)\?access_key,requires-body=1,max-size=0,script-path=https://raw.githubusercontent。 com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js
 #任选，适用于搜索指定地区的番剧
 Bili Search = type=http-request,pattern=^https:\/\/app\.bilibili\.com\/x\/v\d\/search(\/type)?\?.+?%20( %E6%B8%AF|%E5%8F%B0|%E4%B8%AD)&,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js
-[中间人]
+[mitm]
 主机名 = ap?.bilibili.com
 ********************************
 Quantumult X远程脚本配置：
@@ -49,6 +60,7 @@ http-response ^https:\/\/ap(p|i)\.bilibili\.com\/(pgc\/view\/(v\d\/)?app|x(\/v\d
 http-request ^https:\/\/app\.bilibili\.com\/x\/v\d\/search(\/type)?\?.+?%20(%E6%B8%AF|%E5%8F%B0|%E4%B8%AD)& script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js, requires-body=true, tag=bili自动地区(搜索)
 [Mitm]
 hostname = ap?.bilibili.com
+
 ***************************/
 
 let $ = nobyda();
@@ -290,20 +302,20 @@ function nobyda() {
 			}, reason => callback(reason.error, null, null))
 		}
 		if (isHTTP) {
-			if  ( isSurge ) 选项。标题[ 'X-Surge-Skip-Scripting' ]  =  false ;
-			$httpClient 。get ( options ,  ( error ,  response ,  body )  =>  {
-				回调（错误， adapterStatus （响应）， 正文）
-			} )
+			if (isSurge) options.headers['X-Surge-Skip-Scripting'] = false;
+			$httpClient.get(options, (error, response, body) => {
+				callback(error, adapterStatus(response), body)
+			})
 		}
 	}
-	返回 {
-		获取策略，
-		设置策略，
-		isSurge ,
-		是全X ,
-		是龙，
-		通知，
-		阅读，
-		得到
+	return {
+		getPolicy,
+		setPolicy,
+		isSurge,
+		isQuanX,
+		isLoon,
+		notify,
+		read,
+		get
 	}
 }
