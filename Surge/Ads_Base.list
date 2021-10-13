@@ -208,7 +208,7 @@ DOMAIN-SUFFIX,cm.zhiziyun.com,REJECT
 DOMAIN-SUFFIX,cms.laifeng.com,REJECT
 DOMAIN-SUFFIX,d.dsp.imageter.com,REJECT
 DOMAIN-SUFFIX,da.mmarket.com,REJECT
-DOMAIN-SUFFIX,data.vod.itc.cn,REJECT
+// DOMAIN-SUFFIX,data.vod.itc.cn,REJECT
 DOMAIN-SUFFIX,dotcounter.douyutv.com,REJECT
 DOMAIN-SUFFIX,files.adform.net,REJECT
 DOMAIN-SUFFIX,float.kankan.com,REJECT
