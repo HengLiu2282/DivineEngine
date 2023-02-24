@@ -610,7 +610,7 @@ DOMAIN,crl3.digicert.com
 DOMAIN,crl4.digicert.com
 DOMAIN,ocsp.digicert.com
 # > Others
-DOMAIN-SUFFIX,ipip.net
+DOMAIN-SUFFIX,en.ipip.net
 DOMAIN-SUFFIX,cloudcone.com.cn
 DOMAIN-SUFFIX,inkbunny.net
 DOMAIN-SUFFIX,metapix.net
