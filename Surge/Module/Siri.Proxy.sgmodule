@@ -8,7 +8,7 @@
 
 [Rule]
 # > Look Up (Only for Wikipedia@macOS, Surge Enhance Mode enabled required)
-RULE-SET,https://raw.githubusercontent.com/VirgilClyne/iRingo/main/RuleSet/Look_Up.Wikipedia.list,Proxy
+RULE-SET,https://raw.githubusercontent.com/HengLiu2282/DivineEngine/master/Surge/Look_Up.Wikipedia.list,Proxy
 
 [Script]
 # Bag (iOS/macOS)
